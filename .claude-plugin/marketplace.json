@@ -1,0 +1,17 @@
+{
+  "name": "lesnik512",
+  "owner": {
+    "name": "Artur Shiriev",
+    "url": "https://github.com/lesnik512"
+  },
+  "description": "Agent skills by Artur Shiriev, as an installable Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "lesnik512-skills",
+      "source": "./",
+      "description": "Agent skills by Artur Shiriev, starting with a QA practitioner playbook.",
+      "category": "engineering",
+      "keywords": ["qa", "testing", "skills"]
+    }
+  ]
+}

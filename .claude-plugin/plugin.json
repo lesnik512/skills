@@ -1,0 +1,13 @@
+{
+  "name": "lesnik512-skills",
+  "version": "0.1.0",
+  "description": "Agent skills by Artur Shiriev, starting with a QA practitioner playbook.",
+  "author": {
+    "name": "Artur Shiriev",
+    "url": "https://github.com/lesnik512"
+  },
+  "repository": "https://github.com/lesnik512/skills",
+  "license": "MIT",
+  "keywords": ["qa", "testing", "skills"],
+  "skills": ["./skills/qa"]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "query": "PROJ-881 is on the preview env now (it's the slot rescheduling change in the booking calendar). QA lead is out today and I need to sign it off. what do I actually check and what do I write in the ticket?",
+    "should_trigger": true
+  },
+  {
+    "query": "we have ~2,400 pytest tests, CI takes 38 min and half the team just reruns until green. test_payments_* flakes the most. where do I even start",
+    "should_trigger": true
+  },
+  {
+    "query": "can you sanity check this before I file it in jira: 'Checkout broken. Steps: go to checkout, it's broken. Expected: works. Severity: Critical'",
+    "should_trigger": true
+  },
+  {
+    "query": "Our startup (6 devs, no QA person) is launching the Stripe billing rewrite next month. Nothing like a test strategy exists. What should we actually set up, and what can we skip for now?",
+    "should_trigger": true
+  },
+  {
+    "query": "got a 90 min session tomorrow to poke at the new multi-currency invoices before the pilot customers get them. how would you structure it so I don't just click the happy path for an hour",
+    "should_trigger": true
+  },
+  {
+    "query": "Are these tests for our new rate limiter any good? it('works', async () => { const r = limiter.hit('k'); expect(r).toBeDefined() }); it('blocks', () => { for (let i = 0; i < 100; i++) limiter.hit('k'); expect(limiter.hit('k')).toBeTruthy() })",
+    "should_trigger": true
+  },
+  {
+    "query": "Release 4.0 goes out Thursday 16:00. 2 P1 bugs open, product says they're minor. The migrations are irreversible. CI is green. Should I say go?",
+    "should_trigger": true
+  },
+  {
+    "query": "Last night's incident: discount double-applied for 3 hours, ~1,100 orders affected. I have to run the postmortem on Monday. how do I keep it from being a blame session and actually get useful actions out of it",
+    "should_trigger": true
+  },
+  {
+    "query": "our coverage is 91% but bugs keep slipping into prod in the pricing module. is coverage lying to us? what should we look at instead",
+    "should_trigger": true
+  },
+  {
+    "query": "Customer says 'the invoice total is wrong sometimes' and that's all we have. Support wants me to reproduce it. what do I ask them for and how do I go about it",
+    "should_trigger": true
+  },
+  {
+    "query": "Write pytest unit tests for this: def parse_duration(s: str) -> int: return sum(int(n) * {'h': 3600, 'm': 60, 's': 1}[u] for n, u in re.findall(r'(\\d+)([hms])', s))",
+    "should_trigger": false
+  },
+  {
+    "query": "test_checkout_flow started failing on main after my last commit: AttributeError: 'NoneType' object has no attribute 'id' in services/cart.py line 88. fix it",
+    "should_trigger": false
+  },
+  {
+    "query": "Review my branch feature/refunds against main before I open the PR",
+    "should_trigger": false
+  },
+  {
+    "query": "Set up GitHub Actions to run pytest on every PR with a Python 3.12 and 3.13 matrix and cache uv",
+    "should_trigger": false
+  },
+  {
+    "query": "Configure Playwright for our Next.js app: install it, playwright.config.ts with chromium and webkit, baseURL from an env var",
+    "should_trigger": false
+  },
+  {
+    "query": "Write the release notes for v3.2 from these merged PRs: #412 refund flow, #418 ORM upgrade, #420 fix currency rounding",
+    "should_trigger": false
+  },
+  {
+    "query": "Turn this feature request into Jira tickets with acceptance criteria: users can export invoices as CSV filtered by date range",
+    "should_trigger": false
+  },
+  {
+    "query": "Our API p95 went from 120ms to 900ms after yesterday's deploy. Find out why.",
+    "should_trigger": false
+  },
+  {
+    "query": "what's the difference between pytest fixtures with scope='session' and scope='module'? when does teardown run",
+    "should_trigger": false
+  },
+  {
+    "query": "Mock the Stripe client in this test so it doesn't hit the network: def test_charge(): assert charge(order) == 'ok'",
+    "should_trigger": false
+  }
+]
