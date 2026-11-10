@@ -9,5 +9,5 @@
   "repository": "https://github.com/lesnik512/skills",
   "license": "MIT",
   "keywords": ["qa", "testing", "skills"],
-  "skills": ["./skills/qa"]
+  "skills": ["./skills/qa", "./skills/system-analysis"]
 }
