@@ -1,0 +1,46 @@
+{
+  "name": "PhosAgro",
+  "issuer": {"id": "phosagro", "ticker": "PHOR", "market": "MOEX", "accounting": "Consolidated IFRS"},
+  "currency": "RUB",
+  "periods": {
+    "2024": {"start": "2024-01-01", "end": "2024-12-31"},
+    "2025": {"start": "2025-01-01", "end": "2025-12-31"}
+  },
+  "filings": {
+    "2025": {
+      "pdf": {
+        "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf",
+        "sha256": "c5600649416af90606706c73d62b4f2741a68e42dbf7216f2b6ee501bfaa09e6",
+        "tables": {
+          "income": {"page": 8, "heading": "Консолидированный отчет о прибыли или убытке и прочем совокупном доходе за 2025 год"},
+          "balance": {"page": 9, "heading": "Консолидированный отчет о финансовом положении по состоянию на 31 декабря 2025 года", "year_suffix": "года"},
+          "cash": {"page": 10, "heading": "Консолидированный отчет о движении денежных средств за 2025 год"}
+        }
+      }
+    }
+  },
+  "pdf_tables": {
+    "income": {"years": ["2025", "2024"], "header": "Прим.", "scale_label": "Млн руб.", "scale": 1000000, "note_column_start": 355},
+    "balance": {"years": ["2025", "2024"], "header": "Прим.", "scale_label": "Млн руб.", "scale": 1000000, "note_column_start": 355},
+    "cash": {"years": ["2025", "2024"], "header": "Прим.", "scale_label": "Млн руб.", "scale": 1000000, "note_column_start": 350}
+  },
+  "metrics": {
+    "revenue": {"kind": "flow", "label": "Revenue", "table": "income", "pdf_labels": ["Выручка"]},
+    "gross_profit": {"kind": "flow", "label": "Gross profit", "table": "income", "pdf_labels": ["Валовая прибыль"]},
+    "operating_profit": {"kind": "flow", "label": "Operating profit", "table": "income", "pdf_labels": ["Прибыль от операционной деятельности"]},
+    "net_profit": {"kind": "flow", "label": "Net profit", "table": "income", "pdf_labels": ["Прибыль за отчетный год"]},
+    "operating_cash": {"kind": "flow", "label": "Operating cash flow", "table": "cash", "pdf_labels": ["Денежные средства от операционной деятельности"]},
+    "capex": {"kind": "flow", "label": "Cash capital expenditures", "table": "cash", "pdf_labels": ["Приобретение основных средств и нематериальных активов"]},
+    "depreciation": {"kind": "flow", "label": "Depreciation and amortization", "table": "cash", "pdf_labels": ["Амортизация"]},
+    "cash": {"kind": "balance", "label": "Cash and cash equivalents", "table": "balance", "pdf_labels": ["Денежные средства и их эквиваленты"]},
+    "current_assets": {"kind": "balance", "label": "Current assets", "table": "balance", "pdf_labels": ["Оборотные активы"]},
+    "assets": {"kind": "balance", "label": "Total assets", "table": "balance", "pdf_labels": ["Итого активов"]},
+    "current_liabilities": {"kind": "balance", "label": "Current liabilities", "table": "balance", "pdf_labels": ["Краткосрочные обязательства"]},
+    "long_liabilities": {"kind": "balance", "label": "Noncurrent liabilities", "table": "balance", "pdf_labels": ["Долгосрочные обязательства"]},
+    "equity": {"kind": "balance", "label": "Total equity", "table": "balance", "pdf_labels": ["Итого капитала"]},
+    "short_debt": {"kind": "balance", "label": "Current borrowings", "table": "balance", "pdf_labels": ["Кредиты и облигации"], "pdf_after": "Долгосрочные обязательства"},
+    "long_debt": {"kind": "balance", "label": "Noncurrent borrowings", "table": "balance", "pdf_labels": ["Кредиты и облигации"], "pdf_before": "Долгосрочные обязательства"},
+    "short_leases": {"kind": "balance", "label": "Current lease liabilities", "table": "balance", "pdf_labels": ["Обязательства по аренде"], "pdf_after": "Долгосрочные обязательства"},
+    "long_leases": {"kind": "balance", "label": "Noncurrent lease liabilities", "table": "balance", "pdf_labels": ["Обязательства по аренде"], "pdf_before": "Долгосрочные обязательства"}
+  }
+}

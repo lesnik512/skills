@@ -6,6 +6,7 @@ Agent skills by Artur Shiriev, packaged for Claude Code and other agents that re
 |---|---|
 | [qa](skills/qa/SKILL.md) | QA practitioner playbook: risk and strategy, test design and exploratory sessions, test code review, verifying a ticket or PR, regression, bug reports, CI and flaky-test triage, release go/no-go, postmortems |
 | [system-analysis](skills/system-analysis/SKILL.md) | Turns business requirements into implementation specs with system behavior, technical contracts, and acceptance criteria. |
+| [analyze-company](skills/finances/analyze-company/SKILL.md) | Reviews XBRL and PDF filings, builds source-linked company reports, and runs editable valuations for nonfinancial companies. |
 
 ## Install
 

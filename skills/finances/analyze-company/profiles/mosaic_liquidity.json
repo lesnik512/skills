@@ -1,0 +1,42 @@
+{
+  "asOf": "2026-09-30",
+  "sources": {
+    "debt": ["interim", "f-654-3", "Form 10-Q, Note 9, senior notes and term loans"],
+    "revolver": ["interim", "f-654-1", "Form 10-Q, Note 9, revolving facility and covenants"],
+    "workingCapital": ["interim", "f-654-2", "Form 10-Q, Note 9, inventory financing, supplier financing and commercial paper"],
+    "cashFlow": ["interim", "idf9911f4cce14571a4eaaa43ce2bb49b_25", "Form 10-Q, cash flow statement and supplemental disclosures"],
+    "exit": ["interim", "f-1292-2", "Form 10-Q, Note 18, cash exit settlements"],
+    "oldMaturities": ["annual", "f-976", "FY2025 Form 10-K, scheduled maturities"],
+    "notes2025": ["https://www.sec.gov/Archives/edgar/data/1285785/000119312525277678/d916326d424b5.htm", "", "Prospectus, 2029 and 2030 senior note terms"],
+    "notes2031": ["https://www.sec.gov/Archives/edgar/data/1285785/000119312526354095/d168739dex41.htm", "", "Form 8-K exhibit, 2031 senior notes"],
+    "updatedSchedule": ["https://s1.q4cdn.com/823038994/files/content_files/3Q26-Earnings-Presentation-Final.pdf", "page=22", "Mosaic Q3 2026 earnings presentation, p. 22"]
+  },
+  "restrictedCash": [2.4, 15.7],
+  "revolver": {"commitment": 2500, "commercialPaper": 0, "expires": "2030-05-16"},
+  "inventoryFinancing": 503.6,
+  "supplierFinancing": 402.4,
+  "shortTermPaymentMonth": "2027-03",
+  "exitCharges": {"contractTermination": 72, "severance": 10, "paymentMonth": "2026-12"},
+  "cashInterestNineMonths": 171.2,
+  "dividendsNineMonths": 210.6,
+  "maturities": [
+    ["2029-01-15", "Remaining 4.350% senior notes", 338.9, ["debt", "notes2025"]],
+    ["2029-06-10", "Three-year term loan", 500, ["debt"]],
+    ["2030-11-15", "4.600% senior notes", 400, ["notes2025", "updatedSchedule"]],
+    ["2031-08-17", "5.350% senior notes", 1000, ["debt", "notes2031"]]
+  ],
+  "olderSchedule": [
+    [2027, 727.4, 700.0],
+    [2028, 575.2, 547.1],
+    [2029, 569.1, 500.0],
+    [2030, 404.3, 400.0]
+  ],
+  "assumptions": {
+    "legacyRate": 5.5,
+    "revolverRate": 6.5,
+    "replacementRate": 7,
+    "usableRevolver": 100,
+    "namedRefinancing": 100,
+    "shortTermRollover": 100
+  }
+}
