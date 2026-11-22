@@ -662,6 +662,8 @@ def valuation_data(inputs, facts=None):
     share_date = iso_date(settings.get("share_date", end))
     if not end <= quote_date or not share_date <= quote_date:
         raise ValueError("The quote date must be on or after the financial period and share-count dates")
+    if "filing_date" in settings and not end <= iso_date(settings["filing_date"]) <= quote_date:
+        raise ValueError("The filing date must be between the financial period end and the quote date")
 
     facts = annual_facts(inputs) if facts is None else facts
     figures = calculate(facts, year)

@@ -15,3 +15,18 @@ uv run --no-project --with pymupdf python scripts/import_filings.py profiles/mic
 Pass `--xbrl auto --edgar-contact EMAIL` for the live SEC Company Facts endpoint when the user has supplied a contact. Pass `--pdf YEAR=auto` to use a PDF URL configured in the profile. For a downloaded XBRL instance, use `--instance YEAR=FILE` and specify the exact taxonomy namespaces. For Company Facts compiled from several filings, pin the accession and compare the relevant dates. Keep custom tags and segment facts separate from consolidated equivalents.
 
 Image-only PDFs and unrecognized table layouts go to review. Inspect the page and supply verifiable evidence with the correct page link and units before using those figures. A blank cell stays missing. A figure supplied in one configured format is marked **Single source**. If two supplied formats disagree, both candidates are retained. Exit code 2 means the files were written and some items require review. The exported JSON can go directly to [the analysis command](analysis-input.md).
+
+## Refresh an existing analysis
+
+Import the latest filing into a separate candidate JSON. Pin its accession, dates and PDF layout in the profile. Set `years` on a metric when the filing covers only a subset of the profile's fiscal years, for example two balance sheet dates alongside three income statement years. An omitted period is outside the refresh. Keep records for expected but unavailable amounts so the comparison flags them.
+
+```sh
+python scripts/analyze_company.py prior-input.json --refresh-from candidate.json \
+  --report filing-refresh.html --refresh-json filing-refresh.json
+```
+
+The comparison joins the same metric and exact period. It shows new figures, changes to previously accepted figures, newly available evidence for prior gaps, and unresolved items. Both input files are read-only. The JSON comparison retains each side's observations and any decisions. Exit code 2 signals changes or remaining review items. A difference on the same dates warrants a review of definitions, signs, units, and filing notes before adoption. Year-over-year movements appear in the financial report.
+
+Review the comparison before preparing a new analysis input. Retain prior verified periods and sources as needed. Keep unresolved observations and their review flags. Record an evidence-linked decision for any flagged amount you use. For a refreshed valuation, set the annual base and filing date, add a quote available after publication, and recheck the equity bridge and assumptions against the new filing.
+
+The [Costco FY2026 profile](../profiles/costco-fy2026.json) pins only the FY2026 10-K. Compare its import with [the FY2025 input](../examples/costco.json). For the Costco review, confirm short-term bank borrowings from Note 4, shares outstanding from the cover, and warehouse counts and openings from Items 1 and 7. These disclosures sit outside the mapped statement tables.

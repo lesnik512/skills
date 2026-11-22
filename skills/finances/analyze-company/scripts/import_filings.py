@@ -292,6 +292,8 @@ def review(profile, inputs, document_issues):
     records = []
     for year, period in sorted(profile["periods"].items()):
         for metric, rule in profile["metrics"].items():
+            if "years" in rule and year not in rule["years"]:
+                continue
             modes = rule.get("sources", inputs)
             candidates = {mode: list(dict.fromkeys(inputs.get(mode, {}).get((year, metric), []))) for mode in modes}
             amounts = {mode: {item.value for item in rows if item.value is not None}
@@ -423,6 +425,11 @@ def validate_profile(profile):
     for metric, rule in profile["metrics"].items():
         if rule["kind"] not in {"flow", "balance"}:
             raise ValueError(f"Invalid period type for {metric}")
+        if "years" in rule:
+            years = rule["years"]
+            if (not isinstance(years, list) or not years or len(set(years)) != len(years)
+                    or set(years) - profile["periods"].keys()):
+                raise ValueError(f"Invalid fiscal years for {metric}")
         if "sources" in rule:
             sources = rule["sources"]
             if not isinstance(sources, list) or not sources or len(set(sources)) != len(sources) or set(sources) - {"XBRL", "PDF"}:
