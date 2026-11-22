@@ -1,0 +1,152 @@
+{
+  "name": "Costco Wholesale",
+  "issuer": {
+    "id": "costco",
+    "ticker": "COST",
+    "market": "Nasdaq",
+    "accounting": "Consolidated U.S. GAAP",
+    "gross_margin_basis": "net_sales",
+    "metric_notes": {
+      "revenue": "Total revenue includes membership fees",
+      "gross_margin": "Merchandise gross profit ÷ net sales",
+      "gross_profit": "Net sales less merchandise costs",
+      "operating_profit": "Reported operating income",
+      "operating_cash": "Net cash provided by operating activities",
+      "capex": "Cash additions to property and equipment shown as an outflow",
+      "cash_after_capex": "Operating cash flow less cash additions to property and equipment",
+      "short_debt": "Current maturities of long-term debt plus short-term borrowings"
+    },
+    "notes": [
+      {
+        "heading": "Fiscal calendar",
+        "text": "FY2024, FY2025, and FY2026 each had 52 weeks.",
+        "references": [
+          {
+            "label": "FY2026 fiscal calendar",
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000909832/2e58dc45-a55d-4c50-9771-1689e2a3239a.pdf#page=26"
+          }
+        ]
+      },
+      {
+        "heading": "Retail margins",
+        "text": "Operating and net margins use total revenue. Merchandise gross margin uses net sales and excludes membership fees.",
+        "references": [
+          {
+            "label": "FY2026 results of operations",
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000909832/2e58dc45-a55d-4c50-9771-1689e2a3239a.pdf#page=28"
+          }
+        ]
+      },
+      {
+        "heading": "Debt and leases",
+        "text": "FY2026 ended with zero short-term bank borrowings. Costco describes the FY2025 balance as immaterial and gives no amount. Current maturities of long-term debt are reported separately.",
+        "references": [
+          {
+            "label": "FY2026 Note 4",
+            "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000909832/2e58dc45-a55d-4c50-9771-1689e2a3239a.pdf#page=53"
+          }
+        ]
+      }
+    ],
+    "cik": "0000909832"
+  },
+  "cik": "0000909832",
+  "currency": "USD",
+  "source_note": "The FY2026 Form 10-K provides three years of income and cash flow figures and two year-end balance sheets. The mapping pins the SEC accession and PDF copy. Net sales, membership fees, and total lease liabilities use the printed filing.",
+  "periods": {
+    "2024": {"start": "2023-09-04", "end": "2024-09-01"},
+    "2025": {"start": "2024-09-02", "end": "2025-08-31"},
+    "2026": {"start": "2025-09-01", "end": "2026-08-30"}
+  },
+  "filings": {
+    "2026": {
+      "xbrl": {
+        "form": "10-K",
+        "accession": "0000909832-26-000093",
+        "filed": "2026-10-07",
+        "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm"
+      },
+      "pdf": {
+        "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0000909832/2e58dc45-a55d-4c50-9771-1689e2a3239a.pdf",
+        "sha256": "ce490a46fca6e794b46d548147cd23ed7cedceb8540b1d38c181783dcb268025",
+        "tables": {
+          "income": {
+            "page": 38,
+            "years": [
+              "2026",
+              "2025",
+              "2024"
+            ]
+          },
+          "balance": {
+            "page": 40,
+            "years": [
+              "2026",
+              "2025"
+            ]
+          },
+          "cash": {
+            "page": 42,
+            "years": [
+              "2026",
+              "2025",
+              "2024"
+            ]
+          },
+          "debt": {
+            "page": 53,
+            "years": [
+              "2026",
+              "2025"
+            ],
+            "scale_page": 43,
+            "heading": "value of long-term debt consisted of the following:"
+          },
+          "leases": {
+            "page": 54,
+            "years": [
+              "2026",
+              "2025"
+            ],
+            "scale_page": 43,
+            "heading": "Information regarding the Company's lease assets and liabilities were as follows:",
+            "end_heading": "(1) Included in other long-term assets in the consolidated balance sheets."
+          }
+        }
+      }
+    }
+  },
+  "pdf_tables": {
+    "income": {"heading": "CONSOLIDATED STATEMENTS OF INCOME", "header": "", "scale_label": "(amounts in millions, except per share data)", "scale": 1000000, "symbols": ["$"], "strip_dot_leaders": true},
+    "balance": {"heading": "CONSOLIDATED BALANCE SHEETS", "header": "", "scale_label": "(amounts in millions, except par value and share data)", "scale": 1000000, "symbols": ["$"], "strip_dot_leaders": true},
+    "cash": {"heading": "CONSOLIDATED STATEMENTS OF CASH FLOWS", "header": "", "scale_label": "(amounts in millions)", "scale": 1000000, "symbols": ["$"], "strip_dot_leaders": true},
+    "debt": {"header": "", "scale_label": "(amounts in millions, except share, per share, and warehouse count data)", "scale": 1000000, "symbols": ["$"], "strip_dot_leaders": true},
+    "leases": {"heading": "Note 5—Leases", "header": "", "scale_label": "(amounts in millions, except share, per share, and warehouse count data)", "scale": 1000000, "symbols": ["$"], "strip_dot_leaders": true}
+  },
+  "metrics": {
+    "revenue": {"kind": "flow", "label": "Total revenue", "table": "income", "tags": ["us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax", "us-gaap:Revenues"], "pdf_labels": ["Total revenue"]},
+    "net_sales": {"kind": "flow", "label": "Net sales", "table": "income", "sources": ["PDF"], "pdf_labels": ["Net sales"]},
+    "membership_fees": {"kind": "flow", "label": "Membership fees", "table": "income", "sources": ["PDF"], "pdf_labels": ["Membership fees"]},
+    "merchandise_costs": {"kind": "flow", "label": "Merchandise costs", "table": "income", "tags": ["us-gaap:CostOfGoodsAndServicesSold"], "pdf_labels": ["Merchandise costs"]},
+    "operating_profit": {"kind": "flow", "label": "Operating income", "table": "income", "tags": ["us-gaap:OperatingIncomeLoss"], "pdf_labels": ["Operating income"]},
+    "net_profit": {"kind": "flow", "label": "Consolidated net income", "table": "income", "tags": ["us-gaap:ProfitLoss", "us-gaap:NetIncomeLoss"], "pdf_labels": ["Net income", "Net income including noncontrolling interests"]},
+    "operating_cash": {"kind": "flow", "label": "Net cash provided by operating activities", "table": "cash", "tags": ["us-gaap:NetCashProvidedByUsedInOperatingActivities"], "pdf_labels": ["Net cash provided by operating activities"]},
+    "capex": {"kind": "flow", "label": "Cash additions to property and equipment", "table": "cash", "tags": ["us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"], "xbrl_sign": -1, "pdf_labels": ["Additions to property and equipment"]},
+    "depreciation": {"kind": "flow", "label": "Depreciation and amortization", "table": "cash", "tags": ["us-gaap:DepreciationDepletionAndAmortization"], "pdf_labels": ["Depreciation and amortization"]},
+    "cash": {"kind": "balance", "label": "Cash and cash equivalents", "table": "balance", "tags": ["us-gaap:CashAndCashEquivalentsAtCarryingValue"], "pdf_labels": ["Cash and cash equivalents"], "years": ["2025", "2026"]},
+    "current_assets": {"kind": "balance", "label": "Current assets", "table": "balance", "tags": ["us-gaap:AssetsCurrent"], "pdf_labels": ["Total current assets"], "years": ["2025", "2026"]},
+    "assets": {"kind": "balance", "label": "Total assets", "table": "balance", "tags": ["us-gaap:Assets"], "pdf_labels": ["TOTAL ASSETS"], "years": ["2025", "2026"]},
+    "current_liabilities": {"kind": "balance", "label": "Current liabilities", "table": "balance", "tags": ["us-gaap:LiabilitiesCurrent"], "pdf_labels": ["Total current liabilities"], "years": ["2025", "2026"]},
+    "liabilities": {"kind": "balance", "label": "Total liabilities", "table": "balance", "tags": ["us-gaap:Liabilities"], "pdf_labels": ["TOTAL LIABILITIES"], "years": ["2025", "2026"]},
+    "equity": {"kind": "balance", "label": "Total equity", "table": "balance", "tags": ["us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest", "us-gaap:StockholdersEquity"], "pdf_labels": ["TOTAL EQUITY"], "years": ["2025", "2026"]},
+    "short_term_debt": {"kind": "balance", "label": "Short-term bank borrowings", "tags": ["us-gaap:ShortTermBorrowings", "us-gaap:OtherShortTermBorrowings"], "xbrl_note": "Read Note 4 for the filing’s narrative on the year-end balances.", "years": ["2025", "2026"]},
+    "current_long_term_debt": {"kind": "balance", "label": "Current maturities of long-term debt", "table": "debt", "tags": ["us-gaap:LongTermDebtCurrent"], "pdf_labels": ["Less current portion(1)", "Less current portion (1)"], "years": ["2025", "2026"]},
+    "long_debt": {"kind": "balance", "label": "Long-term debt excluding current maturities", "table": "balance", "tags": ["us-gaap:LongTermDebtNoncurrent"], "pdf_labels": ["Long-term debt, excluding current portion"], "years": ["2025", "2026"]},
+    "current_operating_lease": {"kind": "balance", "label": "Current operating lease liabilities", "table": "leases", "tags": ["us-gaap:OperatingLeaseLiabilityCurrent"], "pdf_labels": ["Operating lease liabilities(2)", "Operating lease liabilities (2)"], "years": ["2025", "2026"]},
+    "current_finance_lease": {"kind": "balance", "label": "Current finance lease liabilities", "table": "leases", "tags": ["us-gaap:FinanceLeaseLiabilityCurrent"], "pdf_labels": ["Finance lease liabilities(2)", "Finance lease liabilities (2)"], "years": ["2025", "2026"]},
+    "noncurrent_operating_lease": {"kind": "balance", "label": "Noncurrent operating lease liabilities", "table": "leases", "tags": ["us-gaap:OperatingLeaseLiabilityNoncurrent"], "pdf_labels": ["Operating lease liabilities"], "pdf_after": "Long-term", "years": ["2025", "2026"]},
+    "noncurrent_finance_lease": {"kind": "balance", "label": "Noncurrent finance lease liabilities", "table": "leases", "tags": ["us-gaap:FinanceLeaseLiabilityNoncurrent"], "pdf_labels": ["Finance lease liabilities(3)", "Finance lease liabilities (3)"], "years": ["2025", "2026"]},
+    "total_lease_liabilities": {"kind": "balance", "label": "Total lease liabilities", "table": "leases", "sources": ["PDF"], "pdf_labels": ["Total lease liabilities"], "years": ["2025", "2026"]},
+    "investments": {"kind": "balance", "label": "Short-term investments", "table": "balance", "tags": ["us-gaap:ShortTermInvestments"], "pdf_labels": ["Short-term investments"], "years": ["2025", "2026"]}
+  }
+}

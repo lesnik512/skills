@@ -1,4 +1,5 @@
 import argparse
+import json
 from decimal import InvalidOperation
 from html import escape
 from pathlib import Path
@@ -6,8 +7,9 @@ from pathlib import Path
 from analysis_input import decimal_string, read_input, source_from_json
 from build_report import annual_facts, calculate, render_edgar_report, render_report, write_report
 from build_valuation import render_valuation, valuation_data
-from import_filings import display_value
+from import_filings import display_value, json_value
 from mosaic_edgar import MosaicFacts, fetch_data
+from refresh_filings import compare_refresh, render_refresh
 
 
 def audit_section(inputs, valuation_issue):
@@ -65,14 +67,25 @@ def main():
     modes = parser.add_mutually_exclusive_group()
     modes.add_argument("--valuation", type=Path, help="Also generate an editable DCF when inputs are available")
     modes.add_argument("--refresh-edgar", metavar="EMAIL", help="Compare the packaged Mosaic baseline with EDGAR")
+    modes.add_argument("--refresh-from", type=Path, metavar="CANDIDATE", help="Compare the baseline with a new filing import")
+    parser.add_argument("--refresh-json", type=Path, help="Also save the filing comparison as JSON")
     args = parser.parse_args()
+    if args.refresh_json and not args.refresh_from:
+        parser.error("--refresh-json requires --refresh-from")
 
-    paths = [path.resolve() for path in (args.input, args.report, args.valuation) if path is not None]
+    paths = [path.resolve() for path in (args.input, args.report, args.valuation, args.refresh_from, args.refresh_json)
+             if path is not None]
     if len(paths) != len(set(paths)):
         parser.error("Choose distinct paths for the input and reports")
 
     try:
         inputs = read_input(args.input)
+        if args.refresh_from:
+            result = compare_refresh(inputs, read_input(args.refresh_from))
+            write_report(args.report, render_refresh(result))
+            if args.refresh_json:
+                write_report(args.refresh_json, json.dumps(result, default=json_value, ensure_ascii=False, indent=2) + "\n")
+            return 2 if result["needs_review"] else 0
         facts = annual_facts(inputs)
         company = {**inputs.issuer, "name": inputs.company}
         company["years"] = company.get("years") or sorted(map(int, inputs.periods))
