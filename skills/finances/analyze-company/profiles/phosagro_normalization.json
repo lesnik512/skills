@@ -1,0 +1,31 @@
+{
+  "annualYear": 2025,
+  "interimEnd": "2026-09-30",
+  "fy2023Comparative": "https://ar2024.phosagro.com/pdf/ar/en/additional-information_financial-statements.pdf",
+  "volumeSource": "https://ar2025.phosagro.com/en/perfomance-review/financial-performance/",
+  "sources": {
+    "earnings": [3, 8, 5],
+    "costs": [10, 22, 12],
+    "cashFlow": [4, 10, 7]
+  },
+  "series": {
+    "operatingFx": ["earnings", [14686, 6452, -23131, -18626, 3459]],
+    "grossProfit": ["earnings", [188688, 201530, 226369, 182054, 133029]],
+    "productRevenue": ["costs", [421690, 492450, 547893, 421305, 433835]],
+    "sulphur": ["costs", [11507, 12255, 41152, 29452, 73751]],
+    "ammonia": ["costs", [11533, 14343, 18895, 15139, 13314]],
+    "potassiumChloride": ["costs", [22444, 17574, 26461, 19172, 20195]],
+    "naturalGas": ["costs", [15033, 16948, 22824, 16980, 17822]],
+    "ammoniumSulphate": ["costs", [2818, 3550, 3798, 2165, 4811]],
+    "customs": ["costs", [-13207, -34139, 1383, 1396, -37]],
+    "receivablesCash": ["cashFlow", [6063, -45712, -18961, 13431, -38352]],
+    "inventoryCash": ["cashFlow", [-11624, -13263, -8603, -2696, -4869]],
+    "payablesCash": ["cashFlow", [-46, 10380, 1989, -6674, 158]]
+  },
+  "shipmentsKt": [11138.7, 11604.3, 12032.2],
+  "cases": {
+    "Bear": {"price": -5, "volume": -2, "sulphur": 0, "inputs": 5, "priceRetention": 80},
+    "Base": {"price": 0, "volume": 2, "sulphur": -30, "inputs": 0, "priceRetention": 80},
+    "Bull": {"price": 5, "volume": 4, "sulphur": -50, "inputs": -5, "priceRetention": 80}
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "name": "Microsoft",
+  "issuer": {"id": "microsoft", "ticker": "MSFT", "market": "Nasdaq", "accounting": "Consolidated U.S. GAAP"},
+  "cik": "0000789019",
+  "currency": "USD",
+  "source_note": "The PDF figures come from paginated copies of the filed Forms 10-K. Tagged figures link to the SEC originals.",
+  "periods": {
+    "2024": {"start": "2023-07-01", "end": "2024-06-30"},
+    "2025": {"start": "2024-07-01", "end": "2025-06-30"},
+    "2026": {"start": "2025-07-01", "end": "2026-06-30"}
+  },
+  "filings": {
+    "2025": {
+      "xbrl": {
+        "form": "10-K",
+        "accession": "0000950170-25-100235",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm"
+      },
+      "pdf": {
+        "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf",
+        "sha256": "efd4c8266f2adea74e58d9015797b03779e2198a41d7b5219ee9050603f9ac18",
+        "tables": {
+          "income": {"page": 50, "years": ["2025", "2024", "2023"]},
+          "balance": {"page": 52, "years": ["2025", "2024"]},
+          "cash": {"page": 53, "years": ["2025", "2024", "2023"]},
+          "leases": {"page": 78, "years": ["2025", "2024"]}
+        }
+      }
+    },
+    "2026": {
+      "xbrl": {
+        "form": "10-K",
+        "accession": "0001193125-26-323660",
+        "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm"
+      },
+      "pdf": {
+        "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf",
+        "sha256": "033d1e3fe7a62ee01d95d2130b2af3f6f082654d996248e876d2ea76bb2e78e5",
+        "tables": {
+          "income": {"page": 50, "years": ["2026", "2025", "2024"]},
+          "balance": {"page": 52, "years": ["2026", "2025"]},
+          "cash": {"page": 53, "years": ["2026", "2025", "2024"]},
+          "leases": {"page": 78, "years": ["2026", "2025"]}
+        }
+      }
+    }
+  },
+  "pdf_tables": {
+    "income": {
+      "heading": "INCOME STATEMENTS",
+      "header": "Year Ended June 30,",
+      "scale_label": "(In millions, except per share amounts)",
+      "scale": 1000000,
+      "symbols": ["$"],
+      "zero_tokens": ["–", "—", "-"]
+    },
+    "balance": {
+      "heading": "BALANCE SHEETS",
+      "header": "June 30,",
+      "scale_label": "(In millions)",
+      "scale": 1000000,
+      "symbols": ["$"],
+      "zero_tokens": ["–", "—", "-"]
+    },
+    "cash": {
+      "heading": "CASH FLOWS STATEMENTS",
+      "header": "Year Ended June 30,",
+      "scale_label": "(In millions)",
+      "scale": 1000000,
+      "symbols": ["$"],
+      "zero_tokens": ["–", "—", "-"]
+    },
+    "leases": {
+      "heading": "Supplemental balance sheet information related to leases was as follows:",
+      "header": "June 30,",
+      "scale_label": "(In millions, except lease term and discount rate)",
+      "scale": 1000000,
+      "symbols": ["$"],
+      "zero_tokens": ["–", "—", "-"]
+    }
+  },
+  "metrics": {
+    "revenue": {"label": "Revenue", "kind": "flow", "table": "income",
+      "tags": ["us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"], "pdf_labels": ["Total revenue"]},
+    "gross_profit": {"label": "Gross profit", "kind": "flow", "table": "income",
+      "tags": ["us-gaap:GrossProfit"], "pdf_labels": ["Gross margin"]},
+    "operating_profit": {"label": "Operating profit", "kind": "flow", "table": "income",
+      "tags": ["us-gaap:OperatingIncomeLoss"], "pdf_labels": ["Operating income"]},
+    "net_profit": {"label": "Net income", "kind": "flow", "table": "income",
+      "tags": ["us-gaap:NetIncomeLoss"], "pdf_labels": ["Net income"]},
+    "diluted_shares": {"label": "Weighted-average diluted shares", "kind": "flow", "unit": "shares", "table": "income",
+      "tags": ["us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"], "pdf_labels": ["Diluted"],
+      "pdf_after": "Weighted average shares outstanding:"},
+    "operating_cash": {"label": "Operating cash flow", "kind": "flow", "table": "cash",
+      "tags": ["us-gaap:NetCashProvidedByUsedInOperatingActivities"], "pdf_labels": ["Net cash from operations"]},
+    "capex": {"label": "Cash purchases of property and equipment", "kind": "flow", "table": "cash",
+      "tags": ["us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"], "xbrl_sign": -1,
+      "pdf_labels": ["Additions to property and equipment"]},
+    "depreciation_and_other": {"label": "Depreciation, amortization and other", "kind": "flow", "table": "cash",
+      "xbrl_note": "The combined cash-flow line has no mapped equivalent in SEC Company Facts.",
+      "pdf_labels": ["Depreciation, amortization, and other"]},
+    "cash": {"label": "Cash and cash equivalents", "kind": "balance", "table": "balance",
+      "tags": ["us-gaap:CashAndCashEquivalentsAtCarryingValue"], "pdf_labels": ["Cash and cash equivalents"]},
+    "current_assets": {"label": "Current assets", "kind": "balance", "table": "balance",
+      "tags": ["us-gaap:AssetsCurrent"], "pdf_labels": ["Total current assets"]},
+    "assets": {"label": "Total assets", "kind": "balance", "table": "balance",
+      "tags": ["us-gaap:Assets"], "pdf_labels": ["Total assets"]},
+    "current_liabilities": {"label": "Current liabilities", "kind": "balance", "table": "balance",
+      "tags": ["us-gaap:LiabilitiesCurrent"], "pdf_labels": ["Total current liabilities"]},
+    "liabilities": {"label": "Total liabilities", "kind": "balance", "table": "balance",
+      "tags": ["us-gaap:Liabilities"], "pdf_labels": ["Total liabilities"]},
+    "equity": {"label": "Total equity", "kind": "balance", "table": "balance",
+      "tags": ["us-gaap:StockholdersEquity"], "pdf_labels": ["Total stockholders’ equity"]},
+    "short_term_debt": {"label": "Short-term debt", "kind": "balance", "table": "balance",
+      "tags": ["us-gaap:CommercialPaper"], "pdf_labels": ["Short-term debt"]},
+    "current_long_term_debt": {"label": "Current portion of long-term debt", "kind": "balance", "table": "balance",
+      "tags": ["us-gaap:LongTermDebtCurrent"], "pdf_labels": ["Current portion of long-term debt"]},
+    "noncurrent_debt": {"label": "Noncurrent long-term debt", "kind": "balance", "table": "balance",
+      "tags": ["us-gaap:LongTermDebtNoncurrent"], "pdf_labels": ["Long-term debt"]},
+    "operating_leases": {"label": "Total operating lease liabilities", "kind": "balance", "table": "leases",
+      "tags": ["us-gaap:OperatingLeaseLiability"], "pdf_labels": ["Total operating lease liabilities"]},
+    "finance_leases": {"label": "Total finance lease liabilities", "kind": "balance", "table": "leases",
+      "tags": ["us-gaap:FinanceLeaseLiability"], "pdf_labels": ["Total finance lease liabilities"]}
+  }
+}

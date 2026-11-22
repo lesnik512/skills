@@ -1,0 +1,2209 @@
+{
+  "schema_version": 1,
+  "company": "The Mosaic Company",
+  "scope": "Consolidated",
+  "issuer": {
+    "id": "mosaic",
+    "market": "NYSE",
+    "ticker": "MOS",
+    "accounting": "Consolidated U.S. GAAP",
+    "currency": "USD",
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "filing_label": "Form 10-K",
+    "filings": {
+      "2024": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1285785/000161803425000003/mos-20241231.htm",
+        "sections": {
+          "income": [
+            "iba1f0abf3eaf44139c95448746211253_229",
+            "Consolidated Statements of Earnings"
+          ],
+          "balance": [
+            "iba1f0abf3eaf44139c95448746211253_235",
+            "Consolidated Balance Sheets"
+          ],
+          "cash": [
+            "iba1f0abf3eaf44139c95448746211253_241",
+            "Consolidated Statements of Cash Flows"
+          ],
+          "leases": [
+            "iba1f0abf3eaf44139c95448746211253_265",
+            "lease liabilities note"
+          ]
+        }
+      },
+      "2025": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm",
+        "sections": {
+          "income": [
+            "ib7740c2073c24ebca1dc81ef6d7f6efa_235",
+            "Consolidated Statements of Earnings"
+          ],
+          "balance": [
+            "ib7740c2073c24ebca1dc81ef6d7f6efa_241",
+            "Consolidated Balance Sheets"
+          ],
+          "cash": [
+            "ib7740c2073c24ebca1dc81ef6d7f6efa_247",
+            "Consolidated Statements of Cash Flows"
+          ],
+          "leases": [
+            "ib7740c2073c24ebca1dc81ef6d7f6efa_268",
+            "lease liabilities note"
+          ]
+        }
+      }
+    },
+    "metric_notes": {
+      "operating_profit": "Reported operating earnings",
+      "operating_cash": "Net cash provided by operating activities",
+      "capex": "Reported capital expenditures shown as an outflow",
+      "cash_after_capex": "Operating cash flow less reported capital expenditures",
+      "depreciation": "Includes depletion reported in the cash flow statement",
+      "ebitda": "Operating earnings + depreciation, depletion and amortization",
+      "short_debt": "Short-term debt + current maturities − current finance leases",
+      "long_debt": "Long-term debt less current maturities and non-current finance leases",
+      "short_leases": "Current operating and finance leases",
+      "long_leases": "Non-current operating and finance leases",
+      "long_liabilities": "Sum of non-current debt, deferred tax and other non-current liabilities"
+    },
+    "notes": [
+      {
+        "heading": "Verified baseline",
+        "text": "The verified baseline uses the FY2025 Form 10-K for three years of earnings and cash flow. Its FY2023 balance sheet and lease figures come from the FY2024 filing’s comparative columns.",
+        "references": [
+          {
+            "label": "FY2025 earnings statement",
+            "year": 2025,
+            "locator": "income"
+          },
+          {
+            "label": "FY2024 balance sheet",
+            "year": 2024,
+            "locator": "balance"
+          }
+        ]
+      },
+      {
+        "heading": "Debt and leases",
+        "text": "The borrowing rows exclude finance lease liabilities already included in reported debt. The lease rows include both finance and operating leases, so net debt counts each lease liability once. Structured accounts payable remains in current liabilities. Mosaic’s operating lease cost remains in operating earnings used for EBITDA.",
+        "references": [
+          {
+            "label": "Balance sheet",
+            "year": 2025,
+            "locator": "balance"
+          },
+          {
+            "label": "Lease classification and costs",
+            "year": 2025,
+            "locator": "leases"
+          }
+        ]
+      }
+    ]
+  },
+  "periods": {
+    "2022": {
+      "start": "2022-01-01",
+      "end": "2022-12-31"
+    },
+    "2023": {
+      "start": "2023-01-01",
+      "end": "2023-12-31"
+    },
+    "2024": {
+      "start": "2024-01-01",
+      "end": "2024-12-31"
+    },
+    "2025": {
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    }
+  },
+  "records": [
+    {
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "metric": "revenue",
+      "unit": "USD",
+      "label": "Revenue",
+      "status": "Single source",
+      "value": "19125200000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "19125200000.0",
+            "source": {
+              "filing_year": 2024,
+              "locator": "income",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000161803425000003/mos-20241231.htm#iba1f0abf3eaf44139c95448746211253_229",
+              "title": "FY2024 Form 10-K, Consolidated Statements of Earnings"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "metric": "revenue",
+      "unit": "USD",
+      "label": "Revenue",
+      "status": "Single source",
+      "value": "13696100000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "13696100000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "income",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_235",
+              "title": "FY2025 Form 10-K, Consolidated Statements of Earnings"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "metric": "gross_profit",
+      "unit": "USD",
+      "label": "Gross profit",
+      "status": "Single source",
+      "value": "2210600000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "2210600000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "income",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_235",
+              "title": "FY2025 Form 10-K, Consolidated Statements of Earnings"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "metric": "operating_profit",
+      "unit": "USD",
+      "label": "Operating profit",
+      "status": "Single source",
+      "value": "1338100000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "1338100000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "income",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_235",
+              "title": "FY2025 Form 10-K, Consolidated Statements of Earnings"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "metric": "net_profit",
+      "unit": "USD",
+      "label": "Group net profit",
+      "status": "Single source",
+      "value": "1209200000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "1209200000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "income",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_235",
+              "title": "FY2025 Form 10-K, Consolidated Statements of Earnings"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "metric": "operating_cash",
+      "unit": "USD",
+      "label": "Operating cash flow",
+      "status": "Single source",
+      "value": "2407200000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "2407200000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "cash",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_247",
+              "title": "FY2025 Form 10-K, Consolidated Statements of Cash Flows"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "metric": "capex",
+      "unit": "USD",
+      "label": "Cash capex",
+      "status": "Single source",
+      "value": "-1402400000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "-1402400000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "cash",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_247",
+              "title": "FY2025 Form 10-K, Consolidated Statements of Cash Flows"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "metric": "depreciation",
+      "unit": "USD",
+      "label": "Depreciation and amortization",
+      "status": "Single source",
+      "value": "960600000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "960600000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "cash",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_247",
+              "title": "FY2025 Form 10-K, Consolidated Statements of Cash Flows"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": null,
+      "end": "2023-12-31",
+      "metric": "cash",
+      "unit": "USD",
+      "label": "Cash and equivalents",
+      "status": "Single source",
+      "value": "348800000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "348800000.0",
+            "source": {
+              "filing_year": 2024,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000161803425000003/mos-20241231.htm#iba1f0abf3eaf44139c95448746211253_235",
+              "title": "FY2024 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": null,
+      "end": "2023-12-31",
+      "metric": "current_assets",
+      "unit": "USD",
+      "label": "Current assets",
+      "status": "Single source",
+      "value": "4745000000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "4745000000.0",
+            "source": {
+              "filing_year": 2024,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000161803425000003/mos-20241231.htm#iba1f0abf3eaf44139c95448746211253_235",
+              "title": "FY2024 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": null,
+      "end": "2023-12-31",
+      "metric": "assets",
+      "unit": "USD",
+      "label": "Total assets",
+      "status": "Single source",
+      "value": "23032800000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "23032800000.0",
+            "source": {
+              "filing_year": 2024,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000161803425000003/mos-20241231.htm#iba1f0abf3eaf44139c95448746211253_235",
+              "title": "FY2024 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": null,
+      "end": "2023-12-31",
+      "metric": "current_liabilities",
+      "unit": "USD",
+      "label": "Current liabilities",
+      "status": "Single source",
+      "value": "3873700000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "3873700000.0",
+            "source": {
+              "filing_year": 2024,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000161803425000003/mos-20241231.htm#iba1f0abf3eaf44139c95448746211253_235",
+              "title": "FY2024 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": null,
+      "end": "2023-12-31",
+      "metric": "equity",
+      "unit": "USD",
+      "label": "Total equity",
+      "status": "Single source",
+      "value": "12432800000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "12432800000.0",
+            "source": {
+              "filing_year": 2024,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000161803425000003/mos-20241231.htm#iba1f0abf3eaf44139c95448746211253_235",
+              "title": "FY2024 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": null,
+      "end": "2023-12-31",
+      "metric": "short_debt",
+      "unit": "USD",
+      "label": "Current borrowings",
+      "status": "Single source",
+      "value": "417100000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "417100000.0",
+            "source": {
+              "filing_year": 2024,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000161803425000003/mos-20241231.htm#iba1f0abf3eaf44139c95448746211253_235",
+              "title": "FY2024 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          },
+          {
+            "value": "417100000.0",
+            "source": {
+              "filing_year": 2024,
+              "locator": "leases",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000161803425000003/mos-20241231.htm#iba1f0abf3eaf44139c95448746211253_265",
+              "title": "FY2024 Form 10-K, lease liabilities note"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": null,
+      "end": "2023-12-31",
+      "metric": "long_debt",
+      "unit": "USD",
+      "label": "Non-current borrowings",
+      "status": "Single source",
+      "value": "3164300000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "3164300000.0",
+            "source": {
+              "filing_year": 2024,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000161803425000003/mos-20241231.htm#iba1f0abf3eaf44139c95448746211253_235",
+              "title": "FY2024 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          },
+          {
+            "value": "3164300000.0",
+            "source": {
+              "filing_year": 2024,
+              "locator": "leases",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000161803425000003/mos-20241231.htm#iba1f0abf3eaf44139c95448746211253_265",
+              "title": "FY2024 Form 10-K, lease liabilities note"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": null,
+      "end": "2023-12-31",
+      "metric": "short_leases",
+      "unit": "USD",
+      "label": "Current lease liabilities",
+      "status": "Single source",
+      "value": "178000000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "178000000.0",
+            "source": {
+              "filing_year": 2024,
+              "locator": "leases",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000161803425000003/mos-20241231.htm#iba1f0abf3eaf44139c95448746211253_265",
+              "title": "FY2024 Form 10-K, lease liabilities note"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": null,
+      "end": "2023-12-31",
+      "metric": "long_leases",
+      "unit": "USD",
+      "label": "Non-current lease liabilities",
+      "status": "Single source",
+      "value": "235400000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "235400000.0",
+            "source": {
+              "filing_year": 2024,
+              "locator": "leases",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000161803425000003/mos-20241231.htm#iba1f0abf3eaf44139c95448746211253_265",
+              "title": "FY2024 Form 10-K, lease liabilities note"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": null,
+      "end": "2023-12-31",
+      "metric": "long_liabilities",
+      "unit": "USD",
+      "label": "Non-current liabilities",
+      "status": "Single source",
+      "value": "6726300000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "6726300000.0",
+            "source": {
+              "filing_year": 2024,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000161803425000003/mos-20241231.htm#iba1f0abf3eaf44139c95448746211253_235",
+              "title": "FY2024 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "metric": "revenue",
+      "unit": "USD",
+      "label": "Revenue",
+      "status": "Single source",
+      "value": "11122800000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "11122800000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "income",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_235",
+              "title": "FY2025 Form 10-K, Consolidated Statements of Earnings"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "metric": "gross_profit",
+      "unit": "USD",
+      "label": "Gross profit",
+      "status": "Single source",
+      "value": "1511900000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "1511900000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "income",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_235",
+              "title": "FY2025 Form 10-K, Consolidated Statements of Earnings"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "metric": "operating_profit",
+      "unit": "USD",
+      "label": "Operating profit",
+      "status": "Single source",
+      "value": "621500000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "621500000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "income",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_235",
+              "title": "FY2025 Form 10-K, Consolidated Statements of Earnings"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "metric": "net_profit",
+      "unit": "USD",
+      "label": "Group net profit",
+      "status": "Single source",
+      "value": "202000000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "202000000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "income",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_235",
+              "title": "FY2025 Form 10-K, Consolidated Statements of Earnings"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "metric": "operating_cash",
+      "unit": "USD",
+      "label": "Operating cash flow",
+      "status": "Single source",
+      "value": "1299200000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "1299200000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "cash",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_247",
+              "title": "FY2025 Form 10-K, Consolidated Statements of Cash Flows"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "metric": "capex",
+      "unit": "USD",
+      "label": "Cash capex",
+      "status": "Single source",
+      "value": "-1251800000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "-1251800000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "cash",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_247",
+              "title": "FY2025 Form 10-K, Consolidated Statements of Cash Flows"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "metric": "depreciation",
+      "unit": "USD",
+      "label": "Depreciation and amortization",
+      "status": "Single source",
+      "value": "1025500000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "1025500000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "cash",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_247",
+              "title": "FY2025 Form 10-K, Consolidated Statements of Cash Flows"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": null,
+      "end": "2024-12-31",
+      "metric": "cash",
+      "unit": "USD",
+      "label": "Cash and equivalents",
+      "status": "Single source",
+      "value": "272800000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "272800000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_241",
+              "title": "FY2025 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": null,
+      "end": "2024-12-31",
+      "metric": "current_assets",
+      "unit": "USD",
+      "label": "Current assets",
+      "status": "Single source",
+      "value": "4498300000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "4498300000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_241",
+              "title": "FY2025 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": null,
+      "end": "2024-12-31",
+      "metric": "assets",
+      "unit": "USD",
+      "label": "Total assets",
+      "status": "Single source",
+      "value": "22924000000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "22924000000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_241",
+              "title": "FY2025 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": null,
+      "end": "2024-12-31",
+      "metric": "current_liabilities",
+      "unit": "USD",
+      "label": "Current liabilities",
+      "status": "Single source",
+      "value": "4171300000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "4171300000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_241",
+              "title": "FY2025 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": null,
+      "end": "2024-12-31",
+      "metric": "equity",
+      "unit": "USD",
+      "label": "Total equity",
+      "status": "Single source",
+      "value": "11614700000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "11614700000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_241",
+              "title": "FY2025 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": null,
+      "end": "2024-12-31",
+      "metric": "short_debt",
+      "unit": "USD",
+      "label": "Current borrowings",
+      "status": "Single source",
+      "value": "861800000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "861800000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_241",
+              "title": "FY2025 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          },
+          {
+            "value": "861800000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "leases",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_268",
+              "title": "FY2025 Form 10-K, lease liabilities note"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": null,
+      "end": "2024-12-31",
+      "metric": "long_debt",
+      "unit": "USD",
+      "label": "Non-current borrowings",
+      "status": "Single source",
+      "value": "3218100000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "3218100000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_241",
+              "title": "FY2025 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          },
+          {
+            "value": "3218100000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "leases",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_268",
+              "title": "FY2025 Form 10-K, lease liabilities note"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": null,
+      "end": "2024-12-31",
+      "metric": "short_leases",
+      "unit": "USD",
+      "label": "Current lease liabilities",
+      "status": "Single source",
+      "value": "74500000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "74500000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "leases",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_268",
+              "title": "FY2025 Form 10-K, lease liabilities note"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": null,
+      "end": "2024-12-31",
+      "metric": "long_leases",
+      "unit": "USD",
+      "label": "Non-current lease liabilities",
+      "status": "Single source",
+      "value": "295400000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "295400000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "leases",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_268",
+              "title": "FY2025 Form 10-K, lease liabilities note"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": null,
+      "end": "2024-12-31",
+      "metric": "long_liabilities",
+      "unit": "USD",
+      "label": "Non-current liabilities",
+      "status": "Single source",
+      "value": "7138000000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "7138000000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_241",
+              "title": "FY2025 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "metric": "revenue",
+      "unit": "USD",
+      "label": "Revenue",
+      "status": "Single source",
+      "value": "12052400000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "12052400000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "income",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_235",
+              "title": "FY2025 Form 10-K, Consolidated Statements of Earnings"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "metric": "gross_profit",
+      "unit": "USD",
+      "label": "Gross profit",
+      "status": "Single source",
+      "value": "1901900000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "1901900000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "income",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_235",
+              "title": "FY2025 Form 10-K, Consolidated Statements of Earnings"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "metric": "operating_profit",
+      "unit": "USD",
+      "label": "Operating profit",
+      "status": "Single source",
+      "value": "821500000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "821500000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "income",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_235",
+              "title": "FY2025 Form 10-K, Consolidated Statements of Earnings"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "metric": "net_profit",
+      "unit": "USD",
+      "label": "Group net profit",
+      "status": "Single source",
+      "value": "575400000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "575400000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "income",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_235",
+              "title": "FY2025 Form 10-K, Consolidated Statements of Earnings"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "metric": "operating_cash",
+      "unit": "USD",
+      "label": "Operating cash flow",
+      "status": "Single source",
+      "value": "824800000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "824800000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "cash",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_247",
+              "title": "FY2025 Form 10-K, Consolidated Statements of Cash Flows"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "metric": "capex",
+      "unit": "USD",
+      "label": "Cash capex",
+      "status": "Single source",
+      "value": "-1359400000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "-1359400000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "cash",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_247",
+              "title": "FY2025 Form 10-K, Consolidated Statements of Cash Flows"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "metric": "depreciation",
+      "unit": "USD",
+      "label": "Depreciation and amortization",
+      "status": "Single source",
+      "value": "1049900000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "1049900000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "cash",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_247",
+              "title": "FY2025 Form 10-K, Consolidated Statements of Cash Flows"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "cash",
+      "unit": "USD",
+      "label": "Cash and equivalents",
+      "status": "Single source",
+      "value": "276600000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "276600000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_241",
+              "title": "FY2025 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "current_assets",
+      "unit": "USD",
+      "label": "Current assets",
+      "status": "Single source",
+      "value": "5237500000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "5237500000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_241",
+              "title": "FY2025 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "assets",
+      "unit": "USD",
+      "label": "Total assets",
+      "status": "Single source",
+      "value": "24480100000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "24480100000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_241",
+              "title": "FY2025 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "current_liabilities",
+      "unit": "USD",
+      "label": "Current liabilities",
+      "status": "Single source",
+      "value": "3982800000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "3982800000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_241",
+              "title": "FY2025 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "equity",
+      "unit": "USD",
+      "label": "Total equity",
+      "status": "Single source",
+      "value": "12234200000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "12234200000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_241",
+              "title": "FY2025 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "short_debt",
+      "unit": "USD",
+      "label": "Current borrowings",
+      "status": "Single source",
+      "value": "770900000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "770900000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_241",
+              "title": "FY2025 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          },
+          {
+            "value": "770900000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "leases",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_268",
+              "title": "FY2025 Form 10-K, lease liabilities note"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "long_debt",
+      "unit": "USD",
+      "label": "Non-current borrowings",
+      "status": "Single source",
+      "value": "4107000000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "4107000000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_241",
+              "title": "FY2025 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          },
+          {
+            "value": "4107000000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "leases",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_268",
+              "title": "FY2025 Form 10-K, lease liabilities note"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "short_leases",
+      "unit": "USD",
+      "label": "Current lease liabilities",
+      "status": "Single source",
+      "value": "91700000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "91700000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "leases",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_268",
+              "title": "FY2025 Form 10-K, lease liabilities note"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "long_leases",
+      "unit": "USD",
+      "label": "Non-current lease liabilities",
+      "status": "Single source",
+      "value": "309900000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "309900000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "leases",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_268",
+              "title": "FY2025 Form 10-K, lease liabilities note"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "long_liabilities",
+      "unit": "USD",
+      "label": "Non-current liabilities",
+      "status": "Single source",
+      "value": "8263100000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "8263100000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_241",
+              "title": "FY2025 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "shares_outstanding",
+      "unit": "shares",
+      "label": "Ordinary shares outstanding",
+      "status": "Single source",
+      "value": "317408647.000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "317408647.000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_241",
+              "title": "FY2025 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "noncontrolling",
+      "unit": "USD",
+      "label": "Noncontrolling interests",
+      "status": "Single source",
+      "value": "149300000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "149300000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_241",
+              "title": "FY2025 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "investments",
+      "unit": "USD",
+      "label": "Investments outside operating value",
+      "status": "Single source",
+      "value": "1848200000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "1848200000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_241",
+              "title": "FY2025 Form 10-K, Consolidated Balance Sheets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "operatingLeaseDebt",
+      "unit": "USD",
+      "label": "Operating lease liabilities",
+      "status": "Single source",
+      "value": "225600000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "225600000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "leases",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm#ib7740c2073c24ebca1dc81ef6d7f6efa_268",
+              "title": "FY2025 Form 10-K, lease liabilities note"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": null,
+      "end": "2026-11-20",
+      "metric": "market_price",
+      "unit": "USD/share",
+      "label": "Dated share price",
+      "status": "Single source",
+      "value": "18.66",
+      "observations": {
+        "Market quote": [
+          {
+            "value": "18.66",
+            "source": {
+              "filing_year": 2026,
+              "locator": "close",
+              "url": "https://eoddata.com/stockquote/NYSE/MOS.htm",
+              "title": "NYSE regular-session close, 2026-11-20"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": "2026-01-01",
+      "end": "2026-09-30",
+      "metric": "revenue",
+      "unit": "USD",
+      "label": "Revenue",
+      "status": "Single source",
+      "value": "8922700000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "8922700000.0",
+            "source": {
+              "filing_year": 2026,
+              "locator": "earnings",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000147/mos-20260930.htm#idf9911f4cce14571a4eaaa43ce2bb49b_16",
+              "title": "Mosaic Form 10-Q, earnings, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-09-30",
+      "metric": "revenue",
+      "unit": "USD",
+      "label": "Revenue",
+      "status": "Single source",
+      "value": "9078700000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "9078700000.0",
+            "source": {
+              "filing_year": 2026,
+              "locator": "earnings",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000147/mos-20260930.htm#idf9911f4cce14571a4eaaa43ce2bb49b_16",
+              "title": "Mosaic Form 10-Q, earnings, period ended 2025-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": "2026-01-01",
+      "end": "2026-09-30",
+      "metric": "operating_profit",
+      "unit": "USD",
+      "label": "Operating profit",
+      "status": "Single source",
+      "value": "-505000000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "-505000000.0",
+            "source": {
+              "filing_year": 2026,
+              "locator": "earnings",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000147/mos-20260930.htm#idf9911f4cce14571a4eaaa43ce2bb49b_16",
+              "title": "Mosaic Form 10-Q, earnings, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-09-30",
+      "metric": "operating_profit",
+      "unit": "USD",
+      "label": "Operating profit",
+      "status": "Single source",
+      "value": "922700000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "922700000.0",
+            "source": {
+              "filing_year": 2026,
+              "locator": "earnings",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000147/mos-20260930.htm#idf9911f4cce14571a4eaaa43ce2bb49b_16",
+              "title": "Mosaic Form 10-Q, earnings, period ended 2025-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": "2026-01-01",
+      "end": "2026-09-30",
+      "metric": "operating_cash",
+      "unit": "USD",
+      "label": "Operating cash flow",
+      "status": "Single source",
+      "value": "556000000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "556000000.0",
+            "source": {
+              "filing_year": 2026,
+              "locator": "cashFlow",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000147/mos-20260930.htm#idf9911f4cce14571a4eaaa43ce2bb49b_25",
+              "title": "Mosaic Form 10-Q, cashFlow, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-09-30",
+      "metric": "operating_cash",
+      "unit": "USD",
+      "label": "Operating cash flow",
+      "status": "Single source",
+      "value": "880900000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "880900000.0",
+            "source": {
+              "filing_year": 2026,
+              "locator": "cashFlow",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000147/mos-20260930.htm#idf9911f4cce14571a4eaaa43ce2bb49b_25",
+              "title": "Mosaic Form 10-Q, cashFlow, period ended 2025-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": "2026-01-01",
+      "end": "2026-09-30",
+      "metric": "capex",
+      "unit": "USD",
+      "label": "Cash capex",
+      "status": "Single source",
+      "value": "-958600000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "-958600000.0",
+            "source": {
+              "filing_year": 2026,
+              "locator": "cashFlow",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000147/mos-20260930.htm#idf9911f4cce14571a4eaaa43ce2bb49b_25",
+              "title": "Mosaic Form 10-Q, cashFlow, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-09-30",
+      "metric": "capex",
+      "unit": "USD",
+      "label": "Cash capex",
+      "status": "Single source",
+      "value": "-1009800000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "-1009800000.0",
+            "source": {
+              "filing_year": 2026,
+              "locator": "cashFlow",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000147/mos-20260930.htm#idf9911f4cce14571a4eaaa43ce2bb49b_25",
+              "title": "Mosaic Form 10-Q, cashFlow, period ended 2025-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": null,
+      "end": "2026-09-30",
+      "metric": "shortDebt",
+      "unit": "USD",
+      "label": "Short-term borrowings",
+      "status": "Single source",
+      "value": "511600000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "511600000.0",
+            "source": {
+              "filing_year": 2026,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000147/mos-20260930.htm#idf9911f4cce14571a4eaaa43ce2bb49b_22",
+              "title": "Mosaic Form 10-Q, balance, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": null,
+      "end": "2026-09-30",
+      "metric": "currentMaturities",
+      "unit": "USD",
+      "label": "Current maturities",
+      "status": "Single source",
+      "value": "68700000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "68700000.0",
+            "source": {
+              "filing_year": 2026,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000147/mos-20260930.htm#idf9911f4cce14571a4eaaa43ce2bb49b_22",
+              "title": "Mosaic Form 10-Q, balance, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": null,
+      "end": "2026-09-30",
+      "metric": "longDebt",
+      "unit": "USD",
+      "label": "Long-term borrowings",
+      "status": "Single source",
+      "value": "5332800000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "5332800000.0",
+            "source": {
+              "filing_year": 2026,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000147/mos-20260930.htm#idf9911f4cce14571a4eaaa43ce2bb49b_22",
+              "title": "Mosaic Form 10-Q, balance, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": null,
+      "end": "2026-09-30",
+      "metric": "cash",
+      "unit": "USD",
+      "label": "Cash and equivalents",
+      "status": "Single source",
+      "value": "272600000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "272600000.0",
+            "source": {
+              "filing_year": 2026,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000147/mos-20260930.htm#idf9911f4cce14571a4eaaa43ce2bb49b_22",
+              "title": "Mosaic Form 10-Q, balance, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": null,
+      "end": "2026-09-30",
+      "metric": "noncontrolling",
+      "unit": "USD",
+      "label": "Noncontrolling interests",
+      "status": "Single source",
+      "value": "177700000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "177700000.0",
+            "source": {
+              "filing_year": 2026,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000147/mos-20260930.htm#idf9911f4cce14571a4eaaa43ce2bb49b_22",
+              "title": "Mosaic Form 10-Q, balance, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": null,
+      "end": "2026-09-30",
+      "metric": "investments",
+      "unit": "USD",
+      "label": "Investments outside operating value",
+      "status": "Single source",
+      "value": "1845000000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "1845000000.0",
+            "source": {
+              "filing_year": 2026,
+              "locator": "balance",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000147/mos-20260930.htm#idf9911f4cce14571a4eaaa43ce2bb49b_22",
+              "title": "Mosaic Form 10-Q, balance, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": null,
+      "end": "2026-09-30",
+      "metric": "operatingLeaseCurrent",
+      "unit": "USD",
+      "label": "Current operating lease liabilities",
+      "status": "Single source",
+      "value": "63500000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "63500000.0",
+            "source": {
+              "filing_year": 2026,
+              "locator": "leases",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000147/mos-20260930.htm#f-492",
+              "title": "Mosaic Form 10-Q, leases, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": null,
+      "end": "2026-09-30",
+      "metric": "operatingLeaseNoncurrent",
+      "unit": "USD",
+      "label": "Noncurrent operating lease liabilities",
+      "status": "Single source",
+      "value": "148400000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "148400000.0",
+            "source": {
+              "filing_year": 2026,
+              "locator": "leases",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000147/mos-20260930.htm#f-492",
+              "title": "Mosaic Form 10-Q, leases, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": null,
+      "end": "2026-10-30",
+      "metric": "shares_outstanding",
+      "unit": "shares",
+      "label": "Ordinary shares outstanding",
+      "status": "Single source",
+      "value": "317903655.000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "317903655.000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "shares",
+              "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000147/mos-20260930.htm#f-24",
+              "title": "Mosaic Form 10-Q, shares, period ended 2026-10-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    }
+  ],
+  "document_issues": [],
+  "balance_checks": [
+    {
+      "year": 2023,
+      "difference": "0.0",
+      "status": "Pass",
+      "metrics": [
+        "assets",
+        "current_liabilities",
+        "long_liabilities",
+        "equity"
+      ]
+    },
+    {
+      "year": 2024,
+      "difference": "0.0",
+      "status": "Pass",
+      "metrics": [
+        "assets",
+        "current_liabilities",
+        "long_liabilities",
+        "equity"
+      ]
+    },
+    {
+      "year": 2025,
+      "difference": "0.0",
+      "status": "Pass",
+      "metrics": [
+        "assets",
+        "current_liabilities",
+        "long_liabilities",
+        "equity"
+      ]
+    }
+  ],
+  "valuation": {
+    "model": "nonfinancial-fcff",
+    "adapter": "mosaic",
+    "fiscal_year": 2025,
+    "quote": {
+      "date": "2026-11-20",
+      "market": "NYSE regular-session close"
+    },
+    "scenarios": {
+      "Bear": {
+        "priceGrowth": [
+          -4,
+          1,
+          3,
+          3,
+          3
+        ],
+        "volumeGrowth": [
+          -2,
+          0,
+          1,
+          1,
+          1
+        ],
+        "variableCostGrowth": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "fixedCostGrowth": 2,
+        "variableShare": 70,
+        "tax": 25,
+        "daShare": 8.7,
+        "capexShare": 10.5,
+        "workingCapital": 12,
+        "wacc": 12,
+        "terminalGrowth": 2,
+        "terminalRoic": 10
+      },
+      "Base": {
+        "priceGrowth": [
+          3,
+          2.5,
+          2.5,
+          2,
+          2
+        ],
+        "volumeGrowth": [
+          1,
+          2,
+          2,
+          2,
+          1
+        ],
+        "variableCostGrowth": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "fixedCostGrowth": 2,
+        "variableShare": 70,
+        "tax": 25,
+        "daShare": 8.7,
+        "capexShare": 10.5,
+        "workingCapital": 12,
+        "wacc": 10.5,
+        "terminalGrowth": 2.5,
+        "terminalRoic": 12
+      },
+      "Bull": {
+        "priceGrowth": [
+          7,
+          4,
+          3,
+          2.5,
+          2.5
+        ],
+        "volumeGrowth": [
+          3,
+          3,
+          2,
+          2,
+          2
+        ],
+        "variableCostGrowth": [
+          1,
+          1,
+          2,
+          2,
+          2
+        ],
+        "fixedCostGrowth": 2,
+        "variableShare": 70,
+        "tax": 25,
+        "daShare": 8.7,
+        "capexShare": 11,
+        "workingCapital": 12,
+        "wacc": 9.5,
+        "terminalGrowth": 3,
+        "terminalRoic": 15
+      }
+    },
+    "interim": {
+      "end": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000147/mos-20260930.htm",
+      "filing": "Mosaic Form 10-Q",
+      "sections": {
+        "earnings": "idf9911f4cce14571a4eaaa43ce2bb49b_16",
+        "cashFlow": "idf9911f4cce14571a4eaaa43ce2bb49b_25",
+        "balance": "idf9911f4cce14571a4eaaa43ce2bb49b_22",
+        "leases": "f-492",
+        "shares": "f-24"
+      },
+      "debtComponents": [
+        "shortDebt",
+        "currentMaturities",
+        "longDebt"
+      ],
+      "shareDate": "2026-10-30",
+      "note": "The trailing operating loss uses reported results, including the loss on assets sold and to be sold. The forecast comparison applies the same assumptions to that result.",
+      "start": "2026-01-01",
+      "prior_end": "2025-09-30",
+      "prior_start": "2025-01-01",
+      "operating_lease_components": [
+        "operatingLeaseCurrent",
+        "operatingLeaseNoncurrent"
+      ]
+    },
+    "assumption_note": "The published cases are editable scenarios from the dated pilot. Review the normalization and funding notes for their filing references and the modeled estimates."
+  }
+}

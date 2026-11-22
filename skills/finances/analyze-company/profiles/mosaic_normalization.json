@@ -1,0 +1,122 @@
+{
+  "annualYear": 2025,
+  "interimEnd": "2026-09-30",
+  "annualSources": {
+    "income": ["ib7740c2073c24ebca1dc81ef6d7f6efa_235", "consolidated earnings statement"],
+    "sales": ["f-1787", "Note 25, segment sales to external customers"],
+    "disposalLine": ["f-1828", "Note 25, disposal loss and gain by segment"],
+    "disposals": ["f-2118-1", "Note 26, Brazilian disposals"],
+    "goodwill": ["ib7740c2073c24ebca1dc81ef6d7f6efa_3174", "goodwill impairment discussion"],
+    "phosphate": ["ib7740c2073c24ebca1dc81ef6d7f6efa_160", "Phosphate segment"],
+    "potash": ["ib7740c2073c24ebca1dc81ef6d7f6efa_163", "Potash segment"],
+    "brazil": ["ib7740c2073c24ebca1dc81ef6d7f6efa_166", "Mosaic Fertilizantes segment"],
+    "northInputs": ["ib7740c2073c24ebca1dc81ef6d7f6efa_22", "Phosphate raw materials"],
+    "brazilInputs": ["ib7740c2073c24ebca1dc81ef6d7f6efa_28", "Mosaic Fertilizantes raw materials"]
+  },
+  "interimSources": {
+    "income": ["idf9911f4cce14571a4eaaa43ce2bb49b_16", "consolidated earnings statement"],
+    "assetLoss": ["idf9911f4cce14571a4eaaa43ce2bb49b_121", "disposal losses and other operating expenses"],
+    "sales": ["f-1292-1", "Note 18, Carlsbad, Kronau and Araxá"],
+    "exit": ["f-1292-2", "Note 18, Patrocínio exit and idle costs"],
+    "phosphate": ["idf9911f4cce14571a4eaaa43ce2bb49b_100", "Phosphate segment"],
+    "potash": ["idf9911f4cce14571a4eaaa43ce2bb49b_106", "Potash segment"],
+    "brazil": ["idf9911f4cce14571a4eaaa43ce2bb49b_112", "Mosaic Fertilizantes segment"]
+  },
+  "annualDisposalLoss": [-56.5, 0, 157.3],
+  "nineMonthDisposalLoss": [73.1, 238.8],
+  "annualGoodwillImpairment": [0, 0, 99.9],
+  "disposalAdjustments": [
+    {
+      "label": "Carlsbad impairment",
+      "amounts": [185.0, 6.2, 0],
+      "note": "The mine and associated business transferred in April 2026. Remove the impairment. Mosaic attributes part of its lower potash shipments to the sale and retained a declining surety indemnity. The filings do not quantify a standalone revenue or cost run rate for the transferred business.",
+      "references": [["interim", "sales", "Closing and retained indemnity"], ["interim", "potash", "Shipment impact"]]
+    },
+    {
+      "label": "Araxá impairment",
+      "amounts": [0, 232.6, 0],
+      "note": "Remove the write-down on classification as held for sale. Further remeasurement or a currency translation adjustment could occur before or at closing. Araxá production was idled, and the segment tables do not isolate the asset’s sales or ongoing costs.",
+      "references": [["interim", "sales", "Held-for-sale note"], ["interim", "assetLoss", "Recorded impairment"], ["interim", "brazil", "Segment sales and production"]]
+    },
+    {
+      "label": "Patos de Minas gain and Taquari loss",
+      "amounts": [-27.7, 0, 73.1],
+      "note": "Reverse the fourth-quarter net credit from the Patos gain and the reduction of Taquari’s earlier loss. Patos was already idle. Taquari was producing before the sale. Recurring revenue and costs are available at segment level.",
+      "references": [["annual", "disposals", "Sale disclosures"]]
+    }
+  ],
+  "exitAdjustments": [
+    {
+      "label": "Araxá and Patrocínio exit charges",
+      "amounts": [null, 159, null],
+      "note": "Reverse contract termination, asset and inventory write-offs, and severance recorded in other operating expense. Cash settlement of the related liabilities can still occur.",
+      "references": [["interim", "exit", "Exit charges and settlements"]]
+    },
+    {
+      "label": "Patrocínio accelerated depreciation",
+      "amounts": [null, 52, null],
+      "note": "Reverse the accelerated depreciation in cost of goods sold. The affected assets had no remaining book value at September 30, 2026.",
+      "references": [["interim", "exit", "Depreciation and book value"]]
+    },
+    {
+      "label": "FY2025 goodwill impairment",
+      "amounts": [99.9, null, null],
+      "note": "Reverse the fourth-quarter carrying-value charge. The underlying deterioration remains relevant to the scenario assumptions.",
+      "references": [["annual", "goodwill", "Impairment discussion"]]
+    }
+  ],
+  "careAndMaintenance": 51,
+  "segments": {
+    "phosphate": {
+      "label": "Phosphate",
+      "externalSales": 3877.8,
+      "volumeContribution": 9.6,
+      "priceRetention": 100,
+      "drivers": {
+        "price": {"label": "Finished product price, $/t", "history": [566, 589, 667, 670, 730]},
+        "volume": {"label": "Finished product shipments, Mt", "history": [6.991, 6.437, 5.945, 4.615, 4.745]},
+        "ammonia": {"label": "Consumed ammonia, $/t", "history": [426, 435, 468, 444, 622], "quantity": 0.9, "quantitySource": "northInputs"},
+        "sulfur": {"label": "Consumed sulfur, $/long ton", "history": [181, 132, 237, 220, 524], "quantity": 2.9, "quantitySource": "northInputs"}
+      }
+    },
+    "potash": {
+      "label": "Potash",
+      "externalSales": 2658.7,
+      "volumeContribution": 32.7,
+      "priceRetention": 80,
+      "drivers": {
+        "price": {"label": "Finished product price, $/t", "history": [323, 236, 266, 263, 279]},
+        "volume": {"label": "Segment shipments, Mt", "history": [8.870, 8.744, 8.968, 6.735, 6.246]}
+      }
+    },
+    "brazil": {
+      "label": "Mosaic Fertilizantes",
+      "externalSales": 4847.3,
+      "volumeContribution": 10.1,
+      "priceRetention": 50,
+      "drivers": {
+        "price": {"label": "Finished product price, $/t", "history": [543, 440, 488, 486, 581]},
+        "volume": {"label": "Segment shipments, Mt", "history": [9.683, 9.030, 8.957, 6.882, 5.032]},
+        "ammonia": {"label": "Consumed ammonia, $/t", "history": [807, 627, 624, 619, 794], "quantity": 0.10339, "quantitySource": "brazilInputs"},
+        "sulfur": {"label": "Consumed sulfur, $/long ton", "history": [232, 173, 296, 275, 532], "quantity": 0.9, "quantitySource": "brazilInputs"}
+      }
+    }
+  },
+  "cases": {
+    "Bear": {
+      "phosphate": {"price": 645, "volume": 5.9, "ammonia": 550, "sulfur": 360},
+      "potash": {"price": 250, "volume": 8.3},
+      "brazil": {"price": 500, "volume": 7.0, "ammonia": 730, "sulfur": 400}
+    },
+    "Base": {
+      "phosphate": {"price": 665, "volume": 6.2, "ammonia": 500, "sulfur": 285},
+      "potash": {"price": 275, "volume": 8.6},
+      "brazil": {"price": 510, "volume": 7.6, "ammonia": 675, "sulfur": 325}
+    },
+    "Bull": {
+      "phosphate": {"price": 695, "volume": 6.5, "ammonia": 470, "sulfur": 235},
+      "potash": {"price": 295, "volume": 8.9},
+      "brazil": {"price": 530, "volume": 8.2, "ammonia": 625, "sulfur": 280}
+    }
+  }
+}

@@ -1,0 +1,2045 @@
+{
+  "schema_version": 1,
+  "company": "PhosAgro",
+  "scope": "Consolidated",
+  "issuer": {
+    "id": "phosagro",
+    "market": "MOEX",
+    "ticker": "PHOR",
+    "accounting": "Consolidated IFRS",
+    "currency": "RUB",
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "filing_label": "consolidated IFRS filing",
+    "filings": {
+      "2023": {
+        "url": "https://cdn.phosagro.ru/upload/iblock/a01/mfsara6n31o4piszxejax2pngjvc8jtv.pdf"
+      },
+      "2024": {
+        "url": "https://cdn.phosagro.ru/upload/iblock/add/62tekro9vjlbit0yrw84ztogn63x869q.pdf"
+      },
+      "2025": {
+        "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf"
+      }
+    },
+    "notes": [
+      {
+        "heading": "Comparability",
+        "text": "FY2023 balance sheet and cash flow figures use the FY2024 comparative columns. The balance sheet reflects a change in presenting advances net of VAT. FY2024 uses the FY2025 comparative columns.",
+        "references": [
+          {
+            "label": "Accounting policy change",
+            "year": 2024,
+            "locator": "22"
+          }
+        ]
+      },
+      {
+        "heading": "Audit opinions",
+        "text": "Each opinion was qualified because the group omitted the operating segment disclosures required by IFRS 8.",
+        "references": [
+          {
+            "label": "FY2023 auditor’s report",
+            "year": 2023,
+            "locator": "3"
+          },
+          {
+            "label": "FY2024 auditor’s report",
+            "year": 2024,
+            "locator": "3"
+          },
+          {
+            "label": "FY2025 auditor’s report",
+            "year": 2025,
+            "locator": "3"
+          }
+        ]
+      },
+      {
+        "heading": "Cash after capex",
+        "text": "This is operating cash flow minus the cash purchase line for property, plant, equipment and intangibles. It excludes separately reported capitalized interest and right-of-use advances. PhosAgro’s published free cash flow uses a different definition.",
+        "references": [
+          {
+            "label": "Cash flow statement",
+            "year": 2025,
+            "locator": "10"
+          },
+          {
+            "label": "PhosAgro’s financial performance review",
+            "url": "https://ar2025.phosagro.com/en/perfomance-review/financial-performance/"
+          }
+        ]
+      }
+    ]
+  },
+  "periods": {
+    "2022": {
+      "start": "2022-01-01",
+      "end": "2022-12-31"
+    },
+    "2023": {
+      "start": "2023-01-01",
+      "end": "2023-12-31"
+    },
+    "2024": {
+      "start": "2024-01-01",
+      "end": "2024-12-31"
+    },
+    "2025": {
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    }
+  },
+  "records": [
+    {
+      "year": 2022,
+      "start": "2022-01-01",
+      "end": "2022-12-31",
+      "metric": "revenue",
+      "unit": "RUB",
+      "label": "Revenue",
+      "status": "Single source",
+      "value": "569527000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "569527000000",
+            "source": {
+              "filing_year": 2023,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/a01/mfsara6n31o4piszxejax2pngjvc8jtv.pdf#page=9",
+              "title": "FY2023 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "metric": "revenue",
+      "unit": "RUB",
+      "label": "Revenue",
+      "status": "Single source",
+      "value": "440304000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "440304000000",
+            "source": {
+              "filing_year": 2023,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/a01/mfsara6n31o4piszxejax2pngjvc8jtv.pdf#page=9",
+              "title": "FY2023 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "metric": "gross_profit",
+      "unit": "RUB",
+      "label": "Gross profit",
+      "status": "Single source",
+      "value": "188688000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "188688000000",
+            "source": {
+              "filing_year": 2023,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/a01/mfsara6n31o4piszxejax2pngjvc8jtv.pdf#page=9",
+              "title": "FY2023 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "metric": "operating_profit",
+      "unit": "RUB",
+      "label": "Operating profit",
+      "status": "Single source",
+      "value": "150756000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "150756000000",
+            "source": {
+              "filing_year": 2023,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/a01/mfsara6n31o4piszxejax2pngjvc8jtv.pdf#page=9",
+              "title": "FY2023 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "metric": "net_profit",
+      "unit": "RUB",
+      "label": "Group net profit",
+      "status": "Single source",
+      "value": "86141000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "86141000000",
+            "source": {
+              "filing_year": 2023,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/a01/mfsara6n31o4piszxejax2pngjvc8jtv.pdf#page=9",
+              "title": "FY2023 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "metric": "operating_cash",
+      "unit": "RUB",
+      "label": "Operating cash flow",
+      "status": "Single source",
+      "value": "134286000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "134286000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "11",
+              "url": "https://cdn.phosagro.ru/upload/iblock/add/62tekro9vjlbit0yrw84ztogn63x869q.pdf#page=11",
+              "title": "FY2024 consolidated IFRS filing, PDF page 11"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "metric": "capex",
+      "unit": "RUB",
+      "label": "Cash capex",
+      "status": "Single source",
+      "value": "-64232000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "-64232000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "11",
+              "url": "https://cdn.phosagro.ru/upload/iblock/add/62tekro9vjlbit0yrw84ztogn63x869q.pdf#page=11",
+              "title": "FY2024 consolidated IFRS filing, PDF page 11"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "metric": "depreciation",
+      "unit": "RUB",
+      "label": "Depreciation and amortization",
+      "status": "Single source",
+      "value": "32282000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "32282000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "11",
+              "url": "https://cdn.phosagro.ru/upload/iblock/add/62tekro9vjlbit0yrw84ztogn63x869q.pdf#page=11",
+              "title": "FY2024 consolidated IFRS filing, PDF page 11"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": null,
+      "end": "2023-12-31",
+      "metric": "cash",
+      "unit": "RUB",
+      "label": "Cash and equivalents",
+      "status": "Single source",
+      "value": "29163000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "29163000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "10",
+              "url": "https://cdn.phosagro.ru/upload/iblock/add/62tekro9vjlbit0yrw84ztogn63x869q.pdf#page=10",
+              "title": "FY2024 consolidated IFRS filing, PDF page 10"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": null,
+      "end": "2023-12-31",
+      "metric": "short_debt",
+      "unit": "RUB",
+      "label": "Current borrowings",
+      "status": "Single source",
+      "value": "86429000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "86429000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "10",
+              "url": "https://cdn.phosagro.ru/upload/iblock/add/62tekro9vjlbit0yrw84ztogn63x869q.pdf#page=10",
+              "title": "FY2024 consolidated IFRS filing, PDF page 10"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": null,
+      "end": "2023-12-31",
+      "metric": "long_debt",
+      "unit": "RUB",
+      "label": "Non-current borrowings",
+      "status": "Single source",
+      "value": "161710000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "161710000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "10",
+              "url": "https://cdn.phosagro.ru/upload/iblock/add/62tekro9vjlbit0yrw84ztogn63x869q.pdf#page=10",
+              "title": "FY2024 consolidated IFRS filing, PDF page 10"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": null,
+      "end": "2023-12-31",
+      "metric": "short_leases",
+      "unit": "RUB",
+      "label": "Current lease liabilities",
+      "status": "Single source",
+      "value": "1413000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "1413000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "10",
+              "url": "https://cdn.phosagro.ru/upload/iblock/add/62tekro9vjlbit0yrw84ztogn63x869q.pdf#page=10",
+              "title": "FY2024 consolidated IFRS filing, PDF page 10"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": null,
+      "end": "2023-12-31",
+      "metric": "long_leases",
+      "unit": "RUB",
+      "label": "Non-current lease liabilities",
+      "status": "Single source",
+      "value": "2818000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "2818000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "10",
+              "url": "https://cdn.phosagro.ru/upload/iblock/add/62tekro9vjlbit0yrw84ztogn63x869q.pdf#page=10",
+              "title": "FY2024 consolidated IFRS filing, PDF page 10"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": null,
+      "end": "2023-12-31",
+      "metric": "current_assets",
+      "unit": "RUB",
+      "label": "Current assets",
+      "status": "Single source",
+      "value": "164657000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "164657000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "10",
+              "url": "https://cdn.phosagro.ru/upload/iblock/add/62tekro9vjlbit0yrw84ztogn63x869q.pdf#page=10",
+              "title": "FY2024 consolidated IFRS filing, PDF page 10"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": null,
+      "end": "2023-12-31",
+      "metric": "assets",
+      "unit": "RUB",
+      "label": "Total assets",
+      "status": "Single source",
+      "value": "522848000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "522848000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "10",
+              "url": "https://cdn.phosagro.ru/upload/iblock/add/62tekro9vjlbit0yrw84ztogn63x869q.pdf#page=10",
+              "title": "FY2024 consolidated IFRS filing, PDF page 10"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": null,
+      "end": "2023-12-31",
+      "metric": "current_liabilities",
+      "unit": "RUB",
+      "label": "Current liabilities",
+      "status": "Single source",
+      "value": "191983000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "191983000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "10",
+              "url": "https://cdn.phosagro.ru/upload/iblock/add/62tekro9vjlbit0yrw84ztogn63x869q.pdf#page=10",
+              "title": "FY2024 consolidated IFRS filing, PDF page 10"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": null,
+      "end": "2023-12-31",
+      "metric": "long_liabilities",
+      "unit": "RUB",
+      "label": "Non-current liabilities",
+      "status": "Single source",
+      "value": "179260000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "179260000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "10",
+              "url": "https://cdn.phosagro.ru/upload/iblock/add/62tekro9vjlbit0yrw84ztogn63x869q.pdf#page=10",
+              "title": "FY2024 consolidated IFRS filing, PDF page 10"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2023,
+      "start": null,
+      "end": "2023-12-31",
+      "metric": "equity",
+      "unit": "RUB",
+      "label": "Total equity",
+      "status": "Single source",
+      "value": "151605000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "151605000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "10",
+              "url": "https://cdn.phosagro.ru/upload/iblock/add/62tekro9vjlbit0yrw84ztogn63x869q.pdf#page=10",
+              "title": "FY2024 consolidated IFRS filing, PDF page 10"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "metric": "revenue",
+      "unit": "RUB",
+      "label": "Revenue",
+      "status": "Single source",
+      "value": "507689000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "507689000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "8",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=8",
+              "title": "FY2025 consolidated IFRS filing, PDF page 8"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "metric": "gross_profit",
+      "unit": "RUB",
+      "label": "Gross profit",
+      "status": "Single source",
+      "value": "201530000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "201530000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "8",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=8",
+              "title": "FY2025 consolidated IFRS filing, PDF page 8"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "metric": "operating_profit",
+      "unit": "RUB",
+      "label": "Operating profit",
+      "status": "Single source",
+      "value": "140459000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "140459000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "8",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=8",
+              "title": "FY2025 consolidated IFRS filing, PDF page 8"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "metric": "net_profit",
+      "unit": "RUB",
+      "label": "Group net profit",
+      "status": "Single source",
+      "value": "84469000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "84469000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "8",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=8",
+              "title": "FY2025 consolidated IFRS filing, PDF page 8"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "metric": "operating_cash",
+      "unit": "RUB",
+      "label": "Operating cash flow",
+      "status": "Single source",
+      "value": "92717000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "92717000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "10",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=10",
+              "title": "FY2025 consolidated IFRS filing, PDF page 10"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "metric": "capex",
+      "unit": "RUB",
+      "label": "Cash capex",
+      "status": "Single source",
+      "value": "-75152000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "-75152000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "10",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=10",
+              "title": "FY2025 consolidated IFRS filing, PDF page 10"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "metric": "depreciation",
+      "unit": "RUB",
+      "label": "Depreciation and amortization",
+      "status": "Single source",
+      "value": "36546000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "36546000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "10",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=10",
+              "title": "FY2025 consolidated IFRS filing, PDF page 10"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": null,
+      "end": "2024-12-31",
+      "metric": "cash",
+      "unit": "RUB",
+      "label": "Cash and equivalents",
+      "status": "Single source",
+      "value": "10398000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "10398000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": null,
+      "end": "2024-12-31",
+      "metric": "short_debt",
+      "unit": "RUB",
+      "label": "Current borrowings",
+      "status": "Single source",
+      "value": "161661000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "161661000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": null,
+      "end": "2024-12-31",
+      "metric": "long_debt",
+      "unit": "RUB",
+      "label": "Non-current borrowings",
+      "status": "Single source",
+      "value": "169962000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "169962000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": null,
+      "end": "2024-12-31",
+      "metric": "short_leases",
+      "unit": "RUB",
+      "label": "Current lease liabilities",
+      "status": "Single source",
+      "value": "1075000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "1075000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": null,
+      "end": "2024-12-31",
+      "metric": "long_leases",
+      "unit": "RUB",
+      "label": "Non-current lease liabilities",
+      "status": "Single source",
+      "value": "3056000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "3056000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": null,
+      "end": "2024-12-31",
+      "metric": "current_assets",
+      "unit": "RUB",
+      "label": "Current assets",
+      "status": "Single source",
+      "value": "184008000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "184008000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": null,
+      "end": "2024-12-31",
+      "metric": "assets",
+      "unit": "RUB",
+      "label": "Total assets",
+      "status": "Single source",
+      "value": "592470000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "592470000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": null,
+      "end": "2024-12-31",
+      "metric": "current_liabilities",
+      "unit": "RUB",
+      "label": "Current liabilities",
+      "status": "Single source",
+      "value": "236670000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "236670000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": null,
+      "end": "2024-12-31",
+      "metric": "long_liabilities",
+      "unit": "RUB",
+      "label": "Non-current liabilities",
+      "status": "Single source",
+      "value": "191078000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "191078000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2024,
+      "start": null,
+      "end": "2024-12-31",
+      "metric": "equity",
+      "unit": "RUB",
+      "label": "Total equity",
+      "status": "Single source",
+      "value": "164722000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "164722000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "metric": "revenue",
+      "unit": "RUB",
+      "label": "Revenue",
+      "status": "Single source",
+      "value": "573628000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "573628000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "8",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=8",
+              "title": "FY2025 consolidated IFRS filing, PDF page 8"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "metric": "gross_profit",
+      "unit": "RUB",
+      "label": "Gross profit",
+      "status": "Single source",
+      "value": "226369000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "226369000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "8",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=8",
+              "title": "FY2025 consolidated IFRS filing, PDF page 8"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "metric": "operating_profit",
+      "unit": "RUB",
+      "label": "Operating profit",
+      "status": "Single source",
+      "value": "135605000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "135605000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "8",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=8",
+              "title": "FY2025 consolidated IFRS filing, PDF page 8"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "metric": "net_profit",
+      "unit": "RUB",
+      "label": "Group net profit",
+      "status": "Single source",
+      "value": "114243000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "114243000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "8",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=8",
+              "title": "FY2025 consolidated IFRS filing, PDF page 8"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "metric": "operating_cash",
+      "unit": "RUB",
+      "label": "Operating cash flow",
+      "status": "Single source",
+      "value": "93114000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "93114000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "10",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=10",
+              "title": "FY2025 consolidated IFRS filing, PDF page 10"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "metric": "capex",
+      "unit": "RUB",
+      "label": "Cash capex",
+      "status": "Single source",
+      "value": "-67296000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "-67296000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "10",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=10",
+              "title": "FY2025 consolidated IFRS filing, PDF page 10"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "metric": "depreciation",
+      "unit": "RUB",
+      "label": "Depreciation and amortization",
+      "status": "Single source",
+      "value": "40712000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "40712000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "10",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=10",
+              "title": "FY2025 consolidated IFRS filing, PDF page 10"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "cash",
+      "unit": "RUB",
+      "label": "Cash and equivalents",
+      "status": "Single source",
+      "value": "14681000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "14681000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "short_debt",
+      "unit": "RUB",
+      "label": "Current borrowings",
+      "status": "Single source",
+      "value": "209715000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "209715000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "long_debt",
+      "unit": "RUB",
+      "label": "Non-current borrowings",
+      "status": "Single source",
+      "value": "119062000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "119062000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "short_leases",
+      "unit": "RUB",
+      "label": "Current lease liabilities",
+      "status": "Single source",
+      "value": "1631000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "1631000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "long_leases",
+      "unit": "RUB",
+      "label": "Non-current lease liabilities",
+      "status": "Single source",
+      "value": "4741000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "4741000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "current_assets",
+      "unit": "RUB",
+      "label": "Current assets",
+      "status": "Single source",
+      "value": "217976000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "217976000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "assets",
+      "unit": "RUB",
+      "label": "Total assets",
+      "status": "Single source",
+      "value": "663888000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "663888000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "current_liabilities",
+      "unit": "RUB",
+      "label": "Current liabilities",
+      "status": "Single source",
+      "value": "268545000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "268545000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "long_liabilities",
+      "unit": "RUB",
+      "label": "Non-current liabilities",
+      "status": "Single source",
+      "value": "155550000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "155550000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "equity",
+      "unit": "RUB",
+      "label": "Total equity",
+      "status": "Single source",
+      "value": "239793000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "239793000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "shares_outstanding",
+      "unit": "shares",
+      "label": "Ordinary shares outstanding",
+      "status": "Single source",
+      "value": "129500000.0",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "129500000.0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "31",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=31",
+              "title": "FY2025 consolidated IFRS filing, PDF page 31"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "noncontrolling",
+      "unit": "RUB",
+      "label": "Noncontrolling interests",
+      "status": "Single source",
+      "value": "175000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "175000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-12-31",
+      "metric": "investments",
+      "unit": "RUB",
+      "label": "Investments outside operating value",
+      "status": "Single source",
+      "value": "951000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "951000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "9",
+              "url": "https://cdn.phosagro.ru/upload/iblock/67b/jh26rx7hvbf68rtnjraycvyc8wq0poiu.pdf#page=9",
+              "title": "FY2025 consolidated IFRS filing, PDF page 9"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": null,
+      "end": "2026-11-20",
+      "metric": "market_price",
+      "unit": "RUB/share",
+      "label": "Dated share price",
+      "status": "Single source",
+      "value": "5045",
+      "observations": {
+        "Market quote": [
+          {
+            "value": "5045",
+            "source": {
+              "filing_year": 2026,
+              "locator": "close",
+              "url": "https://iss.moex.com/iss/history/engines/stock/markets/shares/boards/TQBR/securities/PHOR.json?from=2026-11-20&till=2026-11-20&iss.only=history&history.columns=TRADEDATE,CLOSE,CURRENCYID",
+              "title": "MOEX TQBR close, 2026-11-20"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": "2026-01-01",
+      "end": "2026-09-30",
+      "metric": "revenue",
+      "unit": "RUB",
+      "label": "Revenue",
+      "status": "Single source",
+      "value": "446061000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "446061000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "earnings",
+              "url": "https://cdn.phosagro.ru/upload/iblock/941/n4r09adgp8ng7i4cumduvrtgl2rufxxl.pdf#page=5",
+              "title": "PhosAgro consolidated interim IFRS filing, earnings, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-09-30",
+      "metric": "revenue",
+      "unit": "RUB",
+      "label": "Revenue",
+      "status": "Single source",
+      "value": "441736000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "441736000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "earnings",
+              "url": "https://cdn.phosagro.ru/upload/iblock/941/n4r09adgp8ng7i4cumduvrtgl2rufxxl.pdf#page=5",
+              "title": "PhosAgro consolidated interim IFRS filing, earnings, period ended 2025-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": "2026-01-01",
+      "end": "2026-09-30",
+      "metric": "operating_profit",
+      "unit": "RUB",
+      "label": "Operating profit",
+      "status": "Single source",
+      "value": "77070000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "77070000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "earnings",
+              "url": "https://cdn.phosagro.ru/upload/iblock/941/n4r09adgp8ng7i4cumduvrtgl2rufxxl.pdf#page=5",
+              "title": "PhosAgro consolidated interim IFRS filing, earnings, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-09-30",
+      "metric": "operating_profit",
+      "unit": "RUB",
+      "label": "Operating profit",
+      "status": "Single source",
+      "value": "115320000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "115320000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "earnings",
+              "url": "https://cdn.phosagro.ru/upload/iblock/941/n4r09adgp8ng7i4cumduvrtgl2rufxxl.pdf#page=5",
+              "title": "PhosAgro consolidated interim IFRS filing, earnings, period ended 2025-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": "2026-01-01",
+      "end": "2026-09-30",
+      "metric": "operating_cash",
+      "unit": "RUB",
+      "label": "Operating cash flow",
+      "status": "Single source",
+      "value": "44590000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "44590000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "cashFlow",
+              "url": "https://cdn.phosagro.ru/upload/iblock/941/n4r09adgp8ng7i4cumduvrtgl2rufxxl.pdf#page=7",
+              "title": "PhosAgro consolidated interim IFRS filing, cashFlow, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-09-30",
+      "metric": "operating_cash",
+      "unit": "RUB",
+      "label": "Operating cash flow",
+      "status": "Single source",
+      "value": "108981000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "108981000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "cashFlow",
+              "url": "https://cdn.phosagro.ru/upload/iblock/941/n4r09adgp8ng7i4cumduvrtgl2rufxxl.pdf#page=7",
+              "title": "PhosAgro consolidated interim IFRS filing, cashFlow, period ended 2025-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": "2026-01-01",
+      "end": "2026-09-30",
+      "metric": "capex",
+      "unit": "RUB",
+      "label": "Cash capex",
+      "status": "Single source",
+      "value": "-59442000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "-59442000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "cashFlow",
+              "url": "https://cdn.phosagro.ru/upload/iblock/941/n4r09adgp8ng7i4cumduvrtgl2rufxxl.pdf#page=7",
+              "title": "PhosAgro consolidated interim IFRS filing, cashFlow, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": "2025-01-01",
+      "end": "2025-09-30",
+      "metric": "capex",
+      "unit": "RUB",
+      "label": "Cash capex",
+      "status": "Single source",
+      "value": "-47676000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "-47676000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "cashFlow",
+              "url": "https://cdn.phosagro.ru/upload/iblock/941/n4r09adgp8ng7i4cumduvrtgl2rufxxl.pdf#page=7",
+              "title": "PhosAgro consolidated interim IFRS filing, cashFlow, period ended 2025-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": null,
+      "end": "2026-09-30",
+      "metric": "shortDebt",
+      "unit": "RUB",
+      "label": "Short-term borrowings",
+      "status": "Single source",
+      "value": "164217000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "164217000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "balance",
+              "url": "https://cdn.phosagro.ru/upload/iblock/941/n4r09adgp8ng7i4cumduvrtgl2rufxxl.pdf#page=6",
+              "title": "PhosAgro consolidated interim IFRS filing, balance, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": null,
+      "end": "2026-09-30",
+      "metric": "longDebt",
+      "unit": "RUB",
+      "label": "Long-term borrowings",
+      "status": "Single source",
+      "value": "200358000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "200358000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "balance",
+              "url": "https://cdn.phosagro.ru/upload/iblock/941/n4r09adgp8ng7i4cumduvrtgl2rufxxl.pdf#page=6",
+              "title": "PhosAgro consolidated interim IFRS filing, balance, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": null,
+      "end": "2026-09-30",
+      "metric": "shortLease",
+      "unit": "RUB",
+      "label": "Current lease liabilities",
+      "status": "Single source",
+      "value": "1499000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "1499000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "balance",
+              "url": "https://cdn.phosagro.ru/upload/iblock/941/n4r09adgp8ng7i4cumduvrtgl2rufxxl.pdf#page=6",
+              "title": "PhosAgro consolidated interim IFRS filing, balance, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": null,
+      "end": "2026-09-30",
+      "metric": "longLease",
+      "unit": "RUB",
+      "label": "Noncurrent lease liabilities",
+      "status": "Single source",
+      "value": "4241000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "4241000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "balance",
+              "url": "https://cdn.phosagro.ru/upload/iblock/941/n4r09adgp8ng7i4cumduvrtgl2rufxxl.pdf#page=6",
+              "title": "PhosAgro consolidated interim IFRS filing, balance, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": null,
+      "end": "2026-09-30",
+      "metric": "cash",
+      "unit": "RUB",
+      "label": "Cash and equivalents",
+      "status": "Single source",
+      "value": "11174000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "11174000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "balance",
+              "url": "https://cdn.phosagro.ru/upload/iblock/941/n4r09adgp8ng7i4cumduvrtgl2rufxxl.pdf#page=6",
+              "title": "PhosAgro consolidated interim IFRS filing, balance, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": null,
+      "end": "2026-09-30",
+      "metric": "noncontrolling",
+      "unit": "RUB",
+      "label": "Noncontrolling interests",
+      "status": "Single source",
+      "value": "260000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "260000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "balance",
+              "url": "https://cdn.phosagro.ru/upload/iblock/941/n4r09adgp8ng7i4cumduvrtgl2rufxxl.pdf#page=6",
+              "title": "PhosAgro consolidated interim IFRS filing, balance, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2026,
+      "start": null,
+      "end": "2026-09-30",
+      "metric": "investments",
+      "unit": "RUB",
+      "label": "Investments outside operating value",
+      "status": "Single source",
+      "value": "842000000",
+      "observations": {
+        "Verified filing": [
+          {
+            "value": "842000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "balance",
+              "url": "https://cdn.phosagro.ru/upload/iblock/941/n4r09adgp8ng7i4cumduvrtgl2rufxxl.pdf#page=6",
+              "title": "PhosAgro consolidated interim IFRS filing, balance, period ended 2026-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    }
+  ],
+  "document_issues": [],
+  "balance_checks": [
+    {
+      "year": 2023,
+      "difference": "0",
+      "status": "Pass",
+      "metrics": [
+        "assets",
+        "current_liabilities",
+        "long_liabilities",
+        "equity"
+      ]
+    },
+    {
+      "year": 2024,
+      "difference": "0",
+      "status": "Pass",
+      "metrics": [
+        "assets",
+        "current_liabilities",
+        "long_liabilities",
+        "equity"
+      ]
+    },
+    {
+      "year": 2025,
+      "difference": "0",
+      "status": "Pass",
+      "metrics": [
+        "assets",
+        "current_liabilities",
+        "long_liabilities",
+        "equity"
+      ]
+    }
+  ],
+  "valuation": {
+    "model": "nonfinancial-fcff",
+    "adapter": "phosagro",
+    "fiscal_year": 2025,
+    "quote": {
+      "date": "2026-11-20",
+      "market": "MOEX TQBR close"
+    },
+    "scenarios": {
+      "Bear": {
+        "priceGrowth": [
+          4,
+          4,
+          5,
+          5,
+          5
+        ],
+        "volumeGrowth": [
+          -1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "variableCostGrowth": [
+          8,
+          7,
+          6,
+          6,
+          6
+        ],
+        "fixedCostGrowth": 7,
+        "variableShare": 70,
+        "tax": 25,
+        "daShare": 7.1,
+        "capexShare": 12,
+        "workingCapital": 12,
+        "wacc": 23,
+        "terminalGrowth": 4,
+        "terminalRoic": 15
+      },
+      "Base": {
+        "priceGrowth": [
+          7,
+          6,
+          5,
+          5,
+          5
+        ],
+        "volumeGrowth": [
+          2,
+          2,
+          2,
+          1,
+          1
+        ],
+        "variableCostGrowth": [
+          6,
+          6,
+          5,
+          5,
+          5
+        ],
+        "fixedCostGrowth": 6,
+        "variableShare": 70,
+        "tax": 25,
+        "daShare": 7.1,
+        "capexShare": 12,
+        "workingCapital": 12,
+        "wacc": 20,
+        "terminalGrowth": 5,
+        "terminalRoic": 18
+      },
+      "Bull": {
+        "priceGrowth": [
+          11,
+          8,
+          7,
+          6,
+          5
+        ],
+        "volumeGrowth": [
+          4,
+          3,
+          3,
+          2,
+          2
+        ],
+        "variableCostGrowth": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "fixedCostGrowth": 5,
+        "variableShare": 70,
+        "tax": 25,
+        "daShare": 7.1,
+        "capexShare": 13,
+        "workingCapital": 12,
+        "wacc": 18,
+        "terminalGrowth": 6,
+        "terminalRoic": 22
+      }
+    },
+    "interim": {
+      "end": "2026-09-30",
+      "url": "https://cdn.phosagro.ru/upload/iblock/941/n4r09adgp8ng7i4cumduvrtgl2rufxxl.pdf",
+      "filing": "PhosAgro consolidated interim IFRS filing",
+      "sections": {
+        "earnings": "page=5",
+        "balance": "page=6",
+        "cashFlow": "page=7",
+        "shares": "page=18"
+      },
+      "debtComponents": [
+        "shortDebt",
+        "longDebt",
+        "shortLease",
+        "longLease"
+      ],
+      "shareDate": "2025-12-31",
+      "note": "The bridge carries forward the verified year-end ordinary share count. The interim earnings-per-share note reports the same weighted-average share count.",
+      "start": "2026-01-01",
+      "prior_end": "2025-09-30",
+      "prior_start": "2025-01-01",
+      "share_note_source": {
+        "filing_year": 2026,
+        "locator": "shares",
+        "url": "https://cdn.phosagro.ru/upload/iblock/941/n4r09adgp8ng7i4cumduvrtgl2rufxxl.pdf#page=18",
+        "title": "PhosAgro consolidated interim IFRS filing, shares, period ended 2026-09-30"
+      }
+    },
+    "assumption_note": "The published cases are editable scenarios from the dated pilot. Review the normalization and funding notes for their filing references and the modeled estimates."
+  }
+}

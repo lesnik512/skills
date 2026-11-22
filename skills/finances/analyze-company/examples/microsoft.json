@@ -1,0 +1,2641 @@
+{
+  "schema_version": 1,
+  "company": "Microsoft",
+  "scope": "Consolidated",
+  "issuer": {
+    "id": "microsoft",
+    "ticker": "MSFT",
+    "market": "Nasdaq",
+    "accounting": "Consolidated U.S. GAAP",
+    "currency": "USD"
+  },
+  "periods": {
+    "2024": {
+      "start": "2023-07-01",
+      "end": "2024-06-30"
+    },
+    "2025": {
+      "start": "2024-07-01",
+      "end": "2025-06-30"
+    },
+    "2026": {
+      "start": "2025-07-01",
+      "end": "2026-06-30"
+    }
+  },
+  "source_note": "The PDF figures come from paginated copies of the filed Forms 10-K. Tagged figures link to the SEC originals.",
+  "records": [
+    {
+      "year": "2024",
+      "start": "2023-07-01",
+      "end": "2024-06-30",
+      "metric": "revenue",
+      "unit": "USD",
+      "label": "Revenue",
+      "status": "Matched",
+      "value": "245122000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "245122000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+            },
+            "issue": ""
+          },
+          {
+            "value": "245122000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "245122000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total revenue",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=50",
+              "title": "FY2025 PDF p. 50 · Total revenue"
+            },
+            "issue": ""
+          },
+          {
+            "value": "245122000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Total revenue",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=50",
+              "title": "FY2026 PDF p. 50 · Total revenue"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": "2023-07-01",
+      "end": "2024-06-30",
+      "metric": "gross_profit",
+      "unit": "USD",
+      "label": "Gross profit",
+      "status": "Matched",
+      "value": "171008000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "171008000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:GrossProfit",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:GrossProfit"
+            },
+            "issue": ""
+          },
+          {
+            "value": "171008000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:GrossProfit",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:GrossProfit"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "171008000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Gross margin",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=50",
+              "title": "FY2025 PDF p. 50 · Gross margin"
+            },
+            "issue": ""
+          },
+          {
+            "value": "171008000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Gross margin",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=50",
+              "title": "FY2026 PDF p. 50 · Gross margin"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": "2023-07-01",
+      "end": "2024-06-30",
+      "metric": "operating_profit",
+      "unit": "USD",
+      "label": "Operating profit",
+      "status": "Matched",
+      "value": "109433000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "109433000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:OperatingIncomeLoss",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:OperatingIncomeLoss"
+            },
+            "issue": ""
+          },
+          {
+            "value": "109433000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:OperatingIncomeLoss",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:OperatingIncomeLoss"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "109433000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Operating income",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=50",
+              "title": "FY2025 PDF p. 50 · Operating income"
+            },
+            "issue": ""
+          },
+          {
+            "value": "109433000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Operating income",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=50",
+              "title": "FY2026 PDF p. 50 · Operating income"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": "2023-07-01",
+      "end": "2024-06-30",
+      "metric": "net_profit",
+      "unit": "USD",
+      "label": "Net income",
+      "status": "Matched",
+      "value": "88136000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "88136000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:NetIncomeLoss",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:NetIncomeLoss"
+            },
+            "issue": ""
+          },
+          {
+            "value": "88136000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:NetIncomeLoss",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:NetIncomeLoss"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "88136000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Net income",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=50",
+              "title": "FY2025 PDF p. 50 · Net income"
+            },
+            "issue": ""
+          },
+          {
+            "value": "88136000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Net income",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=50",
+              "title": "FY2026 PDF p. 50 · Net income"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": "2023-07-01",
+      "end": "2024-06-30",
+      "metric": "diluted_shares",
+      "unit": "shares",
+      "label": "Weighted-average diluted shares",
+      "status": "Matched",
+      "value": "7469000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "7469000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"
+            },
+            "issue": ""
+          },
+          {
+            "value": "7469000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "7469000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Diluted",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=50",
+              "title": "FY2025 PDF p. 50 · Diluted"
+            },
+            "issue": ""
+          },
+          {
+            "value": "7469000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Diluted",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=50",
+              "title": "FY2026 PDF p. 50 · Diluted"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": "2023-07-01",
+      "end": "2024-06-30",
+      "metric": "operating_cash",
+      "unit": "USD",
+      "label": "Operating cash flow",
+      "status": "Matched",
+      "value": "118548000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "118548000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:NetCashProvidedByUsedInOperatingActivities"
+            },
+            "issue": ""
+          },
+          {
+            "value": "118548000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:NetCashProvidedByUsedInOperatingActivities"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "118548000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Net cash from operations",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=53",
+              "title": "FY2025 PDF p. 53 · Net cash from operations"
+            },
+            "issue": ""
+          },
+          {
+            "value": "118548000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Net cash from operations",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=53",
+              "title": "FY2026 PDF p. 53 · Net cash from operations"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": "2023-07-01",
+      "end": "2024-06-30",
+      "metric": "capex",
+      "unit": "USD",
+      "label": "Cash purchases of property and equipment",
+      "status": "Matched",
+      "value": "-44477000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "-44477000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+            },
+            "issue": ""
+          },
+          {
+            "value": "-44477000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "-44477000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Additions to property and equipment",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=53",
+              "title": "FY2025 PDF p. 53 · Additions to property and equipment"
+            },
+            "issue": ""
+          },
+          {
+            "value": "-44477000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Additions to property and equipment",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=53",
+              "title": "FY2026 PDF p. 53 · Additions to property and equipment"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": "2023-07-01",
+      "end": "2024-06-30",
+      "metric": "depreciation_and_other",
+      "unit": "USD",
+      "label": "Depreciation, amortization and other",
+      "status": "Conflict",
+      "value": null,
+      "observations": {
+        "XBRL": [],
+        "PDF": [
+          {
+            "value": "22287000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Depreciation, amortization, and other",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=53",
+              "title": "FY2025 PDF p. 53 · Depreciation, amortization, and other"
+            },
+            "issue": ""
+          },
+          {
+            "value": "20958000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Depreciation, amortization, and other",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=53",
+              "title": "FY2026 PDF p. 53 · Depreciation, amortization, and other"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": [
+        "XBRL has no matching figure.",
+        "The combined cash-flow line has no mapped equivalent in SEC Company Facts.",
+        "Source amounts disagree for the same metric and period."
+      ]
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-06-30",
+      "metric": "cash",
+      "unit": "USD",
+      "label": "Cash and cash equivalents",
+      "status": "Matched",
+      "value": "18315000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "18315000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:CashAndCashEquivalentsAtCarryingValue"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "18315000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Cash and cash equivalents",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=52",
+              "title": "FY2025 PDF p. 52 · Cash and cash equivalents"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-06-30",
+      "metric": "current_assets",
+      "unit": "USD",
+      "label": "Current assets",
+      "status": "Matched",
+      "value": "159734000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "159734000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:AssetsCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:AssetsCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "159734000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total current assets",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=52",
+              "title": "FY2025 PDF p. 52 · Total current assets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-06-30",
+      "metric": "assets",
+      "unit": "USD",
+      "label": "Total assets",
+      "status": "Matched",
+      "value": "512163000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "512163000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:Assets",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:Assets"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "512163000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total assets",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=52",
+              "title": "FY2025 PDF p. 52 · Total assets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-06-30",
+      "metric": "current_liabilities",
+      "unit": "USD",
+      "label": "Current liabilities",
+      "status": "Matched",
+      "value": "125286000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "125286000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:LiabilitiesCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:LiabilitiesCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "125286000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total current liabilities",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=52",
+              "title": "FY2025 PDF p. 52 · Total current liabilities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-06-30",
+      "metric": "liabilities",
+      "unit": "USD",
+      "label": "Total liabilities",
+      "status": "Matched",
+      "value": "243686000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "243686000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:Liabilities",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:Liabilities"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "243686000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total liabilities",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=52",
+              "title": "FY2025 PDF p. 52 · Total liabilities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-06-30",
+      "metric": "equity",
+      "unit": "USD",
+      "label": "Total equity",
+      "status": "Matched",
+      "value": "268477000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "268477000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:StockholdersEquity",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:StockholdersEquity"
+            },
+            "issue": ""
+          },
+          {
+            "value": "268477000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:StockholdersEquity",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:StockholdersEquity"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "268477000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total stockholders’ equity",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=52",
+              "title": "FY2025 PDF p. 52 · Total stockholders’ equity"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-06-30",
+      "metric": "short_term_debt",
+      "unit": "USD",
+      "label": "Short-term debt",
+      "status": "Matched",
+      "value": "6693000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "6693000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:CommercialPaper",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:CommercialPaper"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "6693000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Short-term debt",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=52",
+              "title": "FY2025 PDF p. 52 · Short-term debt"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-06-30",
+      "metric": "current_long_term_debt",
+      "unit": "USD",
+      "label": "Current portion of long-term debt",
+      "status": "Matched",
+      "value": "2249000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "2249000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:LongTermDebtCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:LongTermDebtCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "2249000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Current portion of long-term debt",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=52",
+              "title": "FY2025 PDF p. 52 · Current portion of long-term debt"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-06-30",
+      "metric": "noncurrent_debt",
+      "unit": "USD",
+      "label": "Noncurrent long-term debt",
+      "status": "Matched",
+      "value": "42688000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "42688000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:LongTermDebtNoncurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:LongTermDebtNoncurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "42688000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Long-term debt",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=52",
+              "title": "FY2025 PDF p. 52 · Long-term debt"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-06-30",
+      "metric": "operating_leases",
+      "unit": "USD",
+      "label": "Total operating lease liabilities",
+      "status": "Matched",
+      "value": "19077000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "19077000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:OperatingLeaseLiability",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:OperatingLeaseLiability"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "19077000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total operating lease liabilities",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=78",
+              "title": "FY2025 PDF p. 78 · Total operating lease liabilities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-06-30",
+      "metric": "finance_leases",
+      "unit": "USD",
+      "label": "Total finance lease liabilities",
+      "status": "Matched",
+      "value": "27145000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "27145000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:FinanceLeaseLiability",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:FinanceLeaseLiability"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "27145000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total finance lease liabilities",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=78",
+              "title": "FY2025 PDF p. 78 · Total finance lease liabilities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": "2024-07-01",
+      "end": "2025-06-30",
+      "metric": "revenue",
+      "unit": "USD",
+      "label": "Revenue",
+      "status": "Matched",
+      "value": "281724000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "281724000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+            },
+            "issue": ""
+          },
+          {
+            "value": "281724000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "281724000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total revenue",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=50",
+              "title": "FY2025 PDF p. 50 · Total revenue"
+            },
+            "issue": ""
+          },
+          {
+            "value": "281724000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Total revenue",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=50",
+              "title": "FY2026 PDF p. 50 · Total revenue"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": "2024-07-01",
+      "end": "2025-06-30",
+      "metric": "gross_profit",
+      "unit": "USD",
+      "label": "Gross profit",
+      "status": "Matched",
+      "value": "193893000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "193893000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:GrossProfit",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:GrossProfit"
+            },
+            "issue": ""
+          },
+          {
+            "value": "193893000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:GrossProfit",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:GrossProfit"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "193893000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Gross margin",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=50",
+              "title": "FY2025 PDF p. 50 · Gross margin"
+            },
+            "issue": ""
+          },
+          {
+            "value": "193893000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Gross margin",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=50",
+              "title": "FY2026 PDF p. 50 · Gross margin"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": "2024-07-01",
+      "end": "2025-06-30",
+      "metric": "operating_profit",
+      "unit": "USD",
+      "label": "Operating profit",
+      "status": "Matched",
+      "value": "128528000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "128528000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:OperatingIncomeLoss",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:OperatingIncomeLoss"
+            },
+            "issue": ""
+          },
+          {
+            "value": "128528000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:OperatingIncomeLoss",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:OperatingIncomeLoss"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "128528000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Operating income",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=50",
+              "title": "FY2025 PDF p. 50 · Operating income"
+            },
+            "issue": ""
+          },
+          {
+            "value": "128528000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Operating income",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=50",
+              "title": "FY2026 PDF p. 50 · Operating income"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": "2024-07-01",
+      "end": "2025-06-30",
+      "metric": "net_profit",
+      "unit": "USD",
+      "label": "Net income",
+      "status": "Matched",
+      "value": "101832000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "101832000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:NetIncomeLoss",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:NetIncomeLoss"
+            },
+            "issue": ""
+          },
+          {
+            "value": "101832000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:NetIncomeLoss",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:NetIncomeLoss"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "101832000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Net income",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=50",
+              "title": "FY2025 PDF p. 50 · Net income"
+            },
+            "issue": ""
+          },
+          {
+            "value": "101832000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Net income",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=50",
+              "title": "FY2026 PDF p. 50 · Net income"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": "2024-07-01",
+      "end": "2025-06-30",
+      "metric": "diluted_shares",
+      "unit": "shares",
+      "label": "Weighted-average diluted shares",
+      "status": "Matched",
+      "value": "7465000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "7465000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"
+            },
+            "issue": ""
+          },
+          {
+            "value": "7465000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "7465000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Diluted",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=50",
+              "title": "FY2025 PDF p. 50 · Diluted"
+            },
+            "issue": ""
+          },
+          {
+            "value": "7465000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Diluted",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=50",
+              "title": "FY2026 PDF p. 50 · Diluted"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": "2024-07-01",
+      "end": "2025-06-30",
+      "metric": "operating_cash",
+      "unit": "USD",
+      "label": "Operating cash flow",
+      "status": "Matched",
+      "value": "136162000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "136162000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:NetCashProvidedByUsedInOperatingActivities"
+            },
+            "issue": ""
+          },
+          {
+            "value": "136162000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:NetCashProvidedByUsedInOperatingActivities"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "136162000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Net cash from operations",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=53",
+              "title": "FY2025 PDF p. 53 · Net cash from operations"
+            },
+            "issue": ""
+          },
+          {
+            "value": "136162000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Net cash from operations",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=53",
+              "title": "FY2026 PDF p. 53 · Net cash from operations"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": "2024-07-01",
+      "end": "2025-06-30",
+      "metric": "capex",
+      "unit": "USD",
+      "label": "Cash purchases of property and equipment",
+      "status": "Matched",
+      "value": "-64551000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "-64551000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+            },
+            "issue": ""
+          },
+          {
+            "value": "-64551000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "-64551000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Additions to property and equipment",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=53",
+              "title": "FY2025 PDF p. 53 · Additions to property and equipment"
+            },
+            "issue": ""
+          },
+          {
+            "value": "-64551000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Additions to property and equipment",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=53",
+              "title": "FY2026 PDF p. 53 · Additions to property and equipment"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": "2024-07-01",
+      "end": "2025-06-30",
+      "metric": "depreciation_and_other",
+      "unit": "USD",
+      "label": "Depreciation, amortization and other",
+      "status": "Conflict",
+      "value": null,
+      "observations": {
+        "XBRL": [],
+        "PDF": [
+          {
+            "value": "34153000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Depreciation, amortization, and other",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=53",
+              "title": "FY2025 PDF p. 53 · Depreciation, amortization, and other"
+            },
+            "issue": ""
+          },
+          {
+            "value": "29433000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Depreciation, amortization, and other",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=53",
+              "title": "FY2026 PDF p. 53 · Depreciation, amortization, and other"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": [
+        "XBRL has no matching figure.",
+        "The combined cash-flow line has no mapped equivalent in SEC Company Facts.",
+        "Source amounts disagree for the same metric and period."
+      ]
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-06-30",
+      "metric": "cash",
+      "unit": "USD",
+      "label": "Cash and cash equivalents",
+      "status": "Matched",
+      "value": "30242000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "30242000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:CashAndCashEquivalentsAtCarryingValue"
+            },
+            "issue": ""
+          },
+          {
+            "value": "30242000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:CashAndCashEquivalentsAtCarryingValue"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "30242000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Cash and cash equivalents",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=52",
+              "title": "FY2025 PDF p. 52 · Cash and cash equivalents"
+            },
+            "issue": ""
+          },
+          {
+            "value": "30242000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Cash and cash equivalents",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=52",
+              "title": "FY2026 PDF p. 52 · Cash and cash equivalents"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-06-30",
+      "metric": "current_assets",
+      "unit": "USD",
+      "label": "Current assets",
+      "status": "Matched",
+      "value": "191131000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "191131000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:AssetsCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:AssetsCurrent"
+            },
+            "issue": ""
+          },
+          {
+            "value": "191131000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:AssetsCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:AssetsCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "191131000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total current assets",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=52",
+              "title": "FY2025 PDF p. 52 · Total current assets"
+            },
+            "issue": ""
+          },
+          {
+            "value": "191131000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Total current assets",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=52",
+              "title": "FY2026 PDF p. 52 · Total current assets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-06-30",
+      "metric": "assets",
+      "unit": "USD",
+      "label": "Total assets",
+      "status": "Matched",
+      "value": "619003000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "619003000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:Assets",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:Assets"
+            },
+            "issue": ""
+          },
+          {
+            "value": "619003000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:Assets",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:Assets"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "619003000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total assets",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=52",
+              "title": "FY2025 PDF p. 52 · Total assets"
+            },
+            "issue": ""
+          },
+          {
+            "value": "619003000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Total assets",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=52",
+              "title": "FY2026 PDF p. 52 · Total assets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-06-30",
+      "metric": "current_liabilities",
+      "unit": "USD",
+      "label": "Current liabilities",
+      "status": "Matched",
+      "value": "141218000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "141218000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:LiabilitiesCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:LiabilitiesCurrent"
+            },
+            "issue": ""
+          },
+          {
+            "value": "141218000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:LiabilitiesCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:LiabilitiesCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "141218000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total current liabilities",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=52",
+              "title": "FY2025 PDF p. 52 · Total current liabilities"
+            },
+            "issue": ""
+          },
+          {
+            "value": "141218000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Total current liabilities",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=52",
+              "title": "FY2026 PDF p. 52 · Total current liabilities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-06-30",
+      "metric": "liabilities",
+      "unit": "USD",
+      "label": "Total liabilities",
+      "status": "Matched",
+      "value": "275524000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "275524000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:Liabilities",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:Liabilities"
+            },
+            "issue": ""
+          },
+          {
+            "value": "275524000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:Liabilities",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:Liabilities"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "275524000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total liabilities",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=52",
+              "title": "FY2025 PDF p. 52 · Total liabilities"
+            },
+            "issue": ""
+          },
+          {
+            "value": "275524000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Total liabilities",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=52",
+              "title": "FY2026 PDF p. 52 · Total liabilities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-06-30",
+      "metric": "equity",
+      "unit": "USD",
+      "label": "Total equity",
+      "status": "Matched",
+      "value": "343479000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "343479000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:StockholdersEquity",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:StockholdersEquity"
+            },
+            "issue": ""
+          },
+          {
+            "value": "343479000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:StockholdersEquity",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:StockholdersEquity"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "343479000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total stockholders’ equity",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=52",
+              "title": "FY2025 PDF p. 52 · Total stockholders’ equity"
+            },
+            "issue": ""
+          },
+          {
+            "value": "343479000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Total stockholders’ equity",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=52",
+              "title": "FY2026 PDF p. 52 · Total stockholders’ equity"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-06-30",
+      "metric": "short_term_debt",
+      "unit": "USD",
+      "label": "Short-term debt",
+      "status": "Matched",
+      "value": "0",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:CommercialPaper",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:CommercialPaper"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Short-term debt",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=52",
+              "title": "FY2025 PDF p. 52 · Short-term debt"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-06-30",
+      "metric": "current_long_term_debt",
+      "unit": "USD",
+      "label": "Current portion of long-term debt",
+      "status": "Matched",
+      "value": "2999000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "2999000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:LongTermDebtCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:LongTermDebtCurrent"
+            },
+            "issue": ""
+          },
+          {
+            "value": "2999000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:LongTermDebtCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:LongTermDebtCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "2999000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Current portion of long-term debt",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=52",
+              "title": "FY2025 PDF p. 52 · Current portion of long-term debt"
+            },
+            "issue": ""
+          },
+          {
+            "value": "2999000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Current portion of long-term debt",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=52",
+              "title": "FY2026 PDF p. 52 · Current portion of long-term debt"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-06-30",
+      "metric": "noncurrent_debt",
+      "unit": "USD",
+      "label": "Noncurrent long-term debt",
+      "status": "Matched",
+      "value": "40152000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "40152000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:LongTermDebtNoncurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:LongTermDebtNoncurrent"
+            },
+            "issue": ""
+          },
+          {
+            "value": "40152000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:LongTermDebtNoncurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:LongTermDebtNoncurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "40152000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Long-term debt",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=52",
+              "title": "FY2025 PDF p. 52 · Long-term debt"
+            },
+            "issue": ""
+          },
+          {
+            "value": "40152000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Long-term debt",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=52",
+              "title": "FY2026 PDF p. 52 · Long-term debt"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-06-30",
+      "metric": "operating_leases",
+      "unit": "USD",
+      "label": "Total operating lease liabilities",
+      "status": "Matched",
+      "value": "22861000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "22861000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:OperatingLeaseLiability",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:OperatingLeaseLiability"
+            },
+            "issue": ""
+          },
+          {
+            "value": "22861000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:OperatingLeaseLiability",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:OperatingLeaseLiability"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "22861000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total operating lease liabilities",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=78",
+              "title": "FY2025 PDF p. 78 · Total operating lease liabilities"
+            },
+            "issue": ""
+          },
+          {
+            "value": "22861000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Total operating lease liabilities",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=78",
+              "title": "FY2026 PDF p. 78 · Total operating lease liabilities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-06-30",
+      "metric": "finance_leases",
+      "unit": "USD",
+      "label": "Total finance lease liabilities",
+      "status": "Matched",
+      "value": "46172000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "46172000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:FinanceLeaseLiability",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+              "title": "FY2025 10-K · us-gaap:FinanceLeaseLiability"
+            },
+            "issue": ""
+          },
+          {
+            "value": "46172000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:FinanceLeaseLiability",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:FinanceLeaseLiability"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "46172000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total finance lease liabilities",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2025-06-30_10-K.pdf#page=78",
+              "title": "FY2025 PDF p. 78 · Total finance lease liabilities"
+            },
+            "issue": ""
+          },
+          {
+            "value": "46172000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Total finance lease liabilities",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=78",
+              "title": "FY2026 PDF p. 78 · Total finance lease liabilities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2026",
+      "start": "2025-07-01",
+      "end": "2026-06-30",
+      "metric": "revenue",
+      "unit": "USD",
+      "label": "Revenue",
+      "status": "Matched",
+      "value": "331839000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "331839000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "331839000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Total revenue",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=50",
+              "title": "FY2026 PDF p. 50 · Total revenue"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2026",
+      "start": "2025-07-01",
+      "end": "2026-06-30",
+      "metric": "gross_profit",
+      "unit": "USD",
+      "label": "Gross profit",
+      "status": "Matched",
+      "value": "225465000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "225465000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:GrossProfit",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:GrossProfit"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "225465000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Gross margin",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=50",
+              "title": "FY2026 PDF p. 50 · Gross margin"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2026",
+      "start": "2025-07-01",
+      "end": "2026-06-30",
+      "metric": "operating_profit",
+      "unit": "USD",
+      "label": "Operating profit",
+      "status": "Matched",
+      "value": "155237000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "155237000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:OperatingIncomeLoss",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:OperatingIncomeLoss"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "155237000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Operating income",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=50",
+              "title": "FY2026 PDF p. 50 · Operating income"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2026",
+      "start": "2025-07-01",
+      "end": "2026-06-30",
+      "metric": "net_profit",
+      "unit": "USD",
+      "label": "Net income",
+      "status": "Matched",
+      "value": "133749000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "133749000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:NetIncomeLoss",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:NetIncomeLoss"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "133749000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Net income",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=50",
+              "title": "FY2026 PDF p. 50 · Net income"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2026",
+      "start": "2025-07-01",
+      "end": "2026-06-30",
+      "metric": "diluted_shares",
+      "unit": "shares",
+      "label": "Weighted-average diluted shares",
+      "status": "Matched",
+      "value": "7453000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "7453000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "7453000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Diluted",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=50",
+              "title": "FY2026 PDF p. 50 · Diluted"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2026",
+      "start": "2025-07-01",
+      "end": "2026-06-30",
+      "metric": "operating_cash",
+      "unit": "USD",
+      "label": "Operating cash flow",
+      "status": "Matched",
+      "value": "182935000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "182935000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:NetCashProvidedByUsedInOperatingActivities"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "182935000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Net cash from operations",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=53",
+              "title": "FY2026 PDF p. 53 · Net cash from operations"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2026",
+      "start": "2025-07-01",
+      "end": "2026-06-30",
+      "metric": "capex",
+      "unit": "USD",
+      "label": "Cash purchases of property and equipment",
+      "status": "Matched",
+      "value": "-115948000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "-115948000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "-115948000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Additions to property and equipment",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=53",
+              "title": "FY2026 PDF p. 53 · Additions to property and equipment"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2026",
+      "start": "2025-07-01",
+      "end": "2026-06-30",
+      "metric": "depreciation_and_other",
+      "unit": "USD",
+      "label": "Depreciation, amortization and other",
+      "status": "Missing",
+      "value": null,
+      "observations": {
+        "XBRL": [],
+        "PDF": [
+          {
+            "value": "38534000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Depreciation, amortization, and other",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=53",
+              "title": "FY2026 PDF p. 53 · Depreciation, amortization, and other"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": [
+        "XBRL has no matching figure.",
+        "The combined cash-flow line has no mapped equivalent in SEC Company Facts."
+      ]
+    },
+    {
+      "year": "2026",
+      "start": null,
+      "end": "2026-06-30",
+      "metric": "cash",
+      "unit": "USD",
+      "label": "Cash and cash equivalents",
+      "status": "Matched",
+      "value": "20935000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "20935000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:CashAndCashEquivalentsAtCarryingValue"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "20935000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Cash and cash equivalents",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=52",
+              "title": "FY2026 PDF p. 52 · Cash and cash equivalents"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2026",
+      "start": null,
+      "end": "2026-06-30",
+      "metric": "current_assets",
+      "unit": "USD",
+      "label": "Current assets",
+      "status": "Matched",
+      "value": "207710000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "207710000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:AssetsCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:AssetsCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "207710000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Total current assets",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=52",
+              "title": "FY2026 PDF p. 52 · Total current assets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2026",
+      "start": null,
+      "end": "2026-06-30",
+      "metric": "assets",
+      "unit": "USD",
+      "label": "Total assets",
+      "status": "Matched",
+      "value": "758376000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "758376000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:Assets",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:Assets"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "758376000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Total assets",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=52",
+              "title": "FY2026 PDF p. 52 · Total assets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2026",
+      "start": null,
+      "end": "2026-06-30",
+      "metric": "current_liabilities",
+      "unit": "USD",
+      "label": "Current liabilities",
+      "status": "Matched",
+      "value": "168825000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "168825000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:LiabilitiesCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:LiabilitiesCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "168825000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Total current liabilities",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=52",
+              "title": "FY2026 PDF p. 52 · Total current liabilities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2026",
+      "start": null,
+      "end": "2026-06-30",
+      "metric": "liabilities",
+      "unit": "USD",
+      "label": "Total liabilities",
+      "status": "Matched",
+      "value": "315989000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "315989000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:Liabilities",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:Liabilities"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "315989000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Total liabilities",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=52",
+              "title": "FY2026 PDF p. 52 · Total liabilities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2026",
+      "start": null,
+      "end": "2026-06-30",
+      "metric": "equity",
+      "unit": "USD",
+      "label": "Total equity",
+      "status": "Matched",
+      "value": "442387000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "442387000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:StockholdersEquity",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:StockholdersEquity"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "442387000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Total stockholders’ equity",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=52",
+              "title": "FY2026 PDF p. 52 · Total stockholders’ equity"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2026",
+      "start": null,
+      "end": "2026-06-30",
+      "metric": "short_term_debt",
+      "unit": "USD",
+      "label": "Short-term debt",
+      "status": "Missing",
+      "value": null,
+      "observations": {
+        "XBRL": [],
+        "PDF": []
+      },
+      "issues": [
+        "XBRL has no matching figure.",
+        "PDF has no matching figure."
+      ]
+    },
+    {
+      "year": "2026",
+      "start": null,
+      "end": "2026-06-30",
+      "metric": "current_long_term_debt",
+      "unit": "USD",
+      "label": "Current portion of long-term debt",
+      "status": "Matched",
+      "value": "9227000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "9227000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:LongTermDebtCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:LongTermDebtCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "9227000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Current portion of long-term debt",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=52",
+              "title": "FY2026 PDF p. 52 · Current portion of long-term debt"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2026",
+      "start": null,
+      "end": "2026-06-30",
+      "metric": "noncurrent_debt",
+      "unit": "USD",
+      "label": "Noncurrent long-term debt",
+      "status": "Matched",
+      "value": "31067000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "31067000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:LongTermDebtNoncurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:LongTermDebtNoncurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "31067000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Long-term debt",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=52",
+              "title": "FY2026 PDF p. 52 · Long-term debt"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2026",
+      "start": null,
+      "end": "2026-06-30",
+      "metric": "operating_leases",
+      "unit": "USD",
+      "label": "Total operating lease liabilities",
+      "status": "Matched",
+      "value": "21925000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "21925000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:OperatingLeaseLiability",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:OperatingLeaseLiability"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "21925000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Total operating lease liabilities",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=78",
+              "title": "FY2026 PDF p. 78 · Total operating lease liabilities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2026",
+      "start": null,
+      "end": "2026-06-30",
+      "metric": "finance_leases",
+      "unit": "USD",
+      "label": "Total finance lease liabilities",
+      "status": "Matched",
+      "value": "66594000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "66594000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "us-gaap:FinanceLeaseLiability",
+              "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+              "title": "FY2026 10-K · us-gaap:FinanceLeaseLiability"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "66594000000",
+            "source": {
+              "filing_year": 2026,
+              "locator": "Total finance lease liabilities",
+              "url": "https://www.marketwizards.net/files/sec_forms_all/MSFT_2026-06-30_10-K.pdf#page=78",
+              "title": "FY2026 PDF p. 78 · Total finance lease liabilities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    }
+  ],
+  "balance_checks": [
+    {
+      "year": "2024",
+      "difference": "0",
+      "status": "Pass",
+      "metrics": [
+        "assets",
+        "liabilities",
+        "equity"
+      ]
+    },
+    {
+      "year": "2025",
+      "difference": "0",
+      "status": "Pass",
+      "metrics": [
+        "assets",
+        "liabilities",
+        "equity"
+      ]
+    },
+    {
+      "year": "2026",
+      "difference": "0",
+      "status": "Pass",
+      "metrics": [
+        "assets",
+        "liabilities",
+        "equity"
+      ]
+    }
+  ],
+  "document_issues": [],
+  "needs_review": true
+}

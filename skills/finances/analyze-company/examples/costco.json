@@ -1,0 +1,3647 @@
+{
+  "schema_version": 1,
+  "company": "Costco Wholesale",
+  "scope": "Consolidated",
+  "issuer": {
+    "id": "costco",
+    "ticker": "COST",
+    "market": "Nasdaq",
+    "accounting": "Consolidated U.S. GAAP",
+    "gross_margin_basis": "net_sales",
+    "metric_notes": {
+      "revenue": "Total revenue includes membership fees",
+      "gross_margin": "Merchandise gross profit ÷ net sales",
+      "gross_profit": "Net sales less merchandise costs",
+      "operating_profit": "Reported operating income",
+      "operating_cash": "Net cash provided by operating activities",
+      "capex": "Cash additions to property and equipment shown as an outflow",
+      "cash_after_capex": "Operating cash flow less cash additions to property and equipment",
+      "short_debt": "Current maturities of long-term debt plus short-term borrowings"
+    },
+    "notes": [
+      {
+        "heading": "Fiscal calendar",
+        "text": "FY2023 ended September 3, 2023 and had 53 weeks. FY2024 ended September 1, 2024 and FY2025 ended August 31, 2025, both with 52 weeks. FY2024 revenue growth compares the reported 52-week year with the preceding 53-week year. FY2023 growth requires an earlier comparison year.",
+        "references": [
+          {
+            "label": "FY2025 fiscal calendar",
+            "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=46"
+          }
+        ]
+      },
+      {
+        "heading": "Retail margins",
+        "text": "Operating and net margins use total revenue. Merchandise gross margin uses net sales and excludes membership fees, following Costco’s definition.",
+        "references": [
+          {
+            "label": "FY2025 gross margin",
+            "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=32"
+          }
+        ]
+      },
+      {
+        "heading": "Debt and leases",
+        "text": "Costco describes short-term bank borrowings as immaterial without publishing a balance. That leaves total current borrowings, net debt, current share of borrowings and net debt to EBITDA unresolved. Current maturities of long-term debt are reported separately. Three FY2023 lease components appear in the PDF but have no matched SEC Company Facts entry in the selected filings. The published aggregate lease balance is shown from the PDF.",
+        "references": [
+          {
+            "label": "FY2024 debt note",
+            "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=56"
+          },
+          {
+            "label": "FY2025 debt note",
+            "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=55"
+          },
+          {
+            "label": "FY2023 lease comparatives",
+            "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=57"
+          }
+        ]
+      }
+    ],
+    "currency": "USD"
+  },
+  "periods": {
+    "2023": {
+      "start": "2022-08-29",
+      "end": "2023-09-03"
+    },
+    "2024": {
+      "start": "2023-09-04",
+      "end": "2024-09-01"
+    },
+    "2025": {
+      "start": "2024-09-02",
+      "end": "2025-08-31"
+    }
+  },
+  "source_note": "Amounts are checked against Costco’s FY2024 and FY2025 Form 10-K tags and corresponding issuer-hosted annual reports. Net sales, membership fees and aggregate lease liabilities use the printed statements as their quantified source.",
+  "records": [
+    {
+      "year": "2023",
+      "start": "2022-08-29",
+      "end": "2023-09-03",
+      "metric": "revenue",
+      "unit": "USD",
+      "label": "Total revenue",
+      "status": "Matched",
+      "value": "242290000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "242290000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+            },
+            "issue": ""
+          },
+          {
+            "value": "242290000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+            },
+            "issue": ""
+          },
+          {
+            "value": "242290000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:Revenues",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:Revenues"
+            },
+            "issue": ""
+          },
+          {
+            "value": "242290000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:Revenues",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:Revenues"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "242290000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Total revenue",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=42",
+              "title": "FY2024 PDF p. 42 · Total revenue"
+            },
+            "issue": ""
+          },
+          {
+            "value": "242290000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total revenue",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=41",
+              "title": "FY2025 PDF p. 41 · Total revenue"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2023",
+      "start": "2022-08-29",
+      "end": "2023-09-03",
+      "metric": "net_sales",
+      "unit": "USD",
+      "label": "Net sales",
+      "status": "Single source",
+      "value": "237710000000",
+      "observations": {
+        "PDF": [
+          {
+            "value": "237710000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Net sales",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=42",
+              "title": "FY2024 PDF p. 42 · Net sales"
+            },
+            "issue": ""
+          },
+          {
+            "value": "237710000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Net sales",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=41",
+              "title": "FY2025 PDF p. 41 · Net sales"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2023",
+      "start": "2022-08-29",
+      "end": "2023-09-03",
+      "metric": "membership_fees",
+      "unit": "USD",
+      "label": "Membership fees",
+      "status": "Single source",
+      "value": "4580000000",
+      "observations": {
+        "PDF": [
+          {
+            "value": "4580000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Membership fees",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=42",
+              "title": "FY2024 PDF p. 42 · Membership fees"
+            },
+            "issue": ""
+          },
+          {
+            "value": "4580000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Membership fees",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=41",
+              "title": "FY2025 PDF p. 41 · Membership fees"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2023",
+      "start": "2022-08-29",
+      "end": "2023-09-03",
+      "metric": "merchandise_costs",
+      "unit": "USD",
+      "label": "Merchandise costs",
+      "status": "Matched",
+      "value": "212586000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "212586000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:CostOfGoodsAndServicesSold",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:CostOfGoodsAndServicesSold"
+            },
+            "issue": ""
+          },
+          {
+            "value": "212586000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:CostOfGoodsAndServicesSold",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:CostOfGoodsAndServicesSold"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "212586000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Merchandise costs",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=42",
+              "title": "FY2024 PDF p. 42 · Merchandise costs"
+            },
+            "issue": ""
+          },
+          {
+            "value": "212586000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Merchandise costs",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=41",
+              "title": "FY2025 PDF p. 41 · Merchandise costs"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2023",
+      "start": "2022-08-29",
+      "end": "2023-09-03",
+      "metric": "operating_profit",
+      "unit": "USD",
+      "label": "Operating income",
+      "status": "Matched",
+      "value": "8114000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "8114000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:OperatingIncomeLoss",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:OperatingIncomeLoss"
+            },
+            "issue": ""
+          },
+          {
+            "value": "8114000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:OperatingIncomeLoss",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:OperatingIncomeLoss"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "8114000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Operating income",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=42",
+              "title": "FY2024 PDF p. 42 · Operating income"
+            },
+            "issue": ""
+          },
+          {
+            "value": "8114000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Operating income",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=41",
+              "title": "FY2025 PDF p. 41 · Operating income"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2023",
+      "start": "2022-08-29",
+      "end": "2023-09-03",
+      "metric": "net_profit",
+      "unit": "USD",
+      "label": "Consolidated net income",
+      "status": "Matched",
+      "value": "6292000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "6292000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:ProfitLoss",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:ProfitLoss"
+            },
+            "issue": ""
+          },
+          {
+            "value": "6292000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:ProfitLoss",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:ProfitLoss"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "6292000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Net income including noncontrolling interests",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=42",
+              "title": "FY2024 PDF p. 42 · Net income including noncontrolling interests"
+            },
+            "issue": ""
+          },
+          {
+            "value": "6292000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Net income",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=41",
+              "title": "FY2025 PDF p. 41 · Net income"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2023",
+      "start": "2022-08-29",
+      "end": "2023-09-03",
+      "metric": "operating_cash",
+      "unit": "USD",
+      "label": "Net cash provided by operating activities",
+      "status": "Matched",
+      "value": "11068000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "11068000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:NetCashProvidedByUsedInOperatingActivities"
+            },
+            "issue": ""
+          },
+          {
+            "value": "11068000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:NetCashProvidedByUsedInOperatingActivities"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "11068000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Net cash provided by operating activities",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=46",
+              "title": "FY2024 PDF p. 46 · Net cash provided by operating activities"
+            },
+            "issue": ""
+          },
+          {
+            "value": "11068000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Net cash provided by operating activities",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=45",
+              "title": "FY2025 PDF p. 45 · Net cash provided by operating activities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2023",
+      "start": "2022-08-29",
+      "end": "2023-09-03",
+      "metric": "capex",
+      "unit": "USD",
+      "label": "Cash additions to property and equipment",
+      "status": "Matched",
+      "value": "-4323000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "-4323000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+            },
+            "issue": ""
+          },
+          {
+            "value": "-4323000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "-4323000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Additions to property and equipment",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=46",
+              "title": "FY2024 PDF p. 46 · Additions to property and equipment"
+            },
+            "issue": ""
+          },
+          {
+            "value": "-4323000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Additions to property and equipment",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=45",
+              "title": "FY2025 PDF p. 45 · Additions to property and equipment"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2023",
+      "start": "2022-08-29",
+      "end": "2023-09-03",
+      "metric": "depreciation",
+      "unit": "USD",
+      "label": "Depreciation and amortization",
+      "status": "Matched",
+      "value": "2077000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "2077000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:DepreciationDepletionAndAmortization",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:DepreciationDepletionAndAmortization"
+            },
+            "issue": ""
+          },
+          {
+            "value": "2077000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:DepreciationDepletionAndAmortization",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:DepreciationDepletionAndAmortization"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "2077000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Depreciation and amortization",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=46",
+              "title": "FY2024 PDF p. 46 · Depreciation and amortization"
+            },
+            "issue": ""
+          },
+          {
+            "value": "2077000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Depreciation and amortization",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=45",
+              "title": "FY2025 PDF p. 45 · Depreciation and amortization"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2023",
+      "start": null,
+      "end": "2023-09-03",
+      "metric": "cash",
+      "unit": "USD",
+      "label": "Cash and cash equivalents",
+      "status": "Matched",
+      "value": "13700000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "13700000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:CashAndCashEquivalentsAtCarryingValue"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "13700000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Cash and cash equivalents",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=44",
+              "title": "FY2024 PDF p. 44 · Cash and cash equivalents"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2023",
+      "start": null,
+      "end": "2023-09-03",
+      "metric": "current_assets",
+      "unit": "USD",
+      "label": "Current assets",
+      "status": "Matched",
+      "value": "35879000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "35879000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:AssetsCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:AssetsCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "35879000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Total current assets",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=44",
+              "title": "FY2024 PDF p. 44 · Total current assets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2023",
+      "start": null,
+      "end": "2023-09-03",
+      "metric": "assets",
+      "unit": "USD",
+      "label": "Total assets",
+      "status": "Matched",
+      "value": "68994000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "68994000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:Assets",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:Assets"
+            },
+            "issue": ""
+          },
+          {
+            "value": "68994000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:Assets",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:Assets"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "68994000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "TOTAL ASSETS",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=44",
+              "title": "FY2024 PDF p. 44 · TOTAL ASSETS"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2023",
+      "start": null,
+      "end": "2023-09-03",
+      "metric": "current_liabilities",
+      "unit": "USD",
+      "label": "Current liabilities",
+      "status": "Matched",
+      "value": "33583000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "33583000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:LiabilitiesCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:LiabilitiesCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "33583000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Total current liabilities",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=44",
+              "title": "FY2024 PDF p. 44 · Total current liabilities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2023",
+      "start": null,
+      "end": "2023-09-03",
+      "metric": "liabilities",
+      "unit": "USD",
+      "label": "Total liabilities",
+      "status": "Matched",
+      "value": "43936000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "43936000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:Liabilities",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:Liabilities"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "43936000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "TOTAL LIABILITIES",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=44",
+              "title": "FY2024 PDF p. 44 · TOTAL LIABILITIES"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2023",
+      "start": null,
+      "end": "2023-09-03",
+      "metric": "equity",
+      "unit": "USD",
+      "label": "Total equity",
+      "status": "Matched",
+      "value": "25058000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "25058000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"
+            },
+            "issue": ""
+          },
+          {
+            "value": "25058000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "25058000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "TOTAL EQUITY",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=44",
+              "title": "FY2024 PDF p. 44 · TOTAL EQUITY"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2023",
+      "start": null,
+      "end": "2023-09-03",
+      "metric": "short_term_debt",
+      "unit": "USD",
+      "label": "Short-term bank borrowings",
+      "status": "Missing",
+      "value": null,
+      "observations": {
+        "XBRL": [],
+        "PDF": []
+      },
+      "issues": [
+        "XBRL has no matching figure.",
+        "PDF has no matching figure.",
+        "Note 4 describes the balance as immaterial without quantifying it."
+      ]
+    },
+    {
+      "year": "2023",
+      "start": null,
+      "end": "2023-09-03",
+      "metric": "current_long_term_debt",
+      "unit": "USD",
+      "label": "Current maturities of long-term debt",
+      "status": "Matched",
+      "value": "1081000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "1081000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:LongTermDebtCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:LongTermDebtCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "1081000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Less current portion(1)",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=57",
+              "title": "FY2024 PDF p. 57 · Less current portion(1)"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2023",
+      "start": null,
+      "end": "2023-09-03",
+      "metric": "long_debt",
+      "unit": "USD",
+      "label": "Long-term debt excluding current maturities",
+      "status": "Matched",
+      "value": "5377000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "5377000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:LongTermDebtNoncurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:LongTermDebtNoncurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "5377000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Long-term debt, excluding current portion",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=44",
+              "title": "FY2024 PDF p. 44 · Long-term debt, excluding current portion"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2023",
+      "start": null,
+      "end": "2023-09-03",
+      "metric": "current_operating_lease",
+      "unit": "USD",
+      "label": "Current operating lease liabilities",
+      "status": "Missing",
+      "value": null,
+      "observations": {
+        "XBRL": [],
+        "PDF": [
+          {
+            "value": "220000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Operating lease liabilities(2)",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=57",
+              "title": "FY2024 PDF p. 57 · Operating lease liabilities(2)"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": [
+        "XBRL has no matching figure."
+      ]
+    },
+    {
+      "year": "2023",
+      "start": null,
+      "end": "2023-09-03",
+      "metric": "current_finance_lease",
+      "unit": "USD",
+      "label": "Current finance lease liabilities",
+      "status": "Missing",
+      "value": null,
+      "observations": {
+        "XBRL": [],
+        "PDF": [
+          {
+            "value": "129000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Finance lease liabilities(2)",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=57",
+              "title": "FY2024 PDF p. 57 · Finance lease liabilities(2)"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": [
+        "XBRL has no matching figure."
+      ]
+    },
+    {
+      "year": "2023",
+      "start": null,
+      "end": "2023-09-03",
+      "metric": "noncurrent_operating_lease",
+      "unit": "USD",
+      "label": "Noncurrent operating lease liabilities",
+      "status": "Matched",
+      "value": "2426000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "2426000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:OperatingLeaseLiabilityNoncurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:OperatingLeaseLiabilityNoncurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "2426000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Operating lease liabilities",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=57",
+              "title": "FY2024 PDF p. 57 · Operating lease liabilities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2023",
+      "start": null,
+      "end": "2023-09-03",
+      "metric": "noncurrent_finance_lease",
+      "unit": "USD",
+      "label": "Noncurrent finance lease liabilities",
+      "status": "Missing",
+      "value": null,
+      "observations": {
+        "XBRL": [],
+        "PDF": [
+          {
+            "value": "1303000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Finance lease liabilities(3)",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=57",
+              "title": "FY2024 PDF p. 57 · Finance lease liabilities(3)"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": [
+        "XBRL has no matching figure."
+      ]
+    },
+    {
+      "year": "2023",
+      "start": null,
+      "end": "2023-09-03",
+      "metric": "total_lease_liabilities",
+      "unit": "USD",
+      "label": "Total lease liabilities",
+      "status": "Single source",
+      "value": "4078000000",
+      "observations": {
+        "PDF": [
+          {
+            "value": "4078000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Total lease liabilities",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=57",
+              "title": "FY2024 PDF p. 57 · Total lease liabilities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": "2023-09-04",
+      "end": "2024-09-01",
+      "metric": "revenue",
+      "unit": "USD",
+      "label": "Total revenue",
+      "status": "Matched",
+      "value": "254453000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "254453000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+            },
+            "issue": ""
+          },
+          {
+            "value": "254453000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+            },
+            "issue": ""
+          },
+          {
+            "value": "254453000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:Revenues",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:Revenues"
+            },
+            "issue": ""
+          },
+          {
+            "value": "254453000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:Revenues",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:Revenues"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "254453000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Total revenue",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=42",
+              "title": "FY2024 PDF p. 42 · Total revenue"
+            },
+            "issue": ""
+          },
+          {
+            "value": "254453000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total revenue",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=41",
+              "title": "FY2025 PDF p. 41 · Total revenue"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": "2023-09-04",
+      "end": "2024-09-01",
+      "metric": "net_sales",
+      "unit": "USD",
+      "label": "Net sales",
+      "status": "Single source",
+      "value": "249625000000",
+      "observations": {
+        "PDF": [
+          {
+            "value": "249625000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Net sales",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=42",
+              "title": "FY2024 PDF p. 42 · Net sales"
+            },
+            "issue": ""
+          },
+          {
+            "value": "249625000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Net sales",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=41",
+              "title": "FY2025 PDF p. 41 · Net sales"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": "2023-09-04",
+      "end": "2024-09-01",
+      "metric": "membership_fees",
+      "unit": "USD",
+      "label": "Membership fees",
+      "status": "Single source",
+      "value": "4828000000",
+      "observations": {
+        "PDF": [
+          {
+            "value": "4828000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Membership fees",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=42",
+              "title": "FY2024 PDF p. 42 · Membership fees"
+            },
+            "issue": ""
+          },
+          {
+            "value": "4828000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Membership fees",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=41",
+              "title": "FY2025 PDF p. 41 · Membership fees"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": "2023-09-04",
+      "end": "2024-09-01",
+      "metric": "merchandise_costs",
+      "unit": "USD",
+      "label": "Merchandise costs",
+      "status": "Matched",
+      "value": "222358000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "222358000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:CostOfGoodsAndServicesSold",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:CostOfGoodsAndServicesSold"
+            },
+            "issue": ""
+          },
+          {
+            "value": "222358000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:CostOfGoodsAndServicesSold",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:CostOfGoodsAndServicesSold"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "222358000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Merchandise costs",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=42",
+              "title": "FY2024 PDF p. 42 · Merchandise costs"
+            },
+            "issue": ""
+          },
+          {
+            "value": "222358000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Merchandise costs",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=41",
+              "title": "FY2025 PDF p. 41 · Merchandise costs"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": "2023-09-04",
+      "end": "2024-09-01",
+      "metric": "operating_profit",
+      "unit": "USD",
+      "label": "Operating income",
+      "status": "Matched",
+      "value": "9285000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "9285000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:OperatingIncomeLoss",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:OperatingIncomeLoss"
+            },
+            "issue": ""
+          },
+          {
+            "value": "9285000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:OperatingIncomeLoss",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:OperatingIncomeLoss"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "9285000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Operating income",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=42",
+              "title": "FY2024 PDF p. 42 · Operating income"
+            },
+            "issue": ""
+          },
+          {
+            "value": "9285000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Operating income",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=41",
+              "title": "FY2025 PDF p. 41 · Operating income"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": "2023-09-04",
+      "end": "2024-09-01",
+      "metric": "net_profit",
+      "unit": "USD",
+      "label": "Consolidated net income",
+      "status": "Matched",
+      "value": "7367000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "7367000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:ProfitLoss",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:ProfitLoss"
+            },
+            "issue": ""
+          },
+          {
+            "value": "7367000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:ProfitLoss",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:ProfitLoss"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "7367000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Net income including noncontrolling interests",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=42",
+              "title": "FY2024 PDF p. 42 · Net income including noncontrolling interests"
+            },
+            "issue": ""
+          },
+          {
+            "value": "7367000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Net income",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=41",
+              "title": "FY2025 PDF p. 41 · Net income"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": "2023-09-04",
+      "end": "2024-09-01",
+      "metric": "operating_cash",
+      "unit": "USD",
+      "label": "Net cash provided by operating activities",
+      "status": "Matched",
+      "value": "11339000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "11339000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:NetCashProvidedByUsedInOperatingActivities"
+            },
+            "issue": ""
+          },
+          {
+            "value": "11339000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:NetCashProvidedByUsedInOperatingActivities"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "11339000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Net cash provided by operating activities",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=46",
+              "title": "FY2024 PDF p. 46 · Net cash provided by operating activities"
+            },
+            "issue": ""
+          },
+          {
+            "value": "11339000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Net cash provided by operating activities",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=45",
+              "title": "FY2025 PDF p. 45 · Net cash provided by operating activities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": "2023-09-04",
+      "end": "2024-09-01",
+      "metric": "capex",
+      "unit": "USD",
+      "label": "Cash additions to property and equipment",
+      "status": "Matched",
+      "value": "-4710000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "-4710000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+            },
+            "issue": ""
+          },
+          {
+            "value": "-4710000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "-4710000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Additions to property and equipment",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=46",
+              "title": "FY2024 PDF p. 46 · Additions to property and equipment"
+            },
+            "issue": ""
+          },
+          {
+            "value": "-4710000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Additions to property and equipment",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=45",
+              "title": "FY2025 PDF p. 45 · Additions to property and equipment"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": "2023-09-04",
+      "end": "2024-09-01",
+      "metric": "depreciation",
+      "unit": "USD",
+      "label": "Depreciation and amortization",
+      "status": "Matched",
+      "value": "2237000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "2237000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:DepreciationDepletionAndAmortization",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:DepreciationDepletionAndAmortization"
+            },
+            "issue": ""
+          },
+          {
+            "value": "2237000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:DepreciationDepletionAndAmortization",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:DepreciationDepletionAndAmortization"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "2237000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Depreciation and amortization",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=46",
+              "title": "FY2024 PDF p. 46 · Depreciation and amortization"
+            },
+            "issue": ""
+          },
+          {
+            "value": "2237000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Depreciation and amortization",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=45",
+              "title": "FY2025 PDF p. 45 · Depreciation and amortization"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-09-01",
+      "metric": "cash",
+      "unit": "USD",
+      "label": "Cash and cash equivalents",
+      "status": "Matched",
+      "value": "9906000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "9906000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:CashAndCashEquivalentsAtCarryingValue"
+            },
+            "issue": ""
+          },
+          {
+            "value": "9906000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:CashAndCashEquivalentsAtCarryingValue"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "9906000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Cash and cash equivalents",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=44",
+              "title": "FY2024 PDF p. 44 · Cash and cash equivalents"
+            },
+            "issue": ""
+          },
+          {
+            "value": "9906000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Cash and cash equivalents",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=43",
+              "title": "FY2025 PDF p. 43 · Cash and cash equivalents"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-09-01",
+      "metric": "current_assets",
+      "unit": "USD",
+      "label": "Current assets",
+      "status": "Matched",
+      "value": "34246000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "34246000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:AssetsCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:AssetsCurrent"
+            },
+            "issue": ""
+          },
+          {
+            "value": "34246000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:AssetsCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:AssetsCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "34246000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Total current assets",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=44",
+              "title": "FY2024 PDF p. 44 · Total current assets"
+            },
+            "issue": ""
+          },
+          {
+            "value": "34246000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total current assets",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=43",
+              "title": "FY2025 PDF p. 43 · Total current assets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-09-01",
+      "metric": "assets",
+      "unit": "USD",
+      "label": "Total assets",
+      "status": "Matched",
+      "value": "69831000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "69831000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:Assets",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:Assets"
+            },
+            "issue": ""
+          },
+          {
+            "value": "69831000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:Assets",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:Assets"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "69831000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "TOTAL ASSETS",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=44",
+              "title": "FY2024 PDF p. 44 · TOTAL ASSETS"
+            },
+            "issue": ""
+          },
+          {
+            "value": "69831000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "TOTAL ASSETS",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=43",
+              "title": "FY2025 PDF p. 43 · TOTAL ASSETS"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-09-01",
+      "metric": "current_liabilities",
+      "unit": "USD",
+      "label": "Current liabilities",
+      "status": "Matched",
+      "value": "35464000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "35464000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:LiabilitiesCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:LiabilitiesCurrent"
+            },
+            "issue": ""
+          },
+          {
+            "value": "35464000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:LiabilitiesCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:LiabilitiesCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "35464000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Total current liabilities",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=44",
+              "title": "FY2024 PDF p. 44 · Total current liabilities"
+            },
+            "issue": ""
+          },
+          {
+            "value": "35464000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total current liabilities",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=43",
+              "title": "FY2025 PDF p. 43 · Total current liabilities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-09-01",
+      "metric": "liabilities",
+      "unit": "USD",
+      "label": "Total liabilities",
+      "status": "Matched",
+      "value": "46209000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "46209000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:Liabilities",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:Liabilities"
+            },
+            "issue": ""
+          },
+          {
+            "value": "46209000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:Liabilities",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:Liabilities"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "46209000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "TOTAL LIABILITIES",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=44",
+              "title": "FY2024 PDF p. 44 · TOTAL LIABILITIES"
+            },
+            "issue": ""
+          },
+          {
+            "value": "46209000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "TOTAL LIABILITIES",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=43",
+              "title": "FY2025 PDF p. 43 · TOTAL LIABILITIES"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-09-01",
+      "metric": "equity",
+      "unit": "USD",
+      "label": "Total equity",
+      "status": "Matched",
+      "value": "23622000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "23622000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"
+            },
+            "issue": ""
+          },
+          {
+            "value": "23622000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "23622000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "TOTAL EQUITY",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=44",
+              "title": "FY2024 PDF p. 44 · TOTAL EQUITY"
+            },
+            "issue": ""
+          },
+          {
+            "value": "23622000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "TOTAL EQUITY",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=43",
+              "title": "FY2025 PDF p. 43 · TOTAL EQUITY"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-09-01",
+      "metric": "short_term_debt",
+      "unit": "USD",
+      "label": "Short-term bank borrowings",
+      "status": "Missing",
+      "value": null,
+      "observations": {
+        "XBRL": [],
+        "PDF": []
+      },
+      "issues": [
+        "XBRL has no matching figure.",
+        "PDF has no matching figure.",
+        "Note 4 describes the balance as immaterial without quantifying it."
+      ]
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-09-01",
+      "metric": "current_long_term_debt",
+      "unit": "USD",
+      "label": "Current maturities of long-term debt",
+      "status": "Matched",
+      "value": "103000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "103000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:LongTermDebtCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:LongTermDebtCurrent"
+            },
+            "issue": ""
+          },
+          {
+            "value": "103000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:LongTermDebtCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:LongTermDebtCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "103000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Less current portion(1)",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=57",
+              "title": "FY2024 PDF p. 57 · Less current portion(1)"
+            },
+            "issue": ""
+          },
+          {
+            "value": "103000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Less current portion(1)",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=56",
+              "title": "FY2025 PDF p. 56 · Less current portion(1)"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-09-01",
+      "metric": "long_debt",
+      "unit": "USD",
+      "label": "Long-term debt excluding current maturities",
+      "status": "Matched",
+      "value": "5794000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "5794000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:LongTermDebtNoncurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:LongTermDebtNoncurrent"
+            },
+            "issue": ""
+          },
+          {
+            "value": "5794000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:LongTermDebtNoncurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:LongTermDebtNoncurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "5794000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Long-term debt, excluding current portion",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=44",
+              "title": "FY2024 PDF p. 44 · Long-term debt, excluding current portion"
+            },
+            "issue": ""
+          },
+          {
+            "value": "5794000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Long-term debt, excluding current portion",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=43",
+              "title": "FY2025 PDF p. 43 · Long-term debt, excluding current portion"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-09-01",
+      "metric": "current_operating_lease",
+      "unit": "USD",
+      "label": "Current operating lease liabilities",
+      "status": "Matched",
+      "value": "179000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "179000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:OperatingLeaseLiabilityCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:OperatingLeaseLiabilityCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "179000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Operating lease liabilities(2)",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=57",
+              "title": "FY2024 PDF p. 57 · Operating lease liabilities(2)"
+            },
+            "issue": ""
+          },
+          {
+            "value": "179000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Operating lease liabilities(2)",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=56",
+              "title": "FY2025 PDF p. 56 · Operating lease liabilities(2)"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-09-01",
+      "metric": "current_finance_lease",
+      "unit": "USD",
+      "label": "Current finance lease liabilities",
+      "status": "Matched",
+      "value": "147000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "147000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:FinanceLeaseLiabilityCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:FinanceLeaseLiabilityCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "147000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Finance lease liabilities(2)",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=57",
+              "title": "FY2024 PDF p. 57 · Finance lease liabilities(2)"
+            },
+            "issue": ""
+          },
+          {
+            "value": "147000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Finance lease liabilities(2)",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=56",
+              "title": "FY2025 PDF p. 56 · Finance lease liabilities(2)"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-09-01",
+      "metric": "noncurrent_operating_lease",
+      "unit": "USD",
+      "label": "Noncurrent operating lease liabilities",
+      "status": "Matched",
+      "value": "2375000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "2375000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "us-gaap:OperatingLeaseLiabilityNoncurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983224000049/cost-20240901.htm",
+              "title": "FY2024 10-K · us-gaap:OperatingLeaseLiabilityNoncurrent"
+            },
+            "issue": ""
+          },
+          {
+            "value": "2375000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:OperatingLeaseLiabilityNoncurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:OperatingLeaseLiabilityNoncurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "2375000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Operating lease liabilities",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=57",
+              "title": "FY2024 PDF p. 57 · Operating lease liabilities"
+            },
+            "issue": ""
+          },
+          {
+            "value": "2375000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Operating lease liabilities",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=56",
+              "title": "FY2025 PDF p. 56 · Operating lease liabilities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-09-01",
+      "metric": "noncurrent_finance_lease",
+      "unit": "USD",
+      "label": "Noncurrent finance lease liabilities",
+      "status": "Matched",
+      "value": "1351000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "1351000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:FinanceLeaseLiabilityNoncurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:FinanceLeaseLiabilityNoncurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "1351000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Finance lease liabilities(3)",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=57",
+              "title": "FY2024 PDF p. 57 · Finance lease liabilities(3)"
+            },
+            "issue": ""
+          },
+          {
+            "value": "1351000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Finance lease liabilities(3)",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=56",
+              "title": "FY2025 PDF p. 56 · Finance lease liabilities(3)"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": null,
+      "end": "2024-09-01",
+      "metric": "total_lease_liabilities",
+      "unit": "USD",
+      "label": "Total lease liabilities",
+      "status": "Single source",
+      "value": "4052000000",
+      "observations": {
+        "PDF": [
+          {
+            "value": "4052000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Total lease liabilities",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=57",
+              "title": "FY2024 PDF p. 57 · Total lease liabilities"
+            },
+            "issue": ""
+          },
+          {
+            "value": "4052000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total lease liabilities",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=56",
+              "title": "FY2025 PDF p. 56 · Total lease liabilities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": "2024-09-02",
+      "end": "2025-08-31",
+      "metric": "revenue",
+      "unit": "USD",
+      "label": "Total revenue",
+      "status": "Matched",
+      "value": "275235000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "275235000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax"
+            },
+            "issue": ""
+          },
+          {
+            "value": "275235000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:Revenues",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:Revenues"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "275235000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total revenue",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=41",
+              "title": "FY2025 PDF p. 41 · Total revenue"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": "2024-09-02",
+      "end": "2025-08-31",
+      "metric": "net_sales",
+      "unit": "USD",
+      "label": "Net sales",
+      "status": "Single source",
+      "value": "269912000000",
+      "observations": {
+        "PDF": [
+          {
+            "value": "269912000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Net sales",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=41",
+              "title": "FY2025 PDF p. 41 · Net sales"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": "2024-09-02",
+      "end": "2025-08-31",
+      "metric": "membership_fees",
+      "unit": "USD",
+      "label": "Membership fees",
+      "status": "Single source",
+      "value": "5323000000",
+      "observations": {
+        "PDF": [
+          {
+            "value": "5323000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Membership fees",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=41",
+              "title": "FY2025 PDF p. 41 · Membership fees"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": "2024-09-02",
+      "end": "2025-08-31",
+      "metric": "merchandise_costs",
+      "unit": "USD",
+      "label": "Merchandise costs",
+      "status": "Matched",
+      "value": "239886000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "239886000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:CostOfGoodsAndServicesSold",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:CostOfGoodsAndServicesSold"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "239886000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Merchandise costs",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=41",
+              "title": "FY2025 PDF p. 41 · Merchandise costs"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": "2024-09-02",
+      "end": "2025-08-31",
+      "metric": "operating_profit",
+      "unit": "USD",
+      "label": "Operating income",
+      "status": "Matched",
+      "value": "10383000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "10383000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:OperatingIncomeLoss",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:OperatingIncomeLoss"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "10383000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Operating income",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=41",
+              "title": "FY2025 PDF p. 41 · Operating income"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": "2024-09-02",
+      "end": "2025-08-31",
+      "metric": "net_profit",
+      "unit": "USD",
+      "label": "Consolidated net income",
+      "status": "Matched",
+      "value": "8099000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "8099000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:ProfitLoss",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:ProfitLoss"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "8099000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Net income",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=41",
+              "title": "FY2025 PDF p. 41 · Net income"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": "2024-09-02",
+      "end": "2025-08-31",
+      "metric": "operating_cash",
+      "unit": "USD",
+      "label": "Net cash provided by operating activities",
+      "status": "Matched",
+      "value": "13335000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "13335000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:NetCashProvidedByUsedInOperatingActivities"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "13335000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Net cash provided by operating activities",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=45",
+              "title": "FY2025 PDF p. 45 · Net cash provided by operating activities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": "2024-09-02",
+      "end": "2025-08-31",
+      "metric": "capex",
+      "unit": "USD",
+      "label": "Cash additions to property and equipment",
+      "status": "Matched",
+      "value": "-5498000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "-5498000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "-5498000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Additions to property and equipment",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=45",
+              "title": "FY2025 PDF p. 45 · Additions to property and equipment"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": "2024-09-02",
+      "end": "2025-08-31",
+      "metric": "depreciation",
+      "unit": "USD",
+      "label": "Depreciation and amortization",
+      "status": "Matched",
+      "value": "2426000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "2426000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:DepreciationDepletionAndAmortization",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:DepreciationDepletionAndAmortization"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "2426000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Depreciation and amortization",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=45",
+              "title": "FY2025 PDF p. 45 · Depreciation and amortization"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-08-31",
+      "metric": "cash",
+      "unit": "USD",
+      "label": "Cash and cash equivalents",
+      "status": "Matched",
+      "value": "14161000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "14161000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:CashAndCashEquivalentsAtCarryingValue",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:CashAndCashEquivalentsAtCarryingValue"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "14161000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Cash and cash equivalents",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=43",
+              "title": "FY2025 PDF p. 43 · Cash and cash equivalents"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-08-31",
+      "metric": "current_assets",
+      "unit": "USD",
+      "label": "Current assets",
+      "status": "Matched",
+      "value": "38380000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "38380000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:AssetsCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:AssetsCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "38380000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total current assets",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=43",
+              "title": "FY2025 PDF p. 43 · Total current assets"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-08-31",
+      "metric": "assets",
+      "unit": "USD",
+      "label": "Total assets",
+      "status": "Matched",
+      "value": "77099000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "77099000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:Assets",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:Assets"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "77099000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "TOTAL ASSETS",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=43",
+              "title": "FY2025 PDF p. 43 · TOTAL ASSETS"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-08-31",
+      "metric": "current_liabilities",
+      "unit": "USD",
+      "label": "Current liabilities",
+      "status": "Matched",
+      "value": "37108000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "37108000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:LiabilitiesCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:LiabilitiesCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "37108000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total current liabilities",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=43",
+              "title": "FY2025 PDF p. 43 · Total current liabilities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-08-31",
+      "metric": "liabilities",
+      "unit": "USD",
+      "label": "Total liabilities",
+      "status": "Matched",
+      "value": "47935000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "47935000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:Liabilities",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:Liabilities"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "47935000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "TOTAL LIABILITIES",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=43",
+              "title": "FY2025 PDF p. 43 · TOTAL LIABILITIES"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-08-31",
+      "metric": "equity",
+      "unit": "USD",
+      "label": "Total equity",
+      "status": "Matched",
+      "value": "29164000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "29164000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "29164000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "TOTAL EQUITY",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=43",
+              "title": "FY2025 PDF p. 43 · TOTAL EQUITY"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-08-31",
+      "metric": "short_term_debt",
+      "unit": "USD",
+      "label": "Short-term bank borrowings",
+      "status": "Missing",
+      "value": null,
+      "observations": {
+        "XBRL": [],
+        "PDF": []
+      },
+      "issues": [
+        "XBRL has no matching figure.",
+        "PDF has no matching figure.",
+        "Note 4 describes the balance as immaterial without quantifying it."
+      ]
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-08-31",
+      "metric": "current_long_term_debt",
+      "unit": "USD",
+      "label": "Current maturities of long-term debt",
+      "status": "Matched",
+      "value": "75000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "75000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:LongTermDebtCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:LongTermDebtCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "75000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Less current portion(1)",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=56",
+              "title": "FY2025 PDF p. 56 · Less current portion(1)"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-08-31",
+      "metric": "long_debt",
+      "unit": "USD",
+      "label": "Long-term debt excluding current maturities",
+      "status": "Matched",
+      "value": "5713000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "5713000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:LongTermDebtNoncurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:LongTermDebtNoncurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "5713000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Long-term debt, excluding current portion",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=43",
+              "title": "FY2025 PDF p. 43 · Long-term debt, excluding current portion"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-08-31",
+      "metric": "current_operating_lease",
+      "unit": "USD",
+      "label": "Current operating lease liabilities",
+      "status": "Matched",
+      "value": "208000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "208000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:OperatingLeaseLiabilityCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:OperatingLeaseLiabilityCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "208000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Operating lease liabilities(2)",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=56",
+              "title": "FY2025 PDF p. 56 · Operating lease liabilities(2)"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-08-31",
+      "metric": "current_finance_lease",
+      "unit": "USD",
+      "label": "Current finance lease liabilities",
+      "status": "Matched",
+      "value": "78000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "78000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:FinanceLeaseLiabilityCurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:FinanceLeaseLiabilityCurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "78000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Finance lease liabilities(2)",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=56",
+              "title": "FY2025 PDF p. 56 · Finance lease liabilities(2)"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-08-31",
+      "metric": "noncurrent_operating_lease",
+      "unit": "USD",
+      "label": "Noncurrent operating lease liabilities",
+      "status": "Matched",
+      "value": "2460000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "2460000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:OperatingLeaseLiabilityNoncurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:OperatingLeaseLiabilityNoncurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "2460000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Operating lease liabilities",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=56",
+              "title": "FY2025 PDF p. 56 · Operating lease liabilities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-08-31",
+      "metric": "noncurrent_finance_lease",
+      "unit": "USD",
+      "label": "Noncurrent finance lease liabilities",
+      "status": "Matched",
+      "value": "1401000000",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "1401000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:FinanceLeaseLiabilityNoncurrent",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "FY2025 10-K · us-gaap:FinanceLeaseLiabilityNoncurrent"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "1401000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Finance lease liabilities(3)",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=56",
+              "title": "FY2025 PDF p. 56 · Finance lease liabilities(3)"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": null,
+      "end": "2025-08-31",
+      "metric": "total_lease_liabilities",
+      "unit": "USD",
+      "label": "Total lease liabilities",
+      "status": "Single source",
+      "value": "4147000000",
+      "observations": {
+        "PDF": [
+          {
+            "value": "4147000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Total lease liabilities",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=56",
+              "title": "FY2025 PDF p. 56 · Total lease liabilities"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-09-30",
+      "metric": "shares_outstanding",
+      "unit": "shares",
+      "label": "Common shares outstanding",
+      "value": "443179176",
+      "status": "Matched",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "443179176",
+            "source": {
+              "filing_year": 2025,
+              "locator": "dei:EntityCommonStockSharesOutstanding",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "Costco FY2025 Form 10-K · cover share count at 2025-09-30"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "443179176",
+            "source": {
+              "filing_year": 2025,
+              "locator": "PDF page 8 · Form 10-K cover · shares at 2025-09-30",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=8",
+              "title": "Form 10-K cover · shares at 2025-09-30"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-08-31",
+      "metric": "noncontrolling",
+      "unit": "USD",
+      "label": "Non-controlling interest in equity",
+      "value": "0",
+      "status": "Single source",
+      "observations": {
+        "PDF": [
+          {
+            "value": "0",
+            "source": {
+              "filing_year": 2025,
+              "locator": "PDF page 44 · Statement of equity · ending non-controlling interest",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=44",
+              "title": "Statement of equity · ending non-controlling interest"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-08-31",
+      "metric": "investments",
+      "unit": "USD",
+      "label": "Short-term debt securities and certificates of deposit",
+      "value": "1123000000",
+      "status": "Matched",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "1123000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:ShortTermInvestments",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "Costco FY2025 Form 10-K · short-term investments"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF": [
+          {
+            "value": "1123000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "PDF page 43 · Balance sheet · short-term investments",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=43",
+              "title": "Balance sheet · short-term investments"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-08-31",
+      "metric": "operatingLeaseDebt",
+      "unit": "USD",
+      "label": "Operating lease liabilities excluded from modeled debt",
+      "value": "2668000000",
+      "status": "Matched",
+      "observations": {
+        "XBRL": [
+          {
+            "value": "2668000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "us-gaap:OperatingLeaseLiability",
+              "url": "https://www.sec.gov/Archives/edgar/data/909832/000090983225000101/cost-20250831.htm",
+              "title": "Costco FY2025 Form 10-K · total operating lease liabilities"
+            },
+            "issue": ""
+          }
+        ],
+        "PDF calculation": [
+          {
+            "value": "2668000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "PDF page 56 · Note 5 · current and noncurrent operating lease liabilities added",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=56",
+              "title": "Note 5 · current and noncurrent operating lease liabilities added"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": 2025,
+      "start": null,
+      "end": "2025-10-09",
+      "metric": "market_price",
+      "unit": "USD/share",
+      "label": "COST unadjusted regular-session closing price",
+      "value": "942.89",
+      "status": "Matched",
+      "observations": {
+        "Market quote": [
+          {
+            "value": "942.89",
+            "source": {
+              "filing_year": 2025,
+              "locator": "2025-10-09 close (USD)",
+              "url": "https://chartexchange.com/symbol/nasdaq-cost/historical/",
+              "title": "ChartExchange · COST historical close"
+            },
+            "issue": ""
+          }
+        ],
+        "Second market quote": [
+          {
+            "value": "942.89",
+            "source": {
+              "filing_year": 2025,
+              "locator": "2025-10-09 Close (USD)",
+              "url": "https://ca.finance.yahoo.com/quote/COST/history/",
+              "title": "Yahoo Finance · COST historical close"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "metric": "location_count",
+      "label": "Warehouses at year-end",
+      "start": null,
+      "end": "2023-09-03",
+      "unit": "locations",
+      "status": "Single source",
+      "value": "861",
+      "observations": {
+        "PDF": [
+          {
+            "value": "861",
+            "source": {
+              "filing_year": 2025,
+              "locator": "PDF page 10 \u00b7 Item 1 \u00b7 worldwide warehouse count",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=10",
+              "title": "FY2025 Annual Report \u00b7 Warehouse count"
+            }
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "metric": "net_location_openings",
+      "label": "Net warehouse openings",
+      "start": "2022-08-29",
+      "end": "2023-09-03",
+      "unit": "locations",
+      "status": "Single source",
+      "value": "23",
+      "observations": {
+        "Filing calculation": [
+          {
+            "value": "23",
+            "source": {
+              "filing_year": 2024,
+              "locator": "PDF page 30 \u00b7 FY2023 openings (26 less three relocations)",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=30",
+              "title": "FY2024 Annual Report \u00b7 FY2023 net warehouse openings"
+            }
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "metric": "location_count",
+      "label": "Warehouses at year-end",
+      "start": null,
+      "end": "2024-09-01",
+      "unit": "locations",
+      "status": "Single source",
+      "value": "890",
+      "observations": {
+        "PDF": [
+          {
+            "value": "890",
+            "source": {
+              "filing_year": 2025,
+              "locator": "PDF page 10 \u00b7 Item 1 \u00b7 worldwide warehouse count",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=10",
+              "title": "FY2025 Annual Report \u00b7 Warehouse count"
+            }
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "metric": "net_location_openings",
+      "label": "Net warehouse openings",
+      "start": "2023-09-04",
+      "end": "2024-09-01",
+      "unit": "locations",
+      "status": "Single source",
+      "value": "29",
+      "observations": {
+        "Filing calculation": [
+          {
+            "value": "29",
+            "source": {
+              "filing_year": 2024,
+              "locator": "PDF page 30 \u00b7 FY2024 openings (30 less one relocation)",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2024/ar/COST-2024-Annual-Report.pdf#page=30",
+              "title": "FY2024 Annual Report \u00b7 FY2024 net warehouse openings"
+            }
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "metric": "location_count",
+      "label": "Warehouses at year-end",
+      "start": null,
+      "end": "2025-08-31",
+      "unit": "locations",
+      "status": "Single source",
+      "value": "914",
+      "observations": {
+        "PDF": [
+          {
+            "value": "914",
+            "source": {
+              "filing_year": 2025,
+              "locator": "PDF page 10 \u00b7 Item 1 \u00b7 worldwide warehouse count",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=10",
+              "title": "FY2025 Annual Report \u00b7 Warehouse count"
+            }
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "metric": "net_location_openings",
+      "label": "Net warehouse openings",
+      "start": "2024-09-02",
+      "end": "2025-08-31",
+      "unit": "locations",
+      "status": "Single source",
+      "value": "24",
+      "observations": {
+        "PDF": [
+          {
+            "value": "24",
+            "source": {
+              "filing_year": 2025,
+              "locator": "PDF page 30 \u00b7 FY2025 net new warehouses",
+              "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=30",
+              "title": "FY2025 Annual Report \u00b7 FY2025 net warehouse openings"
+            }
+          }
+        ]
+      },
+      "issues": []
+    }
+  ],
+  "balance_checks": [
+    {
+      "year": "2023",
+      "difference": "0",
+      "status": "Pass",
+      "metrics": [
+        "assets",
+        "liabilities",
+        "equity"
+      ]
+    },
+    {
+      "year": "2024",
+      "difference": "0",
+      "status": "Pass",
+      "metrics": [
+        "assets",
+        "liabilities",
+        "equity"
+      ]
+    },
+    {
+      "year": "2025",
+      "difference": "0",
+      "status": "Pass",
+      "metrics": [
+        "assets",
+        "liabilities",
+        "equity"
+      ]
+    }
+  ],
+  "document_issues": [],
+  "needs_review": true,
+  "valuation": {
+    "model": "nonfinancial-fcff",
+    "fiscal_year": 2025,
+    "share_date": "2025-09-30",
+    "quote": {
+      "date": "2025-10-09",
+      "market": "Nasdaq listing, unadjusted regular-session close"
+    },
+    "revenue_components": [
+      "net_sales",
+      "membership_fees"
+    ],
+    "growth_margin_map": {
+      "revenue_component": "net_sales",
+      "horizons": [5, 10],
+      "growth_rates": [3, 5, 7, 9, 11, 13, 15, 17],
+      "margins": [3, 4, 5, 6, 8, 10, 12, 14, 16]
+    },
+    "location_growth": {
+      "location_label": "Warehouses",
+      "revenue_component": "net_sales",
+      "horizons": [
+        5,
+        10
+      ],
+      "growth_rates": [
+        7,
+        13
+      ],
+      "assumptions": {
+        "sameSiteGrowth": 4,
+        "ramp": [
+          50,
+          80,
+          100
+        ],
+        "openingCost": "100000000",
+        "otherCapex": "3098000000",
+        "capexInflation": 3,
+        "referenceMargin": 4.1
+      },
+      "assumption_note": "The 4% existing-site sales growth, 50%/80%/100% sales ramp, $100 million per net opening and 3% capex inflation are illustrative. Sales per mature warehouse is a proxy calibrated from reported consolidated net sales, which includes ancillary and e-commerce sales. Membership fees follow the Base schedule. The $3.098 billion of other cash capex is the FY2025 residual after 24 net openings at the assumed cost. It covers the existing estate, relocations and other projects in aggregate. The forecast uses this cash capex basis. FY2025 comparable sales grew about 6%. The FY2025 filing indicated up to 30 net FY2026 openings (35 gross less five relocations) and a $6.0\u2013$6.5 billion cash capex plan.",
+      "assumption_references": [
+        {
+          "filing_year": 2025,
+          "locator": "PDF page 31 \u00b7 Item 7 \u00b7 comparable sales and sales from new warehouses",
+          "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=31",
+          "title": "FY2025 Annual Report \u00b7 Sales growth drivers"
+        },
+        {
+          "filing_year": 2025,
+          "locator": "PDF page 34 \u00b7 Item 7 \u00b7 FY2025 cash capex and FY2026 plans",
+          "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=34",
+          "title": "FY2025 Annual Report \u00b7 Capital expenditure and opening plans"
+        }
+      ]
+    },
+    "scenarios": {
+      "Bear": {
+        "revenueGrowth": {
+          "net_sales": [
+            3.5,
+            3.5,
+            4,
+            3.5,
+            3.5
+          ],
+          "membership_fees": [
+            4.5,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        "volumeGrowth": [
+          2.8,
+          2.8,
+          3,
+          2.8,
+          2.8
+        ],
+        "variableCostGrowth": [
+          0.957376,
+          0.806059,
+          1.076133,
+          0.691409,
+          0.691458
+        ],
+        "fixedCostGrowth": 3.5,
+        "variableShare": 91,
+        "tax": 25.1,
+        "daShare": 0.9,
+        "capexShare": 2.15,
+        "workingCapital": 0,
+        "wacc": 9.25,
+        "terminalGrowth": 2.5,
+        "terminalRoic": 16
+      },
+      "Base": {
+        "revenueGrowth": {
+          "net_sales": [
+            6.5,
+            6,
+            5.5,
+            5.25,
+            5
+          ],
+          "membership_fees": [
+            7,
+            6.5,
+            6,
+            6,
+            5.5
+          ]
+        },
+        "volumeGrowth": [
+          4.5,
+          4.3,
+          4,
+          3.9,
+          3.8
+        ],
+        "variableCostGrowth": [
+          2.175861,
+          1.754128,
+          1.516925,
+          1.411548,
+          1.239074
+        ],
+        "fixedCostGrowth": 3.5,
+        "variableShare": 91,
+        "tax": 25.1,
+        "daShare": 0.9,
+        "capexShare": 2.2,
+        "workingCapital": -1,
+        "wacc": 8.25,
+        "terminalGrowth": 3,
+        "terminalRoic": 21
+      },
+      "Bull": {
+        "revenueGrowth": {
+          "net_sales": [
+            8,
+            7.5,
+            7,
+            6.5,
+            6
+          ],
+          "membership_fees": [
+            9,
+            9,
+            8,
+            8,
+            7
+          ]
+        },
+        "volumeGrowth": [
+          5.5,
+          5.2,
+          5,
+          4.7,
+          4.5
+        ],
+        "variableCostGrowth": [
+          2.557149,
+          2.299993,
+          1.955599,
+          1.789649,
+          1.449911
+        ],
+        "fixedCostGrowth": 4,
+        "variableShare": 91,
+        "tax": 25.1,
+        "daShare": 0.9,
+        "capexShare": 2.35,
+        "workingCapital": -2,
+        "wacc": 7.25,
+        "terminalGrowth": 3.5,
+        "terminalRoic": 25
+      }
+    },
+    "net_debt_bridge": {
+      "add": [
+        "current_long_term_debt",
+        "long_debt",
+        "current_finance_lease",
+        "noncurrent_finance_lease"
+      ],
+      "subtract": [
+        "cash"
+      ],
+      "unquantified": {
+        "metric": "short_term_debt",
+        "default": "100000000",
+        "alternatives": [
+          "0",
+          "1220000000"
+        ],
+        "reason": "Note 4 describes year-end bank borrowings as immaterial without giving a balance. The $100 million input is illustrative. The $1.22 billion stress equals the disclosed facility capacity. Each case changes debt only and keeps cash and the forecast fixed.",
+        "source": {
+          "filing_year": 2025,
+          "locator": "PDF page 55 · Note 4 · short-term bank borrowings and capacity",
+          "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=55",
+          "title": "Note 4 · short-term bank borrowings and capacity"
+        }
+      }
+    },
+    "assumption_note": "Historical valuation at the October 9, 2025 close using the FY2025 run rate and the September 30 share count. The forecast starts at the quote date. Merchandise sales and membership fees grow separately, then add to total revenue. The Base case assumes fee revenue grows 7% in Year 1 and tapers to 5.5%. Paid members grew from 76.2 to 81.0 million in FY2025. Costco attributes roughly 40% of FY2025 fee revenue growth to the September 2024 fee increase. Sales growth assumptions reflect a mix of warehouse expansion and comparable sales.\n\nAbout 91% of starting operating costs are modeled as variable, based on the share of merchandise costs in FY2025 operating costs. Volume represents merchandise activity for the cost forecast. The starting variable cost growth rates are calibrated to Year 5 margins of 3.4%, 4.1% and 4.65% in Bear, Base and Bull. Editing a driver changes those margins. Tax and D&A are anchored to FY2025. The Base case implies approximately $6.45 billion of Year 1 capital investment, near the upper end of the $6.0–$6.5 billion FY2026 cash capex plan. Forecast investment allows for finance-leased assets. The working capital assumptions reflect low net merchandise inventory and the variability of supplier financing.\n\nThe 7.25–9.25% discount rates are scenario assumptions, with an 8.25% Base case and a 4.14% 10-year Treasury benchmark on the quote date. Terminal growth of 2.5–3.5% and terminal returns on invested capital of 16–25% are long-run assumptions. The bridge treats cash at carrying value and adds short-term debt securities and deposits at carrying value because their interest income sits outside operating profit. Operating lease expense stays in operating costs. Finance lease liabilities are included in modeled debt.",
+    "assumption_references": [
+      {
+        "filing_year": 2025,
+        "locator": "PDF page 12 · Paid memberships",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=12",
+        "title": "Paid memberships"
+      },
+      {
+        "filing_year": 2025,
+        "locator": "PDF page 32 · Membership fee growth and merchandise margin",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=32",
+        "title": "Membership fee growth and merchandise margin"
+      },
+      {
+        "filing_year": 2025,
+        "locator": "PDF page 34 · Working capital and FY2026 capex plan",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=34",
+        "title": "Working capital and FY2026 capex plan"
+      },
+      {
+        "filing_year": 2025,
+        "locator": "PDF page 45 · Cash flow and D&A",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=45",
+        "title": "Cash flow and D&A"
+      },
+      {
+        "filing_year": 2025,
+        "locator": "PDF page 56 · Lease liabilities and accounting",
+        "url": "https://s201.q4cdn.com/287523651/files/doc_financials/2025/ar/COST-Annual-Report-2025.pdf#page=56",
+        "title": "Lease liabilities and accounting"
+      },
+      {
+        "filing_year": 2025,
+        "locator": "10/09/2025 · 10-year Treasury par yield",
+        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=202510&type=daily_treasury_yield_curve",
+        "title": "U.S. Treasury · October 2025 par yields"
+      }
+    ]
+  }
+}
