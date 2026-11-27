@@ -7,7 +7,7 @@ from pathlib import Path
 from analysis_input import decimal_string, read_input, source_from_json
 from build_report import annual_facts, calculate, render_edgar_report, render_report, write_report
 from build_valuation import render_valuation, valuation_data
-from import_filings import display_value, json_value
+from import_filings import display_value, json_value, render_reopened_evidence
 from mosaic_edgar import MosaicFacts, fetch_data
 from refresh_filings import compare_refresh, render_refresh
 
@@ -37,7 +37,7 @@ def audit_section(inputs, valuation_issue):
             issues.append(f'Accepted after review: {source.link("selected observation")} · {escape(decision["reason"])}')
         rows.append(f'<tr><th scope="row">{escape(record.get("label", metric))}</th><td>{dates}</td>'
                     f'<td>{escape(record["status"])}</td><td>{"<br>".join(evidence) or "—"}</td>'
-                    f'<td>{"<br>".join(issues)}</td></tr>')
+                    f'<td>{"<br>".join(issues)}{render_reopened_evidence(record)}</td></tr>')
 
     open_count = sum(figure is None for figure in inputs.accepted.values())
     issues = "".join(f"<li>{escape(issue)}</li>" for issue in inputs.payload.get("document_issues", []))

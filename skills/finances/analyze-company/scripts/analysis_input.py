@@ -66,6 +66,16 @@ def iso_date(value):
     return value
 
 
+def validate_comparison_scope(baseline, *, company, issuer, currency, periods):
+    common_ids = {"id", "cik", "ticker", "market"} & baseline.issuer.keys() & issuer.keys()
+    if (baseline.currency != currency or baseline.company != company
+            or any(baseline.issuer[field] != issuer[field] for field in common_ids)):
+        raise ValueError("Filing inputs must describe the same issuer and reporting currency")
+    for year in baseline.periods.keys() & periods.keys():
+        if baseline.periods[year] != periods[year]:
+            raise ValueError(f"Fiscal dates for FY{year} differ. Review the period mapping.")
+
+
 class AnalysisInput:
     def __init__(self, payload):
         if type(payload["schema_version"]) is not int or payload["schema_version"] != 1:
@@ -119,6 +129,8 @@ class AnalysisInput:
                     candidates.append((mode, value, source))
 
         status = record["status"]
+        if record.get("reopened_decision") is not None and (status not in UNRESOLVED or record.get("decision") is not None):
+            raise ValueError(f"Reopened decision must remain unresolved for {record['metric']}")
         if status in ACCEPTED:
             if record.get("decision") is not None or record["issues"]:
                 raise ValueError(f"Invalid accepted record for {record['metric']}")

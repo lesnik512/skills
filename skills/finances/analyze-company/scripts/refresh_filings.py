@@ -1,20 +1,16 @@
 from collections import Counter
 from html import escape
 
-from analysis_input import decimal_string, source_from_json
+from analysis_input import decimal_string, source_from_json, validate_comparison_scope
+from import_filings import render_reopened_evidence
 
 
 STATUSES = ("Changed", "Unresolved", "New", "Newly verified", "Confirmed", "Outside refresh")
 
 
 def compare_refresh(baseline, candidate):
-    if (baseline.currency != candidate.currency or baseline.company != candidate.company
-            or any(baseline.issuer[field] != candidate.issuer[field]
-                   for field in {"id", "cik", "ticker", "market"} & baseline.issuer.keys() & candidate.issuer.keys())):
-        raise ValueError("Refresh inputs must describe the same issuer and reporting currency")
-    for year in baseline.periods.keys() & candidate.periods.keys():
-        if baseline.periods[year] != candidate.periods[year]:
-            raise ValueError(f"Fiscal dates for FY{year} differ. Review the period mapping before comparing.")
+    validate_comparison_scope(baseline, company=candidate.company, issuer=candidate.issuer,
+                              currency=candidate.currency, periods=candidate.periods)
 
     rows = []
     for key in baseline.records.keys() | candidate.records.keys():
@@ -93,7 +89,7 @@ def evidence_cell(record, selected):
     if decision is not None:
         source = source_from_json(decision["source"])
         lines.append(f'<small>{source.link("Review decision")} · {escape(decision["reason"])}</small>')
-    return "".join(lines)
+    return "".join(lines) + render_reopened_evidence(record)
 
 
 def render_refresh(result):
