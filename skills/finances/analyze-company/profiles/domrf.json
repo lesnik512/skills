@@ -1,0 +1,60 @@
+{
+  "name": "DOM.RF",
+  "issuer": {
+    "id": "656",
+    "ticker": "DOMRF",
+    "market": "MOEX",
+    "accounting": "IFRS"
+  },
+  "currency": "RUB",
+  "source_note": "Parent-group summarized consolidated IFRS statements. The FY2024 net interest income comparative in the FY2025 filing reflects the reclassifications explained in Note 38.",
+  "periods": {
+    "2023": {"start": "2023-01-01", "end": "2023-12-31"},
+    "2024": {"start": "2024-01-01", "end": "2024-12-31"},
+    "2025": {"start": "2025-01-01", "end": "2025-12-31"}
+  },
+  "pdf_tables": {
+    "income": {
+      "heading": "Обобщенный консолидированный отчет о прибылях и убытках",
+      "header": "Прим.",
+      "year_suffix": "год",
+      "scale_label": "(в миллионах российских рублей)",
+      "scale": 1000000,
+      "grouping_mark": " ",
+      "note_column_start": 350,
+      "zero_tokens": ["-", "–", "—", "−"]
+    }
+  },
+  "metrics": {
+    "net_interest_income": {
+      "kind": "flow",
+      "label": "Net interest income",
+      "sources": ["PDF"],
+      "table": "income",
+      "pdf_labels": ["Чистые процентные доходы"]
+    },
+    "net_profit": {
+      "kind": "flow",
+      "label": "Net profit",
+      "sources": ["PDF"],
+      "table": "income",
+      "pdf_labels": ["Чистая прибыль"]
+    }
+  },
+  "filings": {
+    "2024": {
+      "pdf": {
+        "url": "https://rcsd.enforce.spb.ru/data/7729355614/2024.pdf",
+        "sha256": "2316f0e8ec4b211f23be2d14c4d3df43dca8725373efee118ee3e854a6ecc687",
+        "tables": {"income": {"page": 5, "years": ["2024", "2023"]}}
+      }
+    },
+    "2025": {
+      "pdf": {
+        "url": "https://rcsd.enforce.spb.ru/data/7729355614/2025.pdf",
+        "sha256": "b0aabace375f1bb40859b96d49c299297bcfde29253031bdc0409f1c920b20de",
+        "tables": {"income": {"page": 6, "years": ["2025", "2024"]}}
+      }
+    }
+  }
+}
