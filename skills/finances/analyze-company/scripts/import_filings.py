@@ -14,11 +14,13 @@ from urllib.parse import urlsplit
 from urllib.request import Request, urlopen
 from xml.etree import ElementTree
 
+from analysis_input import decimal_string, read_input, source_from_json, validate_comparison_scope
 from build_report import Source, write_report
 
 
 XBRL_INSTANCE = "{http://www.xbrl.org/2003/instance}"
 MODES = ("XBRL", "PDF")
+BALANCE_TOTALS = {"assets", "liabilities", "current_liabilities", "long_liabilities", "equity"}
 
 
 @dataclass(frozen=True)
@@ -288,7 +290,56 @@ def pdf_facts(profile, filing_year, content):
     return observations
 
 
-def review(profile, inputs, document_issues):
+def record_key(record):
+    return record["metric"], record["start"], record["end"]
+
+
+def reopen_decision(record, prior, reason):
+    history = prior.get("reopened_decision")
+    if history is None:
+        history = {"decision": prior["decision"], "observations": prior["observations"],
+                   "unit": prior["unit"], "reason": reason}
+    record.pop("decision", None)
+    record["reopened_decision"] = history
+    if record["value"] is not None:
+        record.update(status="Review", value=None)
+    record["issues"].append(history["reason"])
+
+
+def replay_decision(record, prior):
+    history = prior.get("reopened_decision")
+    if history is not None:
+        reopen_decision(record, prior, history["reason"])
+        return
+    decision = prior.get("decision")
+    if decision is None:
+        return
+    saved = {
+        mode: {Observation(None if item["value"] is None else decimal_string(item["value"]),
+                           source_from_json(item["source"]), item.get("issue", "")) for item in items}
+        for mode, items in prior["observations"].items()
+    }
+    current = {mode: set(items) for mode, items in record["observations"].items()}
+    if record["unit"] != prior["unit"] or saved != current:
+        reopen_decision(record, prior, "Filing evidence or units changed. Review the saved decision again.")
+        return
+    if record["value"] is not None:
+        record.update(status=prior["status"], value=None, issues=list(prior["issues"]))
+    record["decision"] = decision
+
+
+def reviewed_value(record):
+    decision = record.get("decision")
+    return decimal_value(decision["value"]) if decision is not None else record["value"]
+
+
+def review(profile, inputs, document_issues, *, replay_from=None):
+    prior_records = {}
+    if replay_from is not None:
+        issuer = profile.get("issuer", {})
+        validate_comparison_scope(replay_from, company=profile["name"], issuer=issuer,
+                                  currency=profile["currency"], periods=profile["periods"])
+        prior_records = replay_from.records
     records = []
     for year, period in sorted(profile["periods"].items()):
         for metric, rule in profile["metrics"].items():
@@ -310,35 +361,45 @@ def review(profile, inputs, document_issues):
                 issues.append("Source amounts disagree for the same metric and period.")
             status = ("Conflict" if len(observed) > 1 else "Missing" if missing else "Review" if unclear else
                       "Matched" if len(candidates) > 1 else "Single source")
-            records.append({
+            record = {
                 "year": year, "start": period_start(period, rule), "end": period["end"], "metric": metric,
                 "unit": rule.get("unit", profile["currency"]), "label": rule["label"], "status": status,
                 "value": next(iter(observed)) if not issues else None, "observations": candidates, "issues": issues,
-            })
+            }
+            prior = prior_records.get(record_key(record))
+            if prior is not None:
+                replay_decision(record, prior)
+            records.append(record)
     balance_checks = []
     for year in sorted(profile["periods"]):
         balances = {item["metric"]: item for item in records if item["year"] == year and item["start"] is None}
         liability_metrics = ["liabilities"] if "liabilities" in balances else ["current_liabilities", "long_liabilities"]
         equation = ["assets", *liability_metrics, "equity"]
-        if not all(metric in balances for metric in equation):
-            continue
-        parts = [balances[metric] for metric in equation]
-        assets, *claims = (item["value"] for item in parts)
-        difference = None if assets is None or None in claims else assets - sum(claims)
-        status = "Blocked" if difference is None else (
-            "Pass" if abs(difference) <= profile.get("balance_tolerance", 0) else "Failed")
-        balance_checks.append({"year": year, "difference": difference, "status": status,
-                               "metrics": equation})
-        if status == "Failed":
-            for item in parts:
-                item.update(status="Review", value=None)
-                item["issues"].append("Assets do not reconcile to liabilities plus equity.")
+        verified = set()
+        if all(metric in balances for metric in equation):
+            parts = [balances[metric] for metric in equation]
+            assets, *claims = map(reviewed_value, parts)
+            difference = None if assets is None or None in claims else assets - sum(claims)
+            status = "Blocked" if difference is None else (
+                "Pass" if abs(difference) <= profile.get("balance_tolerance", 0) else "Failed")
+            balance_checks.append({"year": year, "difference": difference, "status": status,
+                                   "metrics": equation})
+            if status == "Pass":
+                verified.update(equation)
+            elif status == "Failed":
+                for item in parts:
+                    item.update(status="Review", value=None)
+                    item["issues"].append("Assets do not reconcile to liabilities plus equity.")
+        for metric, item in balances.items():
+            if item.get("decision") is not None and metric in BALANCE_TOTALS - verified:
+                reopen_decision(item, prior_records[record_key(item)],
+                                "The balance sheet could not be reconciled with this decision. Review it again.")
     return {"schema_version": 1, "company": profile["name"], "scope": "Consolidated",
             "issuer": {**profile.get("issuer", {}), "currency": profile["currency"]},
             "periods": profile["periods"], "source_note": profile.get("source_note", ""),
             "records": records, "balance_checks": balance_checks,
             "document_issues": document_issues, "needs_review": bool(document_issues) or
-            any(item["value"] is None for item in records) or any(check["status"] != "Pass" for check in balance_checks)}
+            any(reviewed_value(item) is None for item in records) or any(check["status"] != "Pass" for check in balance_checks)}
 
 
 def display_value(value, unit):
@@ -346,6 +407,24 @@ def display_value(value, unit):
         return f"{value:,f} locations"
     label = f"{value / 1_000_000:,.6f}".rstrip("0").rstrip(".")
     return f"{label} million shares" if unit == "shares" else f"{label} {unit} m"
+
+
+def render_reopened_evidence(record):
+    history = record.get("reopened_decision")
+    if history is None:
+        return ""
+    links = []
+    for mode, observations in history["observations"].items():
+        for item in observations:
+            value = item["value"]
+            source = source_from_json(item["source"])
+            label = display_value(decimal_string(value), history["unit"]) if value is not None else "Open source"
+            links.append(f"<li>FY{source.filing_year} {escape(mode)} {source.link(label)}</li>")
+    decision = history["decision"]
+    source = source_from_json(decision["source"])
+    selected = source.link(display_value(decimal_string(decision["value"]), history["unit"]))
+    return ("<details><summary>Previously reviewed filing evidence</summary>"
+            f"<p>Previous selection {selected} · {escape(decision['reason'])}</p><ul>{''.join(links)}</ul></details>")
 
 
 def render_review(result):
@@ -357,14 +436,21 @@ def render_review(result):
         return "<br>".join(pieces) or "—"
 
     def row(item):
-        issues = "<br>".join(escape(issue) for issue in item["issues"])
-        review_class = ' class="review"' if item["value"] is None else ""
+        issues = list(map(escape, item["issues"]))
+        status = item["status"]
+        decision = item.get("decision")
+        if decision is not None and item["value"] is None:
+            status = "Accepted after review"
+            source = source_from_json(decision["source"])
+            selected = source.link(display_value(reviewed_value(item), item["unit"]))
+            issues = [f"{selected} · {escape(decision['reason'])}"]
+        review_class = ' class="review"' if reviewed_value(item) is None else ""
         return (f'<tr{review_class}><th scope="row">{escape(item["label"])}</th><td>{item["year"]}</td>'
                 f'<td>{cell(item, "XBRL")}</td><td>{cell(item, "PDF")}</td>'
-                f'<td>{item["status"]}{"<br>" + issues if issues else ""}</td></tr>')
+                f'<td>{status}{"<br>" + "<br>".join(issues) if issues else ""}{render_reopened_evidence(item)}</td></tr>')
 
     records = result["records"]
-    flagged = sum(item["value"] is None for item in records)
+    flagged = sum(reviewed_value(item) is None for item in records)
     name = escape(result["company"])
     checks = " · ".join(f'FY{check["year"]} {check["status"].lower()}' for check in result["balance_checks"])
     errors = "".join(f"<li>{escape(error)}</li>" for error in result["document_issues"])
@@ -390,7 +476,7 @@ thead {{ background: #e8f0ec }} .review {{ background: #fff2d8 }}
 <div class="scroll" role="region" aria-label="Figures and filing links" tabindex="0">
 <table><thead><tr><th scope="col">Metric</th><th scope="col">Fiscal year</th>
 <th scope="col">XBRL</th><th scope="col">PDF</th><th scope="col">Status</th></tr></thead>
-<tbody>{''.join(row(item) for item in sorted(records, key=lambda item: item["value"] is not None))}</tbody>
+<tbody>{''.join(row(item) for item in sorted(records, key=lambda item: reviewed_value(item) is not None))}</tbody>
 </table></div></main></body></html>
 """
 
@@ -453,6 +539,7 @@ def main():
                         help="Local XBRL instance XML for a configured filing")
     parser.add_argument("--pdf", action="append", type=filing_path, default=[], metavar="YEAR=PATH_OR_AUTO")
     parser.add_argument("--edgar-contact", metavar="EMAIL", help="Contact used in the live SEC request")
+    parser.add_argument("--replay-decisions", type=Path, metavar="PRIOR_JSON", help="Recheck saved decisions against fresh filing evidence")
     parser.add_argument("--output", type=Path, required=True, help="HTML review report")
     parser.add_argument("--json-output", type=Path, help="Machine-readable figures and review flags")
     args = parser.parse_args()
@@ -463,6 +550,8 @@ def main():
     input_paths = {args.profile.resolve(), *(Path(path).resolve() for _, path in args.instance + args.pdf if path != "auto")}
     if args.xbrl and args.xbrl != "auto":
         input_paths.add(Path(args.xbrl).resolve())
+    if args.replay_decisions:
+        input_paths.add(args.replay_decisions.resolve())
     outputs = [path.resolve() for path in (args.output, args.json_output) if path]
     if input_paths.intersection(outputs) or len(outputs) != len(set(outputs)):
         parser.error("Choose distinct output paths that do not overwrite an input")
@@ -500,7 +589,11 @@ def main():
             return pdf_facts(profile, year, data if data is not None else Path(path))
 
         collect("PDF", f"FY{year} PDF", load_pdf)
-    result = review(profile, inputs, issues)
+    try:
+        baseline = read_input(args.replay_decisions) if args.replay_decisions else None
+        result = review(profile, inputs, issues, replay_from=baseline)
+    except (OSError, ValueError, KeyError, TypeError, InvalidOperation) as error:
+        parser.exit(1, f"Filing review failed: {error}\n")
     write_report(args.output, render_review(result))
     if args.json_output:
         write_report(args.json_output, json.dumps(result, default=json_value, ensure_ascii=False, indent=2) + "\n")

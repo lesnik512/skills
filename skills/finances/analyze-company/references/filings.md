@@ -16,6 +16,14 @@ Pass `--xbrl auto --edgar-contact EMAIL` for the live SEC Company Facts endpoint
 
 Image-only PDFs and unrecognized table layouts go to review. Inspect the page and supply verifiable evidence with the correct page link and units before using those figures. A blank cell stays missing. A figure supplied in one configured format is marked **Single source**. If two supplied formats disagree, both candidates are retained. Exit code 2 means the files were written and some items require review. The exported JSON can go directly to [the analysis command](analysis-input.md).
 
+### Replay saved review decisions
+
+Add `--replay-decisions prior-input.json` to the import command. Use a [shared analysis input](analysis-input.md) with the saved decisions. Supply all filings that supported those decisions, including earlier versions. Use separate paths for the new HTML and JSON.
+
+A decision carries forward when the same metric, dates, unit and full set of source observations are reproduced. A changed, added or missing observation reopens the decision. The output keeps the fresh evidence and a separate record of the previous selection, its rationale and both filing links. A reopened decision stays open on subsequent imports until reviewed again. Decisions outside the mapped coverage stay in the saved input.
+
+The importer rechecks assets against liabilities plus equity using the selected amounts. When the equation fails or lacks a required total, decisions on those balance sheet totals reopen. Any other unresolved figures keep their review flags.
+
 ## Refresh an existing analysis
 
 Import the latest filing into a separate candidate JSON. Pin its accession, dates and PDF layout in the profile. Set `years` on a metric when the filing covers only a subset of the profile's fiscal years, for example two balance sheet dates alongside three income statement years. An omitted period is outside the refresh. Keep records for expected but unavailable amounts so the comparison flags them.

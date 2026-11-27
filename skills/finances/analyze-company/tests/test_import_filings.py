@@ -1,12 +1,17 @@
+import json
+import subprocess
+import sys
 import unittest
+from dataclasses import asdict, replace
 from decimal import Decimal
 from pathlib import Path
 from tempfile import TemporaryDirectory
 
 import pymupdf
 
+from analysis_input import AnalysisInput, read_input
 from build_report import Source
-from import_filings import Observation, company_facts, pdf_facts, review, xbrl_instance
+from import_filings import Observation, company_facts, json_value, pdf_facts, render_review, review, xbrl_instance
 
 
 def example_profile():
@@ -155,6 +160,117 @@ class FilingImportTests(unittest.TestCase):
         self.assertEqual(result["balance_checks"][0]["status"], "Failed")
         self.assertTrue(result["needs_review"])
         self.assertTrue(all(record["value"] is None and record["status"] == "Review" for record in result["records"]))
+
+
+def reviewed_input(profile, observations, metric):
+    snapshot = review(profile, {"PDF": observations}, [])
+    target = next(item for item in snapshot["records"] if item["year"] == "2025" and item["metric"] == metric)
+    selected = observations["2025", metric][-1]
+    target["decision"] = {"mode": "PDF", "value": str(selected.value), "source": asdict(selected.source),
+                          "reason": "The later filing explains the restatement."}
+    return AnalysisInput(json.loads(json.dumps(snapshot, default=json_value)))
+
+
+class DecisionReplayTests(unittest.TestCase):
+    def setUp(self):
+        self.filings = [
+            Observation(Decimal(value), Source(year, "row", f"https://example.com/{year}.pdf#page=2", f"FY{year} filing"))
+            for year, value in ((2025, 90), (2026, 100))
+        ]
+
+    def test_replay_requires_both_observations_and_keeps_reopened_decisions_open(self):
+        profile = example_profile()
+        key = "2025", "revenue"
+        baseline = reviewed_input(profile, {key: self.filings}, "revenue")
+        unchanged = review(profile, {"PDF": {key: self.filings[::-1]}}, [], replay_from=baseline)
+        target = unchanged["records"][0]
+        self.assertEqual(target["decision"]["value"], "100")
+        self.assertEqual(set(target["observations"]["PDF"]), set(self.filings))
+        self.assertIn("Accepted after review", render_review(unchanged))
+        for candidates in ([replace(self.filings[0], value=Decimal(100)), self.filings[1]],
+                           [self.filings[0], replace(self.filings[1], value=Decimal(101))],
+                           [self.filings[1]]):
+            with self.subTest(candidates=candidates):
+                report = review(profile, {"PDF": {key: candidates}}, [], replay_from=baseline)
+                target = report["records"][0]
+                self.assertIsNone(target["value"])
+                self.assertNotIn("decision", target)
+                self.assertIn("reopened_decision", target)
+                for observation in self.filings:
+                    self.assertIn(observation.source.url, render_review(report))
+                next_input = AnalysisInput(json.loads(json.dumps(report, default=json_value)))
+                self.assertIsNone(next_input.annual(2025, "revenue"))
+                self.assertEqual(report, review(profile, {"PDF": {key: candidates}}, [], replay_from=next_input))
+                restored = review(profile, {"PDF": {key: self.filings}}, [], replay_from=next_input)
+                self.assertNotIn("decision", restored["records"][0])
+
+    def test_replay_rechecks_the_balance_sheet_before_accepting_its_decisions(self):
+        profile = example_profile()
+        del profile["periods"]["2026"]
+        profile["metrics"] = {key: {"kind": "balance", "label": key}
+                              for key in ("assets", "liabilities", "equity")}
+        amounts = {("2025", "assets"): self.filings,
+                   ("2025", "liabilities"): [Observation(Decimal(65), self.filings[1].source)],
+                   ("2025", "equity"): [Observation(Decimal(35), self.filings[1].source)]}
+        approved = review(profile, {"PDF": amounts}, [])
+        approved["records"][0]["decision"] = {
+            "mode": "PDF", "value": "100", "source": asdict(self.filings[1].source), "reason": "Revised comparatives."
+        }
+        approved["balance_checks"][0].update(status="Pass", difference=Decimal(0))
+        baseline = AnalysisInput(json.loads(json.dumps(approved, default=json_value)))
+        for claims, status in ((amounts["2025", "liabilities"], "Pass"),
+                               ([Observation(Decimal(66), self.filings[1].source)], "Failed"),
+                               ([], "Blocked")):
+            with self.subTest(status=status):
+                candidate = {**amounts, ("2025", "liabilities"): claims}
+                result = review(profile, {"PDF": candidate}, [], replay_from=baseline)
+                self.assertEqual(result["balance_checks"][0]["status"], status)
+                self.assertEqual(result["needs_review"], status != "Pass")
+                parsed = AnalysisInput(json.loads(json.dumps(result, default=json_value)))
+                self.assertEqual(parsed.annual(2025, "assets", balance=True) is not None, status == "Pass")
+        del profile["metrics"]["liabilities"]
+        incomplete = review(profile, {"PDF": amounts}, [], replay_from=baseline)
+        self.assertFalse(incomplete["balance_checks"])
+        self.assertIn("reopened_decision", incomplete["records"][0])
+
+    def test_cli_replays_saved_decisions_from_a_read_only_json_input(self):
+        profile = example_profile()
+        table = profile["filings"]["2026"]["pdf"]["tables"]["income"]
+        profile["filings"]["2025"] = {"pdf": {"url": "https://example.com/2025.pdf", "tables": {
+            "income": {**table, "years": ["2025"], "single_column_padding": 50}
+        }}}
+        with TemporaryDirectory() as temp:
+            directory = Path(temp)
+            paths = {year: directory / f"{year}.pdf" for year in (2025, 2026)}
+            observations = []
+            for year, path in paths.items():
+                with pymupdf.open() as pdf:
+                    page = pdf.new_page()
+                    for x, y, text in [(40, 40, "INCOME STATEMENT"), (40, 63, "(USD in millions)"),
+                                       (40, 90, "Year ended December 31"), (350, 90, str(year)),
+                                       (40, 113, "Revenue"), (350, 113, "90" if year == 2025 else "120")]:
+                        page.insert_text((x, y), text)
+                    if year == 2026:
+                        page.insert_text((460, 90), "2025")
+                        page.insert_text((460, 113), "100")
+                    pdf.save(path)
+                observations.extend(pdf_facts(profile, str(year), path)["2025", "revenue"])
+            baseline = reviewed_input(profile, {("2025", "revenue"): observations}, "revenue")
+            mapping, saved, html, data = (directory / name for name in ("map.json", "saved.json", "result.html", "result.json"))
+            mapping.write_text(json.dumps(profile))
+            saved_text = json.dumps(baseline.payload)
+            saved.write_text(saved_text)
+            script = Path(__file__).resolve().parents[1] / "scripts" / "import_filings.py"
+            command = [sys.executable, "-B", str(script), str(mapping), "--pdf", f"2026={paths[2026]}",
+                       "--replay-decisions", str(saved), "--output", str(html), "--json-output", str(data)]
+            run = subprocess.run([*command, "--pdf", f"2025={paths[2025]}"], capture_output=True, text=True)
+            self.assertEqual(run.returncode, 0, run.stderr)
+            self.assertEqual(read_input(data).annual(2025, "revenue").value, Decimal(100))
+            reopened = subprocess.run(command, capture_output=True, text=True)
+            self.assertEqual(reopened.returncode, 2, reopened.stderr)
+            self.assertIsNone(read_input(data).annual(2025, "revenue"))
+            self.assertIn("https://example.com/2025.pdf#page=1", html.read_text())
+            self.assertEqual(saved.read_text(), saved_text)
 
 
 if __name__ == "__main__":
