@@ -24,6 +24,18 @@ A decision carries forward when the same metric, dates, unit and full set of sou
 
 The importer rechecks assets against liabilities plus equity using the selected amounts. When the equation fails or lacks a required total, decisions on those balance sheet totals reopen. Any other unresolved figures keep their review flags.
 
+#### DOM.RF example
+
+The [DOM.RF profile](../profiles/domrf.json) pins the FY2024 and FY2025 summarized consolidated statements. It imports net interest income and net profit for FY2023–FY2025. The [saved decision](../examples/domrf.json) selects the revised FY2024 net interest income of ₽122,879m. Note 38 reconciles the ₽907m difference in the comparative. [FY2025 Note 38](https://rcsd.enforce.spb.ru/data/7729355614/2025.pdf#page=109)
+
+```sh
+uv run --no-project --python 3.10 --with pymupdf python scripts/import_filings.py profiles/domrf.json \
+  --pdf 2024=auto --pdf 2025=auto --replay-decisions examples/domrf.json \
+  --output domrf-review.html --json-output domrf-input.json
+```
+
+The import accepts six figures and shows both FY2024 observations and the selected amount. To use saved PDFs, replace each `auto` with the corresponding local filename. The profile verifies both file checksums.
+
 ## Refresh an existing analysis
 
 Import the latest filing into a separate candidate JSON. Pin its accession, dates and PDF layout in the profile. Set `years` on a metric when the filing covers only a subset of the profile's fiscal years, for example two balance sheet dates alongside three income statement years. An omitted period is outside the refresh. Keep records for expected but unavailable amounts so the comparison flags them.

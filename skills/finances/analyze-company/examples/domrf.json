@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "company": "DOM.RF",
+  "scope": "Consolidated",
+  "issuer": {
+    "id": "656",
+    "ticker": "DOMRF",
+    "market": "MOEX",
+    "accounting": "IFRS",
+    "currency": "RUB"
+  },
+  "periods": {
+    "2023": {
+      "start": "2023-01-01",
+      "end": "2023-12-31"
+    },
+    "2024": {
+      "start": "2024-01-01",
+      "end": "2024-12-31"
+    },
+    "2025": {
+      "start": "2025-01-01",
+      "end": "2025-12-31"
+    }
+  },
+  "source_note": "Parent-group summarized consolidated IFRS statements. The FY2024 net interest income comparative in the FY2025 filing reflects the reclassifications explained in Note 38.",
+  "records": [
+    {
+      "year": "2023",
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "metric": "net_interest_income",
+      "unit": "RUB",
+      "label": "Net interest income",
+      "status": "Single source",
+      "value": "78737000000",
+      "observations": {
+        "PDF": [
+          {
+            "value": "78737000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Чистые процентные доходы",
+              "url": "https://rcsd.enforce.spb.ru/data/7729355614/2024.pdf#page=5",
+              "title": "FY2024 PDF p. 5 · Чистые процентные доходы"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2023",
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "metric": "net_profit",
+      "unit": "RUB",
+      "label": "Net profit",
+      "status": "Single source",
+      "value": "47219000000",
+      "observations": {
+        "PDF": [
+          {
+            "value": "47219000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Чистая прибыль",
+              "url": "https://rcsd.enforce.spb.ru/data/7729355614/2024.pdf#page=5",
+              "title": "FY2024 PDF p. 5 · Чистая прибыль"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2024",
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "metric": "net_interest_income",
+      "unit": "RUB",
+      "label": "Net interest income",
+      "status": "Conflict",
+      "value": null,
+      "observations": {
+        "PDF": [
+          {
+            "value": "121972000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Чистые процентные доходы",
+              "url": "https://rcsd.enforce.spb.ru/data/7729355614/2024.pdf#page=5",
+              "title": "FY2024 PDF p. 5 · Чистые процентные доходы"
+            },
+            "issue": ""
+          },
+          {
+            "value": "122879000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Чистые процентные доходы",
+              "url": "https://rcsd.enforce.spb.ru/data/7729355614/2025.pdf#page=6",
+              "title": "FY2025 PDF p. 6 · Чистые процентные доходы"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": [
+        "Source amounts disagree for the same metric and period."
+      ],
+      "decision": {
+        "mode": "PDF",
+        "value": "122879000000",
+        "source": {
+          "filing_year": 2025,
+          "locator": "Чистые процентные доходы",
+          "url": "https://rcsd.enforce.spb.ru/data/7729355614/2025.pdf#page=6",
+          "title": "FY2025 PDF p. 6 · Чистые процентные доходы"
+        },
+        "reason": "FY2025 Note 38 (PDF page 109) reconciles the FY2024 reclassification. Interest income calculated at the effective interest rate increases by RUB 42m and other interest income by RUB 865m. Interest expense stays the same, so net interest income rises by RUB 907m. The reclassification has no effect on net profit."
+      }
+    },
+    {
+      "year": "2024",
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "metric": "net_profit",
+      "unit": "RUB",
+      "label": "Net profit",
+      "status": "Single source",
+      "value": "65750000000",
+      "observations": {
+        "PDF": [
+          {
+            "value": "65750000000",
+            "source": {
+              "filing_year": 2024,
+              "locator": "Чистая прибыль",
+              "url": "https://rcsd.enforce.spb.ru/data/7729355614/2024.pdf#page=5",
+              "title": "FY2024 PDF p. 5 · Чистая прибыль"
+            },
+            "issue": ""
+          },
+          {
+            "value": "65750000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Чистая прибыль",
+              "url": "https://rcsd.enforce.spb.ru/data/7729355614/2025.pdf#page=6",
+              "title": "FY2025 PDF p. 6 · Чистая прибыль"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "metric": "net_interest_income",
+      "unit": "RUB",
+      "label": "Net interest income",
+      "status": "Single source",
+      "value": "161944000000",
+      "observations": {
+        "PDF": [
+          {
+            "value": "161944000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Чистые процентные доходы",
+              "url": "https://rcsd.enforce.spb.ru/data/7729355614/2025.pdf#page=6",
+              "title": "FY2025 PDF p. 6 · Чистые процентные доходы"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    },
+    {
+      "year": "2025",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "metric": "net_profit",
+      "unit": "RUB",
+      "label": "Net profit",
+      "status": "Single source",
+      "value": "88819000000",
+      "observations": {
+        "PDF": [
+          {
+            "value": "88819000000",
+            "source": {
+              "filing_year": 2025,
+              "locator": "Чистая прибыль",
+              "url": "https://rcsd.enforce.spb.ru/data/7729355614/2025.pdf#page=6",
+              "title": "FY2025 PDF p. 6 · Чистая прибыль"
+            },
+            "issue": ""
+          }
+        ]
+      },
+      "issues": []
+    }
+  ],
+  "balance_checks": [],
+  "document_issues": [],
+  "needs_review": false
+}
