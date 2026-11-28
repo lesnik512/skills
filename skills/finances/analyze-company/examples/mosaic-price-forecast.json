@@ -1,0 +1,374 @@
+{
+  "company": "The Mosaic Company",
+  "ticker": "MOS",
+  "currency": "USD",
+  "assumptions": {
+    "historyYears": 3,
+    "taxRate": 0.25,
+    "workingCapitalRate": 0.12,
+    "scenarios": {
+      "bear": {
+        "recoveryYears": 5,
+        "salesGrowth": -0.0592,
+        "marginOffset": -0.02,
+        "multipleFactor": 0.8
+      },
+      "base": {
+        "recoveryYears": 3,
+        "salesGrowth": 0.0403,
+        "marginOffset": 0.0,
+        "multipleFactor": 1.0
+      },
+      "bull": {
+        "recoveryYears": 2,
+        "salesGrowth": 0.1021,
+        "marginOffset": 0.02,
+        "multipleFactor": 1.2
+      }
+    }
+  },
+  "filings": {
+    "FY2020": {
+      "label": "FY2020 Form 10-K",
+      "publishedOn": "2021-02-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1285785/000161803421000003/mos-20201231.htm",
+      "index": "https://www.sec.gov/Archives/edgar/data/1285785/000161803421000003/0001618034-21-000003-index.htm"
+    },
+    "FY2021": {
+      "label": "FY2021 Form 10-K",
+      "publishedOn": "2022-02-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1285785/000161803422000004/mos-20211231.htm",
+      "index": "https://www.sec.gov/Archives/edgar/data/1285785/000161803422000004/0001618034-22-000004-index.html"
+    },
+    "FY2022": {
+      "label": "FY2022 Form 10-K",
+      "publishedOn": "2023-02-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1285785/000161803423000003/mos-20221231.htm",
+      "index": "https://www.sec.gov/Archives/edgar/data/1285785/000161803423000003/0001618034-23-000003-index.htm"
+    },
+    "FY2023": {
+      "label": "FY2023 Form 10-K",
+      "publishedOn": "2024-02-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/1285785/000161803424000004/mos-20231231.htm",
+      "index": "https://www.sec.gov/Archives/edgar/data/1285785/000161803424000004/0001618034-24-000004-index.htm"
+    },
+    "FY2024": {
+      "label": "FY2024 Form 10-K",
+      "publishedOn": "2025-03-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1285785/000161803425000003/mos-20241231.htm",
+      "index": "https://www.sec.gov/Archives/edgar/data/1285785/000161803425000003/0001618034-25-000003-index.htm"
+    },
+    "FY2025": {
+      "label": "FY2025 Form 10-K",
+      "publishedOn": "2026-02-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/mos-20251231.htm",
+      "index": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000017/0001285785-26-000017-index.htm"
+    },
+    "Q3 2026": {
+      "label": "Q3 2026 Form 10-Q",
+      "publishedOn": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000147/mos-20260930.htm",
+      "index": "https://www.sec.gov/Archives/edgar/data/1285785/000128578526000147/0001285785-26-000147-index.htm"
+    }
+  },
+  "annualHistory": {
+    "2018-12-31": [
+      {
+        "filing": "FY2020",
+        "revenue": 9587.3,
+        "operatingProfit": 928.3
+      }
+    ],
+    "2019-12-31": [
+      {
+        "filing": "FY2020",
+        "revenue": 8906.3,
+        "operatingProfit": -1094.9
+      }
+    ],
+    "2020-12-31": [
+      {
+        "filing": "FY2020",
+        "revenue": 8681.7,
+        "operatingProfit": 412.9
+      }
+    ],
+    "2021-12-31": [
+      {
+        "filing": "FY2021",
+        "revenue": 12357.4,
+        "operatingProfit": 2468.5
+      }
+    ],
+    "2022-12-31": [
+      {
+        "filing": "FY2022",
+        "revenue": 19125.2,
+        "operatingProfit": 4785.3
+      }
+    ],
+    "2023-12-31": [
+      {
+        "filing": "FY2023",
+        "revenue": 13696.1,
+        "operatingProfit": 1338.1
+      }
+    ],
+    "2024-12-31": [
+      {
+        "filing": "FY2024",
+        "revenue": 11122.8,
+        "operatingProfit": 621.5
+      }
+    ],
+    "2025-12-31": [
+      {
+        "filing": "FY2025",
+        "revenue": 12052.4,
+        "operatingProfit": 821.5
+      }
+    ]
+  },
+  "snapshots": {
+    "2020-12-31": {
+      "flows": [
+        {
+          "filing": "FY2020",
+          "label": "FY2020",
+          "sign": 1,
+          "revenue": 8681.7,
+          "operatingProfit": 412.9,
+          "depreciation": 847.6,
+          "capex": 1170.6,
+          "interest": 180.6,
+          "dividends": 76.4
+        }
+      ],
+      "balances": {
+        "filing": "FY2020",
+        "cash": 574.0,
+        "borrowings": 4578.1,
+        "shares": 379.093342,
+        "noncontrolling": 173.8,
+        "investments": 673.1
+      },
+      "note": "FY2020 uses $75.8 million of common dividends from the original statement of cash flows and the $0.6 million minority dividend from the same filing's statement of equity as a cash proxy."
+    },
+    "2021-12-31": {
+      "flows": [
+        {
+          "filing": "FY2021",
+          "label": "FY2021",
+          "sign": 1,
+          "revenue": 12357.4,
+          "operatingProfit": 2468.5,
+          "depreciation": 812.9,
+          "capex": 1288.6,
+          "interest": 169.1,
+          "dividends": 135.0
+        }
+      ],
+      "balances": {
+        "filing": "FY2021",
+        "cash": 769.5,
+        "borrowings": 4281.6,
+        "shares": 368.309275,
+        "noncontrolling": 144.4,
+        "investments": 691.8
+      }
+    },
+    "2022-12-31": {
+      "flows": [
+        {
+          "filing": "FY2022",
+          "label": "FY2022",
+          "sign": 1,
+          "revenue": 19125.2,
+          "operatingProfit": 4785.3,
+          "depreciation": 933.9,
+          "capex": 1247.3,
+          "interest": 137.8,
+          "dividends": 235.7
+        }
+      ],
+      "balances": {
+        "filing": "FY2022",
+        "cash": 735.4,
+        "borrowings": 3622.1,
+        "shares": 336.486715,
+        "noncontrolling": 139.6,
+        "investments": 885.9
+      }
+    },
+    "2023-12-31": {
+      "flows": [
+        {
+          "filing": "FY2023",
+          "label": "FY2023",
+          "sign": 1,
+          "revenue": 13696.1,
+          "operatingProfit": 1338.1,
+          "depreciation": 960.6,
+          "capex": 1402.4,
+          "interest": 129.4,
+          "dividends": 393.1
+        }
+      ],
+      "balances": {
+        "filing": "FY2023",
+        "cash": 348.8,
+        "borrowings": 3761.4,
+        "shares": 321.688938,
+        "noncontrolling": 142.6,
+        "investments": 909.0
+      }
+    },
+    "2024-12-31": {
+      "flows": [
+        {
+          "filing": "FY2024",
+          "label": "FY2024",
+          "sign": 1,
+          "revenue": 11122.8,
+          "operatingProfit": 621.5,
+          "depreciation": 1025.5,
+          "capex": 1251.8,
+          "interest": 182.8,
+          "dividends": 302.6
+        }
+      ],
+      "balances": {
+        "filing": "FY2024",
+        "cash": 272.8,
+        "borrowings": 4224.7,
+        "shares": 316.939231,
+        "noncontrolling": 132.3,
+        "investments": 1533.4
+      }
+    },
+    "2026-09-30": {
+      "flows": [
+        {
+          "filing": "FY2025",
+          "label": "FY2025",
+          "sign": 1,
+          "revenue": 12052.4,
+          "operatingProfit": 821.5,
+          "depreciation": 1049.9,
+          "capex": 1359.4,
+          "interest": 187.7,
+          "dividends": 300.6,
+          "operatingAdjustment": 257.2
+        },
+        {
+          "filing": "Q3 2026",
+          "label": "9M 2026",
+          "sign": 1,
+          "revenue": 8922.7,
+          "operatingProfit": -505.0,
+          "depreciation": 900.6,
+          "capex": 958.6,
+          "interest": 177.6,
+          "dividends": 217.7,
+          "operatingAdjustment": 238.8
+        },
+        {
+          "filing": "Q3 2026",
+          "label": "9M 2025 comparative",
+          "sign": -1,
+          "revenue": 9078.7,
+          "operatingProfit": 922.7,
+          "depreciation": 781.7,
+          "capex": 1009.8,
+          "interest": 139.3,
+          "dividends": 223.6,
+          "operatingAdjustment": 73.1
+        }
+      ],
+      "balances": {
+        "filing": "Q3 2026",
+        "cash": 272.6,
+        "borrowings": 5913.1,
+        "shares": 317.903655,
+        "noncontrolling": 177.7,
+        "investments": 1845.0
+      },
+      "note": "The Q3 2026 filing supplies both nine-month columns. The operating adjustment reverses the stated loss on assets sold and to be sold and FY2025 goodwill impairment. The pilot carries the remaining exit and idle costs in the trailing base and assumes no disposal proceeds. The sold and held-for-sale operations can change future sales and costs, which the consolidated growth assumptions approximate. The Form 10-Q cover gives the October 30, 2026 share count."
+    }
+  },
+  "forecast": {
+    "snapshot": "2026-09-30",
+    "quote": {
+      "date": "2026-11-27",
+      "close": 21.04,
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/MOS?period1=1795755600&period2=1795842000&interval=1d"
+    }
+  },
+  "backtest": [
+    {
+      "snapshot": "2020-12-31",
+      "quote": {
+        "date": "2021-02-23",
+        "close": 29.53,
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/MOS?period1=1614056400&period2=1614142800&interval=1d"
+      },
+      "actual": {
+        "date": "2022-02-23",
+        "close": 45.2,
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/MOS?period1=1645592400&period2=1645678800&interval=1d"
+      }
+    },
+    {
+      "snapshot": "2021-12-31",
+      "quote": {
+        "date": "2022-02-24",
+        "close": 45.35,
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/MOS?period1=1645678800&period2=1645765200&interval=1d"
+      },
+      "actual": {
+        "date": "2023-02-24",
+        "close": 51.51,
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/MOS?period1=1677214800&period2=1677301200&interval=1d"
+      }
+    },
+    {
+      "snapshot": "2022-12-31",
+      "quote": {
+        "date": "2023-02-24",
+        "close": 51.51,
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/MOS?period1=1677214800&period2=1677301200&interval=1d"
+      },
+      "actual": {
+        "date": "2024-02-26",
+        "close": 31.64,
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/MOS?period1=1708923600&period2=1709010000&interval=1d"
+      }
+    },
+    {
+      "snapshot": "2023-12-31",
+      "quote": {
+        "date": "2024-02-23",
+        "close": 31.48,
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/MOS?period1=1708664400&period2=1708750800&interval=1d"
+      },
+      "actual": {
+        "date": "2025-02-24",
+        "close": 25.34,
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/MOS?period1=1740373200&period2=1740459600&interval=1d"
+      }
+    },
+    {
+      "snapshot": "2024-12-31",
+      "quote": {
+        "date": "2025-03-04",
+        "close": 23.08,
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/MOS?period1=1741064400&period2=1741150800&interval=1d"
+      },
+      "actual": {
+        "date": "2026-03-04",
+        "close": 26.01,
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/MOS?period1=1772600400&period2=1772686800&interval=1d"
+      }
+    }
+  ]
+}
