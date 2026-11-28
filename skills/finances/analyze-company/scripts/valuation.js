@@ -334,6 +334,10 @@ function applyStartingMargin(ltm, benchmark) {
 
 const recoveryPeriods = [[0, "Immediate"], [2, "2 years"], [3, "3 years"], [5, "5 years"]];
 
+function recoveryProgress(year, years) {
+    return years === 0 ? 1 : Math.min(year / years, 1);
+}
+
 const recoveryCurves = [[0.5, "Front-loaded"], [1, "Even"], [2, "Back-loaded"]];
 
 const phosagroCycleFields = [
@@ -370,7 +374,7 @@ function valueOperatingRecovery(ltm, normalized, scenario, timing, gaps, trailin
         let cumulativeCash = 0;
         const forecast = target.forecast.map((year, index) => {
             const yearNumber = index + 1;
-            const progress = years === 0 ? 1 : Math.min(yearNumber / years, 1);
+            const progress = recoveryProgress(yearNumber, years);
             const effects = Object.fromEntries(Object.entries(operatingGaps).map(([key, gap]) => [
                 key, -gap * (1 - progress ** (timing[key] ?? 1)) * year.revenue / ltm.revenue,
             ]));
@@ -690,7 +694,7 @@ const phosagroFundingFields = [
 ];
 
 if (typeof module !== "undefined") {
-    module.exports = {valueCompany, normalizedInputs, phosagroNormalizedInputs, valueRecoveryPaths, phosagroRecoveryPaths,
+    module.exports = {valueCompany, normalizedInputs, phosagroNormalizedInputs, valueRecoveryPaths, phosagroRecoveryPaths, recoveryProgress,
         liquidityForecast, phosagroLiquidityForecast, phosagroBreakEven, growthMarginForecast, growthMarginMap, locationGrowthPaths};
 }
 
